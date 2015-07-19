@@ -1,0 +1,29 @@
+# Site settings
+title: flopreynat
+email: contact@shoogledesigns.com
+description: website for flopreynat
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.flopreynat.com" # the base hostname & protocol for your site
+twitter_username: flopreynat
+github_username:  flopreynat
+paginate: 3
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+
+# Default settings
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      author: flo preynat
+      layout: "post"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "page"

@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<div class="col-lg-12">
+  <header>
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  </header>
+	{% if page.image %}
+		<img src="/img/{{ page.image }}" alt="{{ page.title }}">
+	{% endif %}
+  <article>
+    {{ content }}
+  </article>
+</div>
