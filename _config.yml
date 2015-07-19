@@ -2,7 +2,7 @@
 title: flopreynat
 email: contact@shoogledesigns.com
 description: website for flopreynat
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/flopreynat" # the subpath of your site, e.g. /blog/
 url: "http://www.flopreynat.com" # the base hostname & protocol for your site
 twitter_username: flopreynat
 github_username:  flopreynat
