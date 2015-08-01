@@ -1,15 +1,17 @@
 ---
 layout: default
 ---
-<div class="col-lg-12">
-  <header>
+<div class="container">
+  <div class="col-lg-8 col-lg-offset-2">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
-	{% if page.image %}
-		<img src="/img/{{ page.image }}" alt="{{ page.title }}">
-	{% endif %}
-  <article>
-    {{ content }}
-  </article>
+    <div class="content marg">
+      {% if page.image %}
+        <img src="/img/{{ page.image }}" alt="{{ page.title }}" class="post-image">
+      {% endif %}
+      <article class="pad">
+        {{ content }}
+      </article>
+      <p class="post-meta"><i class="fa fa-calendar-o"></i>Posted on {{ page.date | date: "%b %-d, %Y" }} | Category: <span class="post-category">{{ page.category }}</span></p>
+    </div>
+  </div>
 </div>

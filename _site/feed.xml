@@ -5,49 +5,35 @@
     <description>website for flopreynat</description>
     <link>http://www.flopreynat.com/</link>
     <atom:link href="http://www.flopreynat.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Jul 2015 15:41:44 +0200</pubDate>
-    <lastBuildDate>Sun, 19 Jul 2015 15:41:44 +0200</lastBuildDate>
+    <pubDate>Sat, 01 Aug 2015 23:27:52 +0200</pubDate>
+    <lastBuildDate>Sat, 01 Aug 2015 23:27:52 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>3Testing Jekyll!</title>
-        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur aperiam commodi, nesciunt doloremque, illum maiores ratione nostrum, atque expedita eos officia nemo quod laborum repellat numquam inventore nihil at. Earum.&lt;/p&gt;
+        <title>Why Jekyll?</title>
+        <description>&lt;p&gt;I’ve got it easy on that one. Site is brand new, hence built from scratch, with absolutely no data to migrate/integrate. Picking a technology like Jekyll to build and run this new personal pad was therefore an easy choice to make.&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro tempora et quaerat quae, totam voluptas ratione officia exercitationem facilis blanditiis fuga dolorem quia cumque accusamus mollitia illum impedit nobis maxime.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 26 Jun 2015 00:13:03 +0200</pubDate>
-        <link>http://www.flopreynat.com/3testing-jekyll</link>
-        <guid isPermaLink="true">http://www.flopreynat.com/3testing-jekyll</guid>
-        
-        
-        <category>jekyll</category>
-        
-      </item>
-    
-      <item>
-        <title>Testing Jekyll!</title>
-        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur aperiam commodi, nesciunt doloremque, illum maiores ratione nostrum, atque expedita eos officia nemo quod laborum repellat numquam inventore nihil at. Earum.&lt;/p&gt;
+&lt;p&gt;I’ve been using Wordpress (most times) and Perch (a few times) to create most of my personal/client/others’ websites, and despite having nagged a few times about performance or bloated code, it was most of the time down to me.&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro tempora et quaerat quae, totam voluptas ratione officia exercitationem facilis blanditiis fuga dolorem quia cumque accusamus mollitia illum impedit nobis maxime.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 22 Jun 2015 00:13:03 +0200</pubDate>
-        <link>http://www.flopreynat.com/testing-jekyll</link>
-        <guid isPermaLink="true">http://www.flopreynat.com/testing-jekyll</guid>
-        
-        
-        <category>jekyll</category>
-        
-      </item>
-    
-      <item>
-        <title>2Testing Jekyll!</title>
-        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur aperiam commodi, nesciunt doloremque, illum maiores ratione nostrum, atque expedita eos officia nemo quod laborum repellat numquam inventore nihil at. Earum.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Transform your plain text into static websites and blogs&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro tempora et quaerat quae, totam voluptas ratione officia exercitationem facilis blanditiis fuga dolorem quia cumque accusamus mollitia illum impedit nobis maxime.&lt;/p&gt;
+&lt;p&gt;Jekyll is a static site generator, therefore no database, nor server-side languages are needed, which makes the site lightning fast.&lt;/p&gt;
+
+&lt;p&gt;Install was a bit of an experience, epecially if you don’t really know what you’re doing (like me). But since I managed to do it eventually, a fucking monkey would do it with one hand tied behind his back.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/jekyll-install.jpg&quot; alt=&quot;jekyll install&quot; title=&quot;Jekyll Install&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;host-it-on-github&quot;&gt;Host it on Github&lt;/h4&gt;
+
+&lt;p&gt;I can host all my stuff on Github and point my repo to a custom domain name in two moves, and I can enjoy what has been my dev workflow for quite a while (Like every modern developer out there, I’ve been versioning all my projects with git and Atlassian’s &lt;a href=&quot;https://bitbucket.org/&quot;&gt;Bitbucket&lt;/a&gt; for years).&lt;/p&gt;
+
+&lt;p&gt;It’s early days but so far so good. Jekyll seems to be the perfect fit for any developer wanting to enjoy an easy CMS-like setup, just without all the fuss…&lt;/p&gt;
 </description>
-        <pubDate>Sun, 21 Jun 2015 00:13:03 +0200</pubDate>
-        <link>http://www.flopreynat.com/2testing-jekyll</link>
-        <guid isPermaLink="true">http://www.flopreynat.com/2testing-jekyll</guid>
+        <pubDate>Wed, 22 Jul 2015 00:00:00 +0200</pubDate>
+        <link>http://www.flopreynat.com/why-jekyll</link>
+        <guid isPermaLink="true">http://www.flopreynat.com/why-jekyll</guid>
         
         
         <category>jekyll</category>
