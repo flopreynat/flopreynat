@@ -9,9 +9,9 @@ I've got it easy on that one. Site is brand new, hence built from scratch, with 
 
 I've been using Wordpress (most times) and Perch (a few times) to create most of my personal/client/others' websites, and despite having nagged a few times about performance or bloated code, it was most of the time down to me.
 
-> Transform your plain text into static websites and blogs
+Jekyll is however a static site generator, therefore no database, nor server-side languages are needed, which makes the site lightning fast, and bloody appealing for this particular use case...
 
-Jekyll is a static site generator, therefore no database, nor server-side languages are needed, which makes the site lightning fast.
+> Transform your plain text into static websites and blogs
 
 Install was a bit of an experience, epecially if you don't really know what you're doing (like me). But since I managed to do it eventually, a fucking monkey would do it with one hand tied behind his back.
 
