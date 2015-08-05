@@ -4,21 +4,22 @@ permalink: /blog/
 ---
 <div class="container">
   <div class="row">
-    <div class="col-lg-8 col-lg-offset-2">
-      <div class="text-center">
-        <h2>Latest Blog Posts</h2>
-      </div>
+    <div class="col-lg-10 col-lg-offset-1">
       {% for post in site.posts %}
         <div class="col-lg-12 marg blogPost">
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-            <img src="/img/{{ post.image }}" alt="{{ post.title }}">
-          </a>
           <h3>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h3>
-          <i class="fa fa-calendar-o"></i><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-          <p>{{ post.excerpt }}</p>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">> Read more</a>
+          <p><i class="fa fa-calendar-o"></i><span class="post-meta">Posted on {{ post.date | date: "%b %-d, %Y" }}</span></p>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            <img src="/img/{{ post.image }}" alt="{{ post.title }}">
+          </a>
+          <div class="col-lg-9">
+            <p>{{ post.excerpt }}</p>
+          </div>
+          <div class="col-lg-3 text-right marg">
+            <a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}">> Read more</a>
+          </div>
         </div>
       {% endfor %}
       <div class="clearfix"></div>

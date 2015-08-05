@@ -2,16 +2,16 @@
 layout: default
 ---
 <div class="container">
-  <div class="col-lg-8 col-lg-offset-2">
+  <div class="col-lg-10 col-lg-offset-1">
     <h1 class="post-title">{{ page.title }}</h1>
-    <div class="content marg">
+    <p class="post-meta"><i class="fa fa-calendar-o"></i>Posted on {{ page.date | date: "%b %-d, %Y" }} | Category: <span class="post-category">{{ page.category }}</span></p>
+    <div class="marg">
       {% if page.image %}
         <img src="/img/{{ page.image }}" alt="{{ page.title }}" class="post-image">
       {% endif %}
       <article class="pad">
         {{ content }}
       </article>
-      <p class="post-meta"><i class="fa fa-calendar-o"></i>Posted on {{ page.date | date: "%b %-d, %Y" }} | Category: <span class="post-category">{{ page.category }}</span></p>
     </div>
   </div>
 </div>
