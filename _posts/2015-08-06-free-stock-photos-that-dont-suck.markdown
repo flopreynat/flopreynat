@@ -2,7 +2,7 @@
 title:  "Free stock photos for your projects"
 date:   2015-08-06
 category: design
-permalink: free-stock-photos-that-dont-suck
+permalink: /blog/free-stock-photos-that-dont-suck.html
 image: free-stock-photos.jpg
 ---
 Just a go-to blog post (for myself really) when on the lookout for free stock photos (that don't suck) for your web design projects, print needs et al.

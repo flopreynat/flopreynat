@@ -2,7 +2,7 @@
 title:  "Why Jekyll?"
 date:   2015-07-22
 category: jekyll
-permalink: why-jekyll
+permalink: /blog/why-jekyll.html
 image: why-jekyll.jpg
 ---
 I've got it easy on that one. Site is brand new, hence built from scratch, with absolutely no data to migrate/integrate. Picking a technology like Jekyll to build and run this new personal pad was therefore an easy choice to make.
