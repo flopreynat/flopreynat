@@ -18,7 +18,7 @@ permalink: /blog/
             <p>{{ post.excerpt }}</p>
           </div>
           <div class="col-lg-3 text-right marg">
-            <a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}">> Read more</a>
+            <a class="btn btn-flo" href="{{ post.url | prepend: site.baseurl }}">Read more</a>
           </div>
         </div>
       {% endfor %}

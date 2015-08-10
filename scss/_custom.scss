@@ -93,6 +93,15 @@ a:after {
 img {
 	max-width:100%;
 }
+.btn-flo {
+	border: 1px solid #2B2F33;
+	border-radius:0;
+	background:$color1;
+	color:white;
+	&:hover {
+		border: 1px solid $color1;
+	}
+}
 .borderRadius {
 	border-radius:500px;
 }
@@ -412,5 +421,12 @@ blockquote {
 	}
 	@include breakpoint(large) {
 	    margin-left: -20px;
+	}
+}
+.twitter_retweet_icon,.twitter_fav_icon,.twitter_reply_icon {
+	border: 1px solid #2B2F33 !important;
+	&:hover {
+		color:black;
+		border: 1px solid $color1 !important;
 	}
 }
