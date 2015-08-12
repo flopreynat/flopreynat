@@ -21,6 +21,7 @@ defaults:
     values:
       author: flo preynat
       layout: "post"
+      comments: true
   -
     scope:
       path: "" # an empty string here means all files in the project
