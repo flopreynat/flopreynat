@@ -5,9 +5,55 @@
     <description>website for flopreynat</description>
     <link>http://www.flopreynat.com/</link>
     <atom:link href="http://www.flopreynat.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Aug 2015 23:14:21 +0200</pubDate>
-    <lastBuildDate>Wed, 12 Aug 2015 23:14:21 +0200</lastBuildDate>
+    <pubDate>Fri, 14 Aug 2015 22:45:00 +0200</pubDate>
+    <lastBuildDate>Fri, 14 Aug 2015 22:45:00 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Adding Disqus comments to Jekyll</title>
+        <description>&lt;p&gt;Adding comments via Disqus to your Jekyll blog is something you probably want to do if you want a bit of life and interaction. Good news: it couldn’t be easier.&lt;/p&gt;
+
+&lt;p&gt;There are installation instructions on the &lt;a href=&quot;https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions&quot;&gt;Disqus documentation&lt;/a&gt;, and on various places around the web, but I thought I would recap the lot for y’all.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Great discussions are happening here”… so Disqus says. Unless nothing much will in fact happen, and you’re fine with this.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;First of all, sign up to &lt;a href=&quot;https://disqus.com/profile/signup&quot;&gt;Disqus&lt;/a&gt; then go &lt;a href=&quot;https://disqus.com/admin/create&quot;&gt;there&lt;/a&gt; to add Disqus to your site.&lt;/p&gt;
+
+&lt;p&gt;Then generate a custom script for Jekyll, you’ll need to use the &lt;strong&gt;Universal Code&lt;/strong&gt; option here.&lt;/p&gt;
+
+&lt;p&gt;Copy your script and paste it into a disqus.html template in /_includes.
+Make sure you surround the script between the &lt;strong&gt;if page.comments&lt;/strong&gt; and  &lt;strong&gt;endif&lt;/strong&gt; liquid code lines.&lt;/p&gt;
+
+&lt;p&gt;Then edit your _config.yml file to add the “comments: true” bit…&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;code class=&quot;language-ruby&quot;&gt;
+defaults:
+  -
+    scope:
+      path: &quot;&quot; # an empty string here means all files in the project
+      type: &quot;posts&quot; # previously `post` in Jekyll 2.2.
+    values:
+      author: flo preynat
+      layout: &quot;post&quot;
+      comments: true
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Finally, go to your /_layouts/post.html template and add &lt;strong&gt;include disqus.html disqus_identifier=page.disqus_identifier&lt;/strong&gt; (between liquid handles) below the end of your blog post.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You’re done!&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 14 Aug 2015 00:00:00 +0200</pubDate>
+        <link>http://www.flopreynat.com/blog/adding-disqus-comments-jekyll.html</link>
+        <guid isPermaLink="true">http://www.flopreynat.com/blog/adding-disqus-comments-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+      </item>
     
       <item>
         <title>Jekyll contact form with Formspree</title>
