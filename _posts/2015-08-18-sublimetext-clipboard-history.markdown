@@ -13,6 +13,9 @@ It's as simple as that, just go ⌘ + K before hitting your usual ⌘ + V and yo
 
 Everything is in the video below, made by [Wes Bos](http://wesbos.com/), a web dev recently featured on the [ShopTalk show of July 27th](http://shoptalkshow.com/episodes/176-with-wes-bos/).
 
-{% youtube IaddB_GQ4Ps %}
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/IaddB_GQ4Ps" frameborder="0" allowfullscreen="">
+  </iframe>
+</div>
 
 *Note, if you want to speed up your development, optimize your ST workflows and become a better developer, Wes has released [a book on the subject](https://sublimetextbook.com/).*
