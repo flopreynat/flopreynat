@@ -33,6 +33,20 @@ module.exports = function(grunt) {
       }
     },
 
+    imagemin: {
+      dist: {
+        options: {
+          cache: false
+        },
+        files: [{
+          expand: true,
+          cwd: '_imgsrc',
+          src: ['*.{png,jpg,gif}'],
+          dest: 'img/'
+        }]
+      }
+    },
+
     shell: {
       jekyllServe: {
         command: "jekyll serve --baseurl="
@@ -65,6 +79,6 @@ module.exports = function(grunt) {
   require("load-grunt-tasks")(grunt);
 
   grunt.registerTask("serve", ["shell:jekyllServe"]);
-  grunt.registerTask("default", ["sass", "autoprefixer", "shell:jekyllBuild", "watch"]);
+  grunt.registerTask("default", ["sass", "autoprefixer", "imagemin", "shell:jekyllBuild", "watch"]);
 
 };
