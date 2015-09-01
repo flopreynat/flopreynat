@@ -6,7 +6,6 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.flopreynat.com" # the base hostname & protocol for your site
 twitter_username: flopreynat
 github_username:  flopreynat
-paginate: 3
 
 # Build settings
 markdown: kramdown
