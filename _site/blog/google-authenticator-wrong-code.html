@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>flopreynat.com | Adding Disqus comments to Jekyll</title>
-  <meta name="description" content="Adding comments via Disqus to your Jekyll blog is something you probably want to do if you want a bit of life and interaction. Good news: it couldn’t be easier.">
+  <title>flopreynat.com | Google Authenticator is producing the wrong codes</title>
+  <meta name="description" content="What do you do when your Google Authenticator produces the wrong codes, and there’s nothing much you can do about it?">
 
   <link rel="stylesheet" href="/css/global.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="canonical" href="http://www.flopreynat.com/blog/adding-disqus-comments-jekyll.html">
+  <link rel="canonical" href="http://www.flopreynat.com/blog/google-authenticator-wrong-code.html">
   <link rel="alternate" type="application/rss+xml" title="flopreynat.com" href="http://www.flopreynat.com/feed.xml" />
   <script src="/js/jquery-2.1.4.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
@@ -60,47 +60,32 @@
     
     <div class="container">
   <div class="col-lg-10 col-lg-offset-1">
-    <h1 class="post-title">Adding Disqus comments to Jekyll</h1>
-    <p class="post-meta"><i class="fa fa-calendar-o"></i>Posted on Aug 14, 2015 | Category: <span class="post-category">jekyll</span></p>
+    <h1 class="post-title">Google Authenticator is producing the wrong codes</h1>
+    <p class="post-meta"><i class="fa fa-calendar-o"></i>Posted on Sep 30, 2015 | Category: <span class="post-category">google</span></p>
     <div class="marg">
       
-        <img src="/img/disqus-jekyll.jpg" alt="Adding Disqus comments to Jekyll" class="post-image">
+        <img src="/img/google-authenticator-wrong-code.jpg" alt="Google Authenticator is producing the wrong codes" class="post-image">
       
       <article class="pad">
-        <p>Adding comments via Disqus to your Jekyll blog is something you probably want to do if you want a bit of life and interaction. Good news: it couldn’t be easier.</p>
+        <p>What do you do when your Google Authenticator produces the wrong codes, and there’s nothing much you can do about it?</p>
 
-<p>There are installation instructions on the <a href="https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions">Disqus documentation</a>, and on various places around the web, but I thought I would recap the lot for y’all.</p>
+<p>I’m a huge fan of the two-factor authentification, the now famous user identification system by means of the combination of two different components. It usually involves a password and some kind of time-based token available via an app on a mobile phone.</p>
 
 <blockquote>
-  <p>“Great discussions are happening here”… so Disqus says. Unless nothing much will in fact happen, and you’re fine with this.</p>
+  <p>2-step verification is officially the best thing since sliced bread</p>
 </blockquote>
 
-<p>First of all, sign up to <a href="https://disqus.com/profile/signup">Disqus</a> then go <a href="https://disqus.com/admin/create">there</a> to add Disqus to your site.</p>
+<p>So by now, we all know we’re talking about Google Authenticator. Great app, I use it all the time.</p>
 
-<p>Then generate a custom script for Jekyll, you’ll need to use the <strong>Universal Code</strong> option here.</p>
+<p>Problem I just encountered: my mobile is in maintenance, and I bought myself a cheap Wiko for the few days/weeks to come, and I can not make the app work. No idea why, the time zone is set as it should, I ran a sync from the app, and it’s telling me that all is fine.</p>
 
-<p>Copy your script and paste it into a disqus.html template in /_includes.
-Make sure you surround the script between the <strong>if page.comments</strong> and  <strong>endif</strong> liquid code lines.</p>
+<p>So what do you do in such a bizarre situation. I found my answer on a forum, but as there’s not so much talk on the subject out there, this blog post may help some people stuck like me.</p>
 
-<p>Then edit your _config.yml file to add the “comments: true” bit…</p>
+<p>Use this app: <a href="https://play.google.com/store/apps/details?id=org.fedorahosted.freeotp&amp;hl=en">FreeOTP</a></p>
 
-<pre>
-<code class="language-ruby">
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
-    values:
-      author: flo preynat
-      layout: "post"
-      comments: true
-</code>
-</pre>
+<p>It seems a bit strange to be using a google feature with an app made by Red Hat. But the app is legit and approved, and more importantly it works like a charm, …even on a Wiko.</p>
 
-<p>Finally, go to your /_layouts/post.html template and add <strong>include disqus.html disqus_identifier=page.disqus_identifier</strong> (between liquid handles) below the end of your blog post.</p>
-
-<p><strong>You’re done!</strong></p>
+<p>And get yourself a decent phone though lol.</p>
 
       </article>
       
