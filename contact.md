@@ -7,7 +7,7 @@ permalink: /contact.html
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2">
     	<h1>Get in touch!</h1>
-    	<form action="//formspree.io/contact@shoogledesigns.com"
+    	<form action="//formspree.io/me@flopreynat.com"
       method="POST" class="form-horizontal">
 			  <div class="form-group">
 			    <label for="inputName" class="col-sm-2 control-label">Name</label>
