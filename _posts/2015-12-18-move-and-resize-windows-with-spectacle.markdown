@@ -7,7 +7,7 @@ image: move-resize-windows-spectacle.jpg
 ---
 Repositioning and resizing windows isn’t probably the most entertaining subject out there, but as we do those two all day long, let's talk about it once and for all.
 
-I remember having blogged about this subject on another blog post about 3 years ago, and today, I'm finding myself talking about this vary same subject to various mac users (since it's a native feature on windows), having failed to deal with the issue.
+I remember having blogged about this subject on another blog about 3 years ago, and today, I'm finding myself talking about this very same subject to various mac users (since it's a native feature on windows), having failed to deal with the issue.
 
 > CMD + ALT + LEFT/RIGHT
 
