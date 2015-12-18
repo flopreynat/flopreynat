@@ -5,9 +5,43 @@
     <description>website for flopreynat</description>
     <link>http://www.flopreynat.com/</link>
     <atom:link href="http://www.flopreynat.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 13 Nov 2015 22:13:50 +0100</pubDate>
-    <lastBuildDate>Fri, 13 Nov 2015 22:13:50 +0100</lastBuildDate>
+    <pubDate>Fri, 18 Dec 2015 21:32:34 +0100</pubDate>
+    <lastBuildDate>Fri, 18 Dec 2015 21:32:34 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Move and resize windows with Spectacle</title>
+        <description>&lt;p&gt;Repositioning and resizing windows isn’t probably the most entertaining subject out there, but as we do those two all day long, let’s talk about it once and for all.&lt;/p&gt;
+
+&lt;p&gt;I remember having blogged about this subject on another blog post about 3 years ago, and today, I’m finding myself talking about this vary same subject to various mac users (since it’s a native feature on windows), having failed to deal with the issue.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;CMD + ALT + LEFT/RIGHT&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;spectacle&quot;&gt;Spectacle&lt;/h4&gt;
+
+&lt;p&gt;Cut a long story short. The app is called &lt;a href=&quot;https://www.spectacleapp.com/&quot;&gt;Spectacle&lt;/a&gt;. It’s very cool, simple, non-obtrusive and free.
+And I’ve been using it for ever now.&lt;/p&gt;
+
+&lt;p&gt;Once installed, you’ll have to enable access for assistive devices.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.flopreynat.com/img/spectacle1.jpg&quot; alt=&quot;Universal Access&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Review your shortcuts, change them if you wish, and start getting more productive with your open windows…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.flopreynat.com/img/spectacle2.jpg&quot; alt=&quot;Spectacle shortcuts&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can run the app in the background but I suggest you add it in the status menu.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 18 Dec 2015 00:00:00 +0100</pubDate>
+        <link>http://www.flopreynat.com/blog/move-and-resize-windows-with-spectacle.html</link>
+        <guid isPermaLink="true">http://www.flopreynat.com/blog/move-and-resize-windows-with-spectacle.html</guid>
+        
+        
+        <category>apple</category>
+        
+      </item>
     
       <item>
         <title>My Sublime Text Shortcuts CheatSheet</title>
