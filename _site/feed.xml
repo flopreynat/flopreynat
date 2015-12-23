@@ -5,15 +5,45 @@
     <description>website for flopreynat</description>
     <link>http://www.flopreynat.com/</link>
     <atom:link href="http://www.flopreynat.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 18 Dec 2015 21:39:31 +0100</pubDate>
-    <lastBuildDate>Fri, 18 Dec 2015 21:39:31 +0100</lastBuildDate>
+    <pubDate>Wed, 23 Dec 2015 22:03:46 +0100</pubDate>
+    <lastBuildDate>Wed, 23 Dec 2015 22:03:46 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Macbook Pro boots to black screen... WTF</title>
+        <description>&lt;p&gt;So you boot your macbook pro, and you get… well not much. A black screen staring back at you while you frantically reach for your phone to check possible solutions to this problem.&lt;/p&gt;
+
+&lt;h4 id=&quot;pram-reset&quot;&gt;PRAM Reset&lt;/h4&gt;
+
+&lt;p&gt;Look no further. The thing just happened to me and I managed to get through it by resetting the machine’s PRAM, which is - apparently -  a common troubleshooting technique when your favorite apple goes to f***.&lt;/p&gt;
+
+&lt;p&gt;It allegedly should be the last resort when this kind of things happen. But as none of the other techniques I managed to find on the net did work, I’m only going to cover this one since, as mentioned above, it did the trick.&lt;/p&gt;
+
+&lt;p&gt;So here how it’s gotta be done.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;CMD + ALT + P + R&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You reboot the mac, and as soon as you hear the boot-up sound, you hold down the magic key combination displayed above.&lt;/p&gt;
+
+&lt;p&gt;I haven’t got the slightest idea what the problem was, and why I had to do this.
+But it just does work.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 23 Dec 2015 00:00:00 +0100</pubDate>
+        <link>http://www.flopreynat.com/blog/macbook-pro-boots-to-black-screen.html</link>
+        <guid isPermaLink="true">http://www.flopreynat.com/blog/macbook-pro-boots-to-black-screen.html</guid>
+        
+        
+        <category>apple</category>
+        
+      </item>
     
       <item>
         <title>Move and resize windows with Spectacle</title>
         <description>&lt;p&gt;Repositioning and resizing windows isn’t probably the most entertaining subject out there, but as we do those two all day long, let’s talk about it once and for all.&lt;/p&gt;
 
-&lt;p&gt;I remember having blogged about this subject on another blog post about 3 years ago, and today, I’m finding myself talking about this vary same subject to various mac users (since it’s a native feature on windows), having failed to deal with the issue.&lt;/p&gt;
+&lt;p&gt;I remember having blogged about this subject on another blog about 3 years ago, and today, I’m finding myself talking about this very same subject to various mac users (since it’s a native feature on windows), having failed to deal with the issue.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;CMD + ALT + LEFT/RIGHT&lt;/p&gt;
