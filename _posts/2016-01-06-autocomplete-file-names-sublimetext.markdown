@@ -5,9 +5,9 @@ category: sublime
 permalink: /blog/autocomplete-file-names-sublimetext.html
 image: autocomplete-file-names-sublimetext.jpg
 ---
-Another cool add-on to your Sublime with this great little plugin that allows you autocompleting your file names and speed up your coding. 
+Another cool add-on to your Sublime with this great little plugin that allows you to autocomple your file names and speed up your coding. 
 
-Use your [Package Control](https://packagecontrol.io/) (CMD + SHIFT + P) to install AutoFileName and start playing with it.
+Use your [Package Control](https://packagecontrol.io/) (CMD + SHIFT + P) to install [AutoFileName](https://github.com/BoundInCode/AutoFileName) and start playing with it.
 
 > Autocomplete FTW!
 
