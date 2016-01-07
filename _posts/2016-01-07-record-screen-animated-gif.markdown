@@ -1,7 +1,7 @@
 ---
 title:  "Record your screen in animated GIF format with Licecap"
 date:   2016-01-07
-category: sublime
+category: apps
 permalink: /blog/record-screen-animated-gif.html
 image: record-screen-animated-gif.jpg
 ---
