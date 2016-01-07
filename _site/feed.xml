@@ -5,9 +5,36 @@
     <description>website for flopreynat</description>
     <link>http://www.flopreynat.com/</link>
     <atom:link href="http://www.flopreynat.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 06 Jan 2016 22:16:08 +0100</pubDate>
-    <lastBuildDate>Wed, 06 Jan 2016 22:16:08 +0100</lastBuildDate>
+    <pubDate>Thu, 07 Jan 2016 22:27:15 +0100</pubDate>
+    <lastBuildDate>Thu, 07 Jan 2016 22:27:15 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Record your screen in animated GIF format with Licecap</title>
+        <description>&lt;p&gt;I’m often being asked what screen recorder software I use, since I frequently document tutorials, emails, and other user guides with self-explanatory gifs.&lt;/p&gt;
+
+&lt;p&gt;And since the app I use is 1. open source (hence free), 2. super light, and 3. very easy to use, I thought I would give Licecap the credit it deserves.&lt;/p&gt;
+
+&lt;p&gt;As mentioned on &lt;a href=&quot;http://www.cockos.com/licecap/&quot;&gt;the app’s website&lt;/a&gt;, Licecap is a simple animated screen captures software. It probably has the least sexy logo ever, but the app is just great.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Show, don’t tell&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You open it, set your width, height, and click on record, and you’re done. Stop it, and you’ll get a nice looped gif file, you’ll be able to paste anywhere.&lt;/p&gt;
+
+&lt;p&gt;How neat is that?! I had always thought it was for mac only, but it was originally for windows environments, so all of you can have a go at this little app.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&quot;http://www.cockos.com/&quot;&gt;Cockos Incorporated&lt;/a&gt; for this beauty.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 07 Jan 2016 00:00:00 +0100</pubDate>
+        <link>http://www.flopreynat.com/blog/record-screen-animated-gif.html</link>
+        <guid isPermaLink="true">http://www.flopreynat.com/blog/record-screen-animated-gif.html</guid>
+        
+        
+        <category>sublime</category>
+        
+      </item>
     
       <item>
         <title>Autocomplete file names in Sublime</title>
@@ -363,69 +390,6 @@ defaults:
         
         
         <category>jekyll</category>
-        
-      </item>
-    
-      <item>
-        <title>Free stock photos for your projects</title>
-        <description>&lt;p&gt;Just a go-to blog post (for myself really) when on the lookout for free stock photos (that don’t suck) for your web design projects, print needs et al.&lt;/p&gt;
-
-&lt;p&gt;A lot of good and excellent sites for you to pick exceptionnally-pro-looking pics from… Here we go.&lt;/p&gt;
-
-&lt;p&gt;The ones I’ve used from the start:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://join.deathtothestockphoto.com/&quot; title=&quot;Death to the Stock Photo&quot; target=&quot;_blank&quot;&gt;Death to the Stock Photo&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://unsplash.com/&quot; title=&quot;Unsplash&quot; target=&quot;_blank&quot;&gt;Unsplash&lt;/a&gt;, especially since &lt;a href=&quot;https://twitter.com/arthurWeill&quot; title=&quot;Arthur Weill&quot; target=&quot;_blank&quot;&gt;Arthur Weill&lt;/a&gt; released a little &lt;a href=&quot;http://www.arthurweill.fr/Unsplash/en&quot; title=&quot;Unsplash search engine&quot; target=&quot;_blank&quot;&gt;search engine for Unsplash&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;…and the rest of them, in alphabetical order:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.bara-art.com/&quot; title=&quot;Bara Art&quot; target=&quot;_blank&quot;&gt;Bara Art&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://barnimages.com/&quot; title=&quot;Barn Images&quot; target=&quot;_blank&quot;&gt;Barn Images&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://cupcake.nilssonlee.se/&quot; title=&quot;Cupcake&quot; target=&quot;_blank&quot;&gt;Cupcake&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://compfight.com/&quot; title=&quot;Compfight&quot; target=&quot;_blank&quot;&gt;Compfight&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://fancycrave.com/&quot; title=&quot;Fancy Crave&quot; target=&quot;_blank&quot;&gt;Fancy Crave&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.flickr.com/creativecommons/&quot; title=&quot;Flickr Creative Commons&quot; target=&quot;_blank&quot;&gt;Flickr Creative Commons&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://foodiesfeed.com/category/free-food-images/&quot; title=&quot;Foodies Feed&quot; target=&quot;_blank&quot;&gt;Foodies Feed&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://freelyphotos.com/&quot; title=&quot;Freely Photos&quot; target=&quot;_blank&quot;&gt;Freely Photos&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://freenaturestock.com/&quot; title=&quot;ree Nature Stock&quot; target=&quot;_blank&quot;&gt;Free Nature Stock&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://furiouscamera.com/&quot; title=&quot;Furious Camera&quot; target=&quot;_blank&quot;&gt;Furious Camera&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://getrefe.tumblr.com/&quot; title=&quot;Getrefe&quot; target=&quot;_blank&quot;&gt;Getrefe&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.gratisography.com/&quot; title=&quot;Gratisography&quot; target=&quot;_blank&quot;&gt;Gratisography&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://isorepublic.com/&quot; title=&quot;Iso Republic&quot; target=&quot;_blank&quot;&gt;Iso Republic&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://jaymantri.com/&quot; title=&quot;Jay mantri&quot; target=&quot;_blank&quot;&gt;Jay mantri&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://jeshoots.com/&quot; title=&quot;jéshoots&quot; target=&quot;_blank&quot;&gt;jéshoots&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://littlevisuals.co/&quot; title=&quot;Little Visuals&quot; target=&quot;_blank&quot;&gt;Little Visuals&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://magdeleine.co/&quot; title=&quot;Magdeleine&quot; target=&quot;_blank&quot;&gt;Magdeleine&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://mmt.li/&quot; title=&quot;MMT&quot; target=&quot;_blank&quot;&gt;MMT&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.morguefile.com&quot; title=&quot;Morguefile&quot; target=&quot;_blank&quot;&gt;Morguefile&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.noblweb.com/&quot; title=&quot;Nobl Web&quot; target=&quot;_blank&quot;&gt;Nobl Web&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://nos.twnsnd.co/&quot; title=&quot;New Old Stock&quot; target=&quot;_blank&quot;&gt;New Old Stock&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.pexels.com/&quot; title=&quot;Pexels&quot; target=&quot;_blank&quot;&gt;Pexels&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://photopin.com/&quot; title=&quot;Photopin&quot; target=&quot;_blank&quot;&gt;Photopin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://picjumbo.com/&quot; title=&quot;Picjumbo&quot; target=&quot;_blank&quot;&gt;Picjumbo&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://picography.co/&quot; title=&quot;Picography&quot; target=&quot;_blank&quot;&gt;Picography&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.raumrot.com/&quot; title=&quot;Raumrot&quot; target=&quot;_blank&quot;&gt;Raumrot&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://realisticshots.com/&quot; title=&quot;Realistic Shots&quot; target=&quot;_blank&quot;&gt;Realistic Shots&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://search.creativecommons.org/&quot; title=&quot;Creative Commons&quot; target=&quot;_blank&quot;&gt;Search Creative Commons&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://stocksnap.io/&quot; title=&quot;StockSnap.io&quot; target=&quot;_blank&quot;&gt;Stocksnap.io&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.sitebuilderreport.com/stock-up&quot; title=&quot;Stock Up&quot; target=&quot;_blank&quot;&gt;Stock up&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://startupstockphotos.com&quot; title=&quot;Startup stock photos&quot; target=&quot;_blank&quot;&gt;Startup stock photos&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://images.superfamous.com/&quot; title=&quot;&quot; target=&quot;_blank&quot;&gt;Superfamous&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://travelcoffeebook.tumblr.com/&quot; title=&quot;Travel Coffee Book&quot; target=&quot;_blank&quot;&gt;Travel Coffee Book&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://trunklog.com/&quot; title=&quot;Trunklog&quot; target=&quot;_blank&quot;&gt;Trunklog&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;How about that!&lt;/p&gt;
-</description>
-        <pubDate>Thu, 06 Aug 2015 00:00:00 +0200</pubDate>
-        <link>http://www.flopreynat.com/blog/free-stock-photos-that-dont-suck.html</link>
-        <guid isPermaLink="true">http://www.flopreynat.com/blog/free-stock-photos-that-dont-suck.html</guid>
-        
-        
-        <category>design</category>
         
       </item>
     
