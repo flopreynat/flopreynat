@@ -1,12 +1,14 @@
 # Site settings
 title: flopreynat.com
-email: contact@shoogledesigns.com
 description: website for flopreynat
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.flopreynat.com" # the base hostname & protocol for your site
 twitter_username: flopreynat
 github_username:  flopreynat
-
+name: flopreynat.com
+author:
+  name: flo preynat
+  email: me@flopreynat.com
 # Build settings
 markdown: kramdown
 permalink: /:title
