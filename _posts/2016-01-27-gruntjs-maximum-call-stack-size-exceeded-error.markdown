@@ -2,7 +2,7 @@
 title:  "Grunt throws a Maximum call stack size exceeded error"
 date:   2016-01-27
 category: gruntjs
-permalink: /blog/record-screen-animated-gif.html
+permalink: /blog/gruntjs-maximum-call-stack-size-exceeded-error.html
 image: gruntjs-maximum-call-stack-size-exceeded-error.jpg
 ---
 Grunt throws a 'maximum call stack size exceeded' error after running a simple task, and you haven't got the slightest idea what it means. No sweat.

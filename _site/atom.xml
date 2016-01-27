@@ -3,7 +3,7 @@
   <title>flopreynat.com</title>
   <link href="http://www.flopreynat.com/atom.xml" rel="self" />
   <link href="http://www.flopreynat.com/"/>
-  <updated>2016-01-27T21:36:38+01:00</updated>
+  <updated>2016-01-27T21:42:01+01:00</updated>
   <id>http://www.flopreynat.com</id>
   <author>
     <name>flo preynat</name>
@@ -12,7 +12,7 @@
   
     <entry>
       <title>Grunt throws a Maximum call stack size exceeded error</title>
-      <link href="http://www.flopreynat.com/blog/record-screen-animated-gif.html" />
+      <link href="http://www.flopreynat.com/blog/gruntjs-maximum-call-stack-size-exceeded-error.html" />
       <updated>2016-01-27T00:00:00+01:00</updated>
       <id>http://www.flopreynat.com/blog/gruntjs-maximum-call-stack-size-exceeded-error</id>
       <content type="html">&lt;p&gt;Grunt throws a ‘maximum call stack size exceeded’ error after running a simple task, and you haven’t got the slightest idea what it means. No sweat.&lt;/p&gt;
