@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>flopreynat.com | Record your screen in animated GIF format with Licecap</title>
-  <meta name="description" content="I’m often being asked what screen recorder software I use, since I frequently document tutorials, emails, and other user guides with self-explanatory gifs.">
+  <title>flopreynat.com | Grunt throws a Maximum call stack size exceeded error</title>
+  <meta name="description" content="Grunt throws a ‘maximum call stack size exceeded’ error after running a simple task, and you haven’t got the slightest idea what it means. No sweat.">
   <link rel="alternate" type="application/atom+xml" title="flopreynat" href="/atom_feed.xml" />
   <link rel="stylesheet" href="/css/global.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -62,28 +62,34 @@
     
     <div class="container">
   <div class="col-lg-10 col-lg-offset-1">
-    <h1 class="post-title">Record your screen in animated GIF format with Licecap</h1>
-    <p class="post-meta"><i class="fa fa-calendar-o"></i>Posted on Jan 7, 2016 | Category: <span class="post-category">apps</span></p>
+    <h1 class="post-title">Grunt throws a Maximum call stack size exceeded error</h1>
+    <p class="post-meta"><i class="fa fa-calendar-o"></i>Posted on Jan 27, 2016 | Category: <span class="post-category">gruntjs</span></p>
     <div class="marg">
       
-        <img src="/img/record-screen-animated-gif.jpg" alt="Record your screen in animated GIF format with Licecap" class="post-image">
+        <img src="/img/gruntjs-maximum-call-stack-size-exceeded-error.jpg" alt="Grunt throws a Maximum call stack size exceeded error" class="post-image">
       
       <article class="pad">
-        <p>I’m often being asked what screen recorder software I use, since I frequently document tutorials, emails, and other user guides with self-explanatory gifs.</p>
+        <p>Grunt throws a ‘maximum call stack size exceeded’ error after running a simple task, and you haven’t got the slightest idea what it means. No sweat.</p>
 
-<p>And since the app I use is 1. open source (hence free), 2. super light, and 3. very easy to use, I thought I would give Licecap the credit it deserves.</p>
+<p>But I can’t blame as this is just what happened to me today while working on a website redesign. The grunt task is a simple ‘imagemin’ task I decided to run separately, and I don’t recall having had the same issue before.</p>
 
-<p>As mentioned on <a href="http://www.cockos.com/licecap/">the app’s website</a>, Licecap is a simple animated screen captures software. It probably has the least sexy logo ever, but the app is just great.</p>
+<p>Cut a long story short, you launch something along the lines of:
+“grunt imagemin” in your terminal, and you’re thrown the following error:</p>
+
+<p><strong><em>RangeError: Maximum call stack size exceeded</em></strong></p>
 
 <blockquote>
-  <p>Show, don’t tell</p>
+  <p>Don’t name your task aliases like your tasks</p>
 </blockquote>
 
-<p>You open it, set your width, height, and click on record, and you’re done. Stop it, and you’ll get a nice looped gif file, you’ll be able to paste anywhere.</p>
+<p>I did not find the issue in Grunt’s documentation as, ironically, it’s not the first hit on google serach results, but it’s in there.</p>
 
-<p>How neat is that?! I had always thought it was for mac only, but it was originally for windows environments, so all of you can have a go at this little app.</p>
+<p>You can not name your tasks like the task itself, <a href="http://gruntjs.com/frequently-asked-questions#why-am-i-getting-a-maximum-call-stack-size-exceeded-error">as detailed here</a>.</p>
 
-<p>Thanks to <a href="http://www.cockos.com/">Cockos Incorporated</a> for this beauty.</p>
+<p>So I went from 
+<strong><em>grunt.registerTask(“imagemin”, [“imagemin”]);</em></strong> to <strong><em>grunt.registerTask(“imageminifier”, [“imagemin”]);</em></strong></p>
+
+<p>… and it worked like a charm.</p>
 
       </article>
       

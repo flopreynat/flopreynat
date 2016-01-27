@@ -3,12 +3,41 @@
   <title>flopreynat.com</title>
   <link href="http://www.flopreynat.com/atom.xml" rel="self" />
   <link href="http://www.flopreynat.com/"/>
-  <updated>2016-01-24T21:02:45+01:00</updated>
+  <updated>2016-01-27T21:36:38+01:00</updated>
   <id>http://www.flopreynat.com</id>
   <author>
     <name>flo preynat</name>
     <email>me@flopreynat.com</email>
   </author>
+  
+    <entry>
+      <title>Grunt throws a Maximum call stack size exceeded error</title>
+      <link href="http://www.flopreynat.com/blog/record-screen-animated-gif.html" />
+      <updated>2016-01-27T00:00:00+01:00</updated>
+      <id>http://www.flopreynat.com/blog/gruntjs-maximum-call-stack-size-exceeded-error</id>
+      <content type="html">&lt;p&gt;Grunt throws a ‘maximum call stack size exceeded’ error after running a simple task, and you haven’t got the slightest idea what it means. No sweat.&lt;/p&gt;
+
+&lt;p&gt;But I can’t blame as this is just what happened to me today while working on a website redesign. The grunt task is a simple ‘imagemin’ task I decided to run separately, and I don’t recall having had the same issue before.&lt;/p&gt;
+
+&lt;p&gt;Cut a long story short, you launch something along the lines of:
+“grunt imagemin” in your terminal, and you’re thrown the following error:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;RangeError: Maximum call stack size exceeded&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Don’t name your task aliases like your tasks&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I did not find the issue in Grunt’s documentation as, ironically, it’s not the first hit on google serach results, but it’s in there.&lt;/p&gt;
+
+&lt;p&gt;You can not name your tasks like the task itself, &lt;a href=&quot;http://gruntjs.com/frequently-asked-questions#why-am-i-getting-a-maximum-call-stack-size-exceeded-error&quot;&gt;as detailed here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So I went from 
+&lt;strong&gt;&lt;em&gt;grunt.registerTask(“imagemin”, [“imagemin”]);&lt;/em&gt;&lt;/strong&gt; to &lt;strong&gt;&lt;em&gt;grunt.registerTask(“imageminifier”, [“imagemin”]);&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;… and it worked like a charm.&lt;/p&gt;
+</content>
+    </entry>
   
     <entry>
       <title>Record your screen in animated GIF format with Licecap</title>
