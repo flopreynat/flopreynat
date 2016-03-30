@@ -3,12 +3,31 @@
   <title>flopreynat.com</title>
   <link href="http://www.flopreynat.com/atom.xml" rel="self" />
   <link href="http://www.flopreynat.com/"/>
-  <updated>2016-02-06T12:27:03+01:00</updated>
+  <updated>2016-03-30T22:32:28+02:00</updated>
   <id>http://www.flopreynat.com</id>
   <author>
     <name>flo preynat</name>
     <email>me@flopreynat.com</email>
   </author>
+  
+    <entry>
+      <title>Leverage Sublime Text Macros to automate repeatable actions</title>
+      <link href="http://www.flopreynat.com/blog/leverage-sublime-macros-to-automate-repeatable-actions.html" />
+      <updated>2016-03-30T00:00:00+02:00</updated>
+      <id>http://www.flopreynat.com/blog/leverage-sublime-macros-to-automate-repeatable-actions</id>
+      <content type="html">&lt;p&gt;Sublime Text Macros are a smart little tool to automate repeatable (and often-repeated) patterns.&lt;/p&gt;
+
+&lt;p&gt;For example, I need to build arrays from lists of things on a regular basis. As easy as it can be in sublime to perform such an operation, using the basic automation provided by Macros is the best way forward.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Automation, automation, automation&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Simply navigate to Tools/Record Macro to record what you want Sublime to do on your behalf, Save your macro with a ‘.sublime-macro’ extension and replay it as much as you need to.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://flopreynat.com/img/sublime-text-macros.gif&quot; alt=&quot;Sublime Text Macros&quot; title=&quot;Sublime Text macros&quot; /&gt;&lt;/p&gt;
+</content>
+    </entry>
   
     <entry>
       <title>Grunt throws a Maximum call stack size exceeded error</title>
