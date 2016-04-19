@@ -5,9 +5,51 @@
     <description>website for flopreynat</description>
     <link>http://www.flopreynat.com/</link>
     <atom:link href="http://www.flopreynat.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Mar 2016 22:32:28 +0200</pubDate>
-    <lastBuildDate>Wed, 30 Mar 2016 22:32:28 +0200</lastBuildDate>
+    <pubDate>Tue, 19 Apr 2016 21:44:17 +0200</pubDate>
+    <lastBuildDate>Tue, 19 Apr 2016 21:44:17 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Alfred App Review</title>
+        <description>&lt;p&gt;An app all windows users envy us if they have had the chance to take Mac’s already-powerful search feature to the next level, with Alfred - the award winning app and best butler I have ever known…&lt;/p&gt;
+
+&lt;p&gt;Like any developer out there, I want to use the keyboard as much as I can. For productivity reasons first, and for others.&lt;/p&gt;
+
+&lt;p&gt;Been using Alfred for years, and I can’t get bored with it. Don’t look at this post like an expert article on the subject, I have not even purchased the &lt;a href=&quot;https://www.alfredapp.com/powerpack/buy/&quot;&gt;Powerpack&lt;/a&gt;, feature unlocking the likes of workflows, integrations, and even remote control to your IOS devices.
+To be totally honest, I have never really looked into the Powerpack, but I may be tempted to leverage their integration with Asana, another must-have IMHO.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It serves me right!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Anyway, for now, I use Alfred the most simple way ever, but it just works for me. Here are a few things you can do with Alfred:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Quickly find a file by typing “find” + the name of the file&lt;/li&gt;
+  &lt;li&gt;Launch any app without using the mouse&lt;/li&gt;
+  &lt;li&gt;calculate anything quickly by just typing numbers and operations&lt;/li&gt;
+  &lt;li&gt;Launch a search on any site (eg. google, twitter, youtube etc)&lt;/li&gt;
+  &lt;li&gt;Launch a google image search&lt;/li&gt;
+  &lt;li&gt;Look up a place on Maps&lt;/li&gt;
+  &lt;li&gt;Quit all apps at the end of the working day&lt;/li&gt;
+  &lt;li&gt;Empty the recycle bin&lt;/li&gt;
+  &lt;li&gt;etc…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can easily configure your shortcuts and have for example “google” shortened to “g”, and more.&lt;/p&gt;
+
+&lt;p&gt;In a nutshell, I love this app.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.alfredapp.com/&quot;&gt;Alfred 2 for Mac&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 19 Apr 2016 00:00:00 +0200</pubDate>
+        <link>http://www.flopreynat.com/blog/alfred-app-review.html</link>
+        <guid isPermaLink="true">http://www.flopreynat.com/blog/alfred-app-review.html</guid>
+        
+        
+        <category>productivity</category>
+        
+      </item>
     
       <item>
         <title>Leverage Sublime Text Macros to automate repeatable actions</title>
@@ -339,34 +381,6 @@ I personnaly decided not to go with any of them.&lt;/p&gt;
         
         
         <category>jekyll</category>
-        
-      </item>
-    
-      <item>
-        <title>Sublime Text 3 Clipboard History</title>
-        <description>&lt;p&gt;I’ve recently moved to Sublime Text 3, having enjoyed several years of cruising on version 2. The latest version is now more than mature (hence my move) and has additional features ST2 was short of. The ability to browse through your clipboard history is defo one of them.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;⌘ + K then ⌘ + V&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;It’s as simple as that, just go ⌘ + K before hitting your usual ⌘ + V and you’ll be able to pick from your latest clipboard entries.&lt;/p&gt;
-
-&lt;p&gt;Everything is in the video below, made by &lt;a href=&quot;http://wesbos.com/&quot;&gt;Wes Bos&lt;/a&gt;, a web dev recently featured on the &lt;a href=&quot;http://shoptalkshow.com/episodes/176-with-wes-bos/&quot;&gt;ShopTalk show of July 27th&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
-  &lt;iframe class=&quot;embed-responsive-item&quot; width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/IaddB_GQ4Ps&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;
-  &lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;em&gt;Note, if you want to speed up your development, optimize your ST workflows and become a better developer, Wes has released &lt;a href=&quot;https://sublimetextbook.com/&quot;&gt;a book on the subject&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 18 Aug 2015 00:00:00 +0200</pubDate>
-        <link>http://www.flopreynat.com/blog/sublimetext-clipboard-history.html</link>
-        <guid isPermaLink="true">http://www.flopreynat.com/blog/sublimetext-clipboard-history.html</guid>
-        
-        
-        <category>sublime</category>
         
       </item>
     
