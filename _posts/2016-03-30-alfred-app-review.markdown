@@ -9,7 +9,7 @@ An app all windows users envy us if they have had the chance to take Mac's alrea
 
 Like any developer out there, I want to use the keyboard as much as I can. For productivity reasons first, and for others.
 
-Been using Alfred for years, and I can't get bored with it. Don't look at this post like an expert article on the subject, I have not even purchased the [Powerpack](https://www.alfredapp.com/powerpack/buy/), feature unlocking the likes of workflows, integrations, and even remote control to your IOS devices.
+Been using Alfred for years, and I can't get bored of it. Don't look at this post like an expert article on the subject, I have not even purchased the [Powerpack](https://www.alfredapp.com/powerpack/buy/), feature unlocking the likes of workflows, integrations, and even remote control to your IOS devices.
 To be totally honest, I have never really looked into the Powerpack, but I may be tempted to leverage their integration with Asana, another must-have IMHO.
 
 > It serves me right!
@@ -26,7 +26,7 @@ Anyway, for now, I use Alfred the most simple way ever, but it just works for me
 + Empty the recycle bin
 + etc...
 
-You can easily configure your shortcuts and have for example "google" shortened to "g", and more.
+You can easily configure your shortcuts and have for example "google" shortened to "g" (just an example).
 
 In a nutshell, I love this app. 
 
