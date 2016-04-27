@@ -3,7 +3,7 @@
   <title>flopreynat.com</title>
   <link href="http://www.flopreynat.com/atom.xml" rel="self" />
   <link href="http://www.flopreynat.com/"/>
-  <updated>2016-04-27T22:31:05+02:00</updated>
+  <updated>2016-04-27T22:40:33+02:00</updated>
   <id>http://www.flopreynat.com</id>
   <author>
     <name>flo preynat</name>
@@ -17,7 +17,7 @@
       <id>http://www.flopreynat.com/blog/gulp-throws-potentially-unhandled-rejection</id>
       <content type="html">&lt;p&gt;So you’re using Gulp and you’re thrown a “Potentially unhandled rejection [2] Error: no writecb” and you have no idea what to do next…&lt;/p&gt;
 
-&lt;p&gt;It was my case up to last night when running Gulp for the first time (I usually run Grunt) during the initialization of Wes Bos’ “React for Beginners” project, and the run of a gulp-stylus task.&lt;/p&gt;
+&lt;p&gt;It was my case up to last night when running Gulp for the first time (I usually run Grunt) during the initialization of &lt;a href=&quot;https://reactforbeginners.com/&quot;&gt;Wes Bos’ “React for Beginners”&lt;/a&gt;, and the run of a gulp-stylus task.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Updates first&lt;/p&gt;

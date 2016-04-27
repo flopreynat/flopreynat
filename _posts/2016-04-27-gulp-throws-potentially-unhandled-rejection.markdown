@@ -7,7 +7,7 @@ image: gulp-error-no-writecb.jpg
 ---
 So you're using Gulp and you're thrown a "Potentially unhandled rejection [2] Error: no writecb" and you have no idea what to do next... 
 
-It was my case up to last night when running Gulp for the first time (I usually run Grunt) during the initialization of Wes Bos' "React for Beginners" project, and the run of a gulp-stylus task.
+It was my case up to last night when running Gulp for the first time (I usually run Grunt) during the initialization of [Wes Bos' "React for Beginners"](https://reactforbeginners.com/), and the run of a gulp-stylus task.
 
 > Updates first
 
