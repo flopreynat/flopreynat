@@ -5,9 +5,44 @@
     <description>website for flopreynat</description>
     <link>http://www.flopreynat.com/</link>
     <atom:link href="http://www.flopreynat.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 19 Apr 2016 21:46:52 +0200</pubDate>
-    <lastBuildDate>Tue, 19 Apr 2016 21:46:52 +0200</lastBuildDate>
+    <pubDate>Wed, 27 Apr 2016 22:31:05 +0200</pubDate>
+    <lastBuildDate>Wed, 27 Apr 2016 22:31:05 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Gulp throws Potentially unhandled rejection error</title>
+        <description>&lt;p&gt;So you’re using Gulp and you’re thrown a “Potentially unhandled rejection [2] Error: no writecb” and you have no idea what to do next…&lt;/p&gt;
+
+&lt;p&gt;It was my case up to last night when running Gulp for the first time (I usually run Grunt) during the initialization of Wes Bos’ “React for Beginners” project, and the run of a gulp-stylus task.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Updates first&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Initial reaction should be to make sure you’re up to date with all components at hand. All modules being all on their latest versions, let’s turn to node.&lt;/p&gt;
+
+&lt;p&gt;Quick check shows an outdated version, let’s get this updated. Here’s how to do it.&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;code class=&quot;language-ruby&quot;&gt;
+(sudo) npm cache clean -f
+(sudo) npm install -g n
+(sudo) n stable
+node -v
+v6.0.0
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Try running gulp again. Error should have gone…&lt;/p&gt;
+</description>
+        <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
+        <link>http://www.flopreynat.com/blog/gulp-throws-potentially-unhandled-rejection-no-writecb.html</link>
+        <guid isPermaLink="true">http://www.flopreynat.com/blog/gulp-throws-potentially-unhandled-rejection-no-writecb.html</guid>
+        
+        
+        <category>gulp</category>
+        
+      </item>
     
       <item>
         <title>Alfred App Review</title>
@@ -36,7 +71,7 @@ To be totally honest, I have never really looked into the Powerpack, but I may b
   &lt;li&gt;etc…&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;You can easily configure your shortcuts and have for example “google” shortened to “g”, and more.&lt;/p&gt;
+&lt;p&gt;You can easily configure your shortcuts and have for example “google” shortened to “g” (just an example).&lt;/p&gt;
 
 &lt;p&gt;In a nutshell, I love this app.&lt;/p&gt;
 
@@ -351,36 +386,6 @@ And I’ve been using it for ever now.&lt;/p&gt;
         
         
         <category>google</category>
-        
-      </item>
-    
-      <item>
-        <title>Using Jekyll plugins on Github</title>
-        <description>&lt;p&gt;A bit of reading for all jekyll newbies who, like me, decided to host their Jekyll site on Github pages (or are in the process to do so), and wouldn’t be aware of the limitations around the subject.&lt;/p&gt;
-
-&lt;p&gt;I’ve been running this site on Jekyll for a few weeks only, and making discoveries along the way. When I decided to install and use &lt;a href=&quot;https://github.com/UsabilityEtc/responsive-youtube-jekyll-tag&quot;&gt;the first of many plugins available&lt;/a&gt;, I hit the wall and quickly realised the topic was far from an easy affair.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;tl;dr : Avoid using plugins if you can&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I’m not going to steal the words of David Lyons as he wrote a nicely-documented post on the subjet on &lt;a href=&quot;http://www.sitepoint.com/jekyll-plugins-github/&quot;&gt;sitepoint.com&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;To cut a long story short, Github only allows &lt;a href=&quot;https://help.github.com/articles/using-jekyll-plugins-with-github-pages/&quot;&gt;a few Jekyll plugins&lt;/a&gt; to run during build process.&lt;/p&gt;
-
-&lt;p&gt;As David mentioned it, you’ll have a couple of work-arounds to get by.
-I personnaly decided not to go with any of them.&lt;/p&gt;
-
-&lt;p&gt;First of all, the current (folder/git) structure setup suits me and I didn’t want to disturb it. Second of all, I don’t have the intention to add a million plugins (as in I intend to use none of them). Lastly, I am the only person operating this site and thought a bit of markup within the post would not be the end of the world, should I need to add a responsive-ready video container (&lt;em&gt;reminder: it’s what I wanted to do in the first place&lt;/em&gt;).&lt;/p&gt;
-
-&lt;p&gt;Anyway, once again, read David’s post. It’s worth a look (and a thought) if you intend to host your Jekyll site on Github pages.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 25 Aug 2015 00:00:00 +0200</pubDate>
-        <link>http://www.flopreynat.com/blog/jekyll-plugins-github.html</link>
-        <guid isPermaLink="true">http://www.flopreynat.com/blog/jekyll-plugins-github.html</guid>
-        
-        
-        <category>jekyll</category>
         
       </item>
     

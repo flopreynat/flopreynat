@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>flopreynat.com</title>
-  <meta name="description" content="website for flopreynat">
+  <title>flopreynat.com | Gulp throws Potentially unhandled rejection error</title>
+  <meta name="description" content="So you’re using Gulp and you’re thrown a “Potentially unhandled rejection [2] Error: no writecb” and you have no idea what to do next…">
   <link rel="alternate" type="application/atom+xml" title="flopreynat" href="/atom_feed.xml" />
   <link rel="stylesheet" href="/css/global.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="canonical" href="http://www.flopreynat.com/">
+  <link rel="canonical" href="http://www.flopreynat.com/blog/gulp-throws-potentially-unhandled-rejection-no-writecb.html">
   <link rel="alternate" type="application/rss+xml" title="flopreynat.com" href="http://www.flopreynat.com/feed.xml" />
   <script src="/js/jquery-2.1.4.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
@@ -60,83 +60,58 @@
   </div>
 </div>
     
-    <div class="hero hero-home">
-  <h1>Code like nobody's watching</h1>
-  <hr class="hrSmall">
-  <h4><em>and rolling their eyes thinking wtf</em></h4>
-</div>
-<div class="container hero-under">
-  <div class="row">
-    <div class="col-lg-12 text-center">
-      <h2>Nothing spectacular. Still me though</h2>
-    </div>
-    <div class="col-lg-8 col-lg-offset-2 text-center">
-      <p class="pad">Hi, my name is flo. I am a front-end dev based in France. I work as UI Designer & Support Engineer at odaseva.com, a young and dynamic startup.</p>
-    </div>
-  </div>
-</div>
-<div class="container marg text-center">
-  <div class="row">
-    <div class="col-lg-6">
-      <img src="/img/odaseva.png" alt="odaseva.com" width="150px">
-      <h3>odaseva.com</h3>
-      <p class="pad">odaseva.com is the team of Salesforce specialists behind Odaseva for Salesforce, a platform offering Backup & Recovery capabilities, as well as Release Management Tools to Salesforce customers. The company has a wide range of enterprise customers, including Fortune 500 companies, and operates from both beautiful France & sunny San Francisco.
-      <br>If you're into Salesforce, chek out <a href="http://www.odaseva.com">odaseva.com</a></p>
-    </div>
-    <div class="col-lg-6">
-      <img src="/img/shoogledesigns.png" alt="shoogledesigns" width="150px" class="borderRadius">
-      <h3>Development addict</h3>
-      <p class="pad">Developer by day,... developer by night. The design and development experience I have gathered during 15+ years spent within various firms has made me an addict to the Front-end subject. I quickly specialized in responsive web design (like everybody else) when the trend emerged, often use Wordpress, Perch and Jekyll as prefered CMS solutions, and like to get involved in mentorship.</p>
-    </div>
-  </div>
-</div>
-<div class="getinTouch pad">
-  <div class="row">
-    <div class="col-xs-8 col-xs-offset-2 text-center pad">
-      <h2>Wanna discuss mentorship / Say Hi ?</h2>
-      <br><a href="contact.html" class="btn btn-flo">REACH OUT !</a>
-      <!-- <form class="form-inline pad marg">
-        <button type="submit" class="btn btn-empty">Hello</button>
-      </form> -->
-    </div>
-  </div>
-</div>
-<div class="container">
-  <div class="row">
-    <div class="col-lg-12 text-center">
-      <h2>Latest Blog Posts</h2>
+    <div class="container">
+  <div class="col-lg-10 col-lg-offset-1">
+    <h1 class="post-title">Gulp throws Potentially unhandled rejection error</h1>
+    <p class="post-meta"><i class="fa fa-calendar-o"></i>Posted on Apr 27, 2016 | Category: <span class="post-category">gulp</span></p>
+    <div class="marg">
       
-        <div class="col-lg-6 marg">
-          <a class="post-link" href="/blog/gulp-throws-potentially-unhandled-rejection-no-writecb.html">
-            <img src="/img/gulp-error-no-writecb.jpg" alt="Gulp throws Potentially unhandled rejection error">
-          </a>
-          <br><br><i class="fa fa-calendar-o"></i><span class="post-meta">Apr 27, 2016</span>
-          <h3>
-            <a class="post-link" href="/blog/gulp-throws-potentially-unhandled-rejection-no-writecb.html">Gulp throws Potentially unhandled rejection error</a>
-          </h3>
-          <p><p>So you’re using Gulp and you’re thrown a “Potentially unhandled rejection [2] Error: no writecb” and you have no idea what to do next…</p>
-
-</p>
-        </div>
+        <img src="/img/gulp-error-no-writecb.jpg" alt="Gulp throws Potentially unhandled rejection error" class="post-image">
       
-        <div class="col-lg-6 marg">
-          <a class="post-link" href="/blog/alfred-app-review.html">
-            <img src="/img/alfred-app.jpg" alt="Alfred App Review">
-          </a>
-          <br><br><i class="fa fa-calendar-o"></i><span class="post-meta">Apr 19, 2016</span>
-          <h3>
-            <a class="post-link" href="/blog/alfred-app-review.html">Alfred App Review</a>
-          </h3>
-          <p><p>An app all windows users envy us if they have had the chance to take Mac’s already-powerful search feature to the next level, with Alfred - the award winning app and best butler I have ever known…</p>
+      <article class="pad">
+        <p>So you’re using Gulp and you’re thrown a “Potentially unhandled rejection [2] Error: no writecb” and you have no idea what to do next…</p>
 
-</p>
-        </div>
+<p>It was my case up to last night when running Gulp for the first time (I usually run Grunt) during the initialization of Wes Bos’ “React for Beginners” project, and the run of a gulp-stylus task.</p>
+
+<blockquote>
+  <p>Updates first</p>
+</blockquote>
+
+<p>Initial reaction should be to make sure you’re up to date with all components at hand. All modules being all on their latest versions, let’s turn to node.</p>
+
+<p>Quick check shows an outdated version, let’s get this updated. Here’s how to do it.</p>
+
+<pre>
+<code class="language-ruby">
+(sudo) npm cache clean -f
+(sudo) npm install -g n
+(sudo) n stable
+node -v
+v6.0.0
+</code>
+</pre>
+
+<p>Try running gulp again. Error should have gone…</p>
+
+      </article>
       
-      <div class="clearfix"></div>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'flopreynatcom';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
     </div>
   </div>
 </div>
-
 
     <div class="prefooter">
   <div class="container pad">

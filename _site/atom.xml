@@ -3,12 +3,43 @@
   <title>flopreynat.com</title>
   <link href="http://www.flopreynat.com/atom.xml" rel="self" />
   <link href="http://www.flopreynat.com/"/>
-  <updated>2016-04-19T21:46:52+02:00</updated>
+  <updated>2016-04-27T22:31:05+02:00</updated>
   <id>http://www.flopreynat.com</id>
   <author>
     <name>flo preynat</name>
     <email>me@flopreynat.com</email>
   </author>
+  
+    <entry>
+      <title>Gulp throws Potentially unhandled rejection error</title>
+      <link href="http://www.flopreynat.com/blog/gulp-throws-potentially-unhandled-rejection-no-writecb.html" />
+      <updated>2016-04-27T00:00:00+02:00</updated>
+      <id>http://www.flopreynat.com/blog/gulp-throws-potentially-unhandled-rejection</id>
+      <content type="html">&lt;p&gt;So you’re using Gulp and you’re thrown a “Potentially unhandled rejection [2] Error: no writecb” and you have no idea what to do next…&lt;/p&gt;
+
+&lt;p&gt;It was my case up to last night when running Gulp for the first time (I usually run Grunt) during the initialization of Wes Bos’ “React for Beginners” project, and the run of a gulp-stylus task.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Updates first&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Initial reaction should be to make sure you’re up to date with all components at hand. All modules being all on their latest versions, let’s turn to node.&lt;/p&gt;
+
+&lt;p&gt;Quick check shows an outdated version, let’s get this updated. Here’s how to do it.&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;code class=&quot;language-ruby&quot;&gt;
+(sudo) npm cache clean -f
+(sudo) npm install -g n
+(sudo) n stable
+node -v
+v6.0.0
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Try running gulp again. Error should have gone…&lt;/p&gt;
+</content>
+    </entry>
   
     <entry>
       <title>Alfred App Review</title>
@@ -40,7 +71,7 @@ To be totally honest, I have never really looked into the Powerpack, but I may b
   &lt;li&gt;etc…&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;You can easily configure your shortcuts and have for example “google” shortened to “g”, and more.&lt;/p&gt;
+&lt;p&gt;You can easily configure your shortcuts and have for example “google” shortened to “g” (just an example).&lt;/p&gt;
 
 &lt;p&gt;In a nutshell, I love this app.&lt;/p&gt;
 
