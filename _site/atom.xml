@@ -3,12 +3,45 @@
   <title>flopreynat.com</title>
   <link href="http://www.flopreynat.com/atom.xml" rel="self" />
   <link href="http://www.flopreynat.com/"/>
-  <updated>2016-04-27T22:40:33+02:00</updated>
+  <updated>2016-05-29T20:59:13+02:00</updated>
   <id>http://www.flopreynat.com</id>
   <author>
     <name>flo preynat</name>
     <email>me@flopreynat.com</email>
   </author>
+  
+    <entry>
+      <title>Mac Finder freezes... WTF</title>
+      <link href="http://www.flopreynat.com/blog/mac-finder-freezes.html" />
+      <updated>2016-05-29T00:00:00+02:00</updated>
+      <id>http://www.flopreynat.com/blog/mac-finder-freezes</id>
+      <content type="html">&lt;p&gt;Another blog post on Apple devices playing up (following the &lt;a href=&quot;http://flopreynat.com/blog/macbook-pro-boots-to-black-screen.html&quot;&gt;“boot to black screen”&lt;/a&gt; one) with this time, the way to resolve a frozen finder on OSX (Mavericks in my case).&lt;/p&gt;
+
+&lt;p&gt;The thing happened to me a few months back, with Finder freezing over and over after a few seconds or minutes of usage, forcing me to force quit Finder on numerous occasions throughout the day.&lt;/p&gt;
+
+&lt;p&gt;Fed up with this bug, and not willing to move away from the native file managing app, I eventually got it sorted out by simply using Mac’s Safe Mode, something that Windows users might be more inclined to be using on a regular basis.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Safe Mode baby&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I personnally had never used the safe mode before, despite around 10 years on apple.&lt;/p&gt;
+
+&lt;p&gt;So if you have a frozen Finder, go for it…&lt;/p&gt;
+
+&lt;p&gt;Follow these steps to start up into safe mode.&lt;/p&gt;
+
+&lt;p&gt;1.Start or restart your Mac. 
+2.Immediately after you hear the startup sound, press and hold the Shift key.
+3.Release the Shift key when you see the Apple logo appear on the screen.&lt;/p&gt;
+
+&lt;p&gt;After the Apple logo appears, it might take longer than usual to reach the login screen or your desktop. This is because your Mac performs a directory check of your startup disk as part of safe mode.&lt;/p&gt;
+
+&lt;p&gt;To leave safe mode, restart your computer without pressing any keys during startup.&lt;/p&gt;
+
+&lt;p&gt;(Taken from &lt;a href=&quot;https://support.apple.com/en-us/HT201262&quot;&gt;“Apple Support website”&lt;/a&gt;)&lt;/p&gt;
+</content>
+    </entry>
   
     <entry>
       <title>Gulp throws Potentially unhandled rejection error</title>
