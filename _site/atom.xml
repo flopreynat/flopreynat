@@ -3,12 +3,36 @@
   <title>flopreynat.com</title>
   <link href="http://www.flopreynat.com/atom.xml" rel="self" />
   <link href="http://www.flopreynat.com/"/>
-  <updated>2016-05-29T20:59:13+02:00</updated>
+  <updated>2016-07-04T22:38:43+02:00</updated>
   <id>http://www.flopreynat.com</id>
   <author>
     <name>flo preynat</name>
     <email>me@flopreynat.com</email>
   </author>
+  
+    <entry>
+      <title>Create a dribbble API-powered protfolio in no time</title>
+      <link href="http://www.flopreynat.com/blog/dribbble-api-portfolio.html" />
+      <updated>2016-07-04T00:00:00+02:00</updated>
+      <id>http://www.flopreynat.com/blog/dribbble-api-portfolio</id>
+      <content type="html">&lt;p&gt;APIs are a foundational element in today’s tech world. They help you enrich your data, and remain the best, simplest and quickest way to integrate to other engines, apps … you name it.&lt;/p&gt;
+
+&lt;p&gt;In this example, we’ll focus on a quick (and dirty) dribble to website integration, helping you generate a dribbble-api-powered portfolio, and kill two birds with one stone.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Leveraging APIs Matters&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Quick (code)pen below showing you in details how I did it.
+Do not be too judgemental on the overall design, this was made in a few minutes, throwing bootstrap on a page before connecting to my dribbble account.&lt;/p&gt;
+
+&lt;p&gt;The longest part was to register an application on your dribbble account. Simply log into your account, navigate to Account Settings &amp;gt; Applications, and register your app. You’ll be needing your Client Access Token to make this work…&lt;/p&gt;
+
+&lt;p data-height=&quot;265&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;oLgyZQ&quot; data-default-tab=&quot;js,result&quot; data-user=&quot;flopreynat&quot; data-embed-version=&quot;2&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/flopreynat/pen/oLgyZQ/&quot;&gt;dribbble portfolio with dribbble api v1&lt;/a&gt; by flo preynat (&lt;a href=&quot;http://codepen.io/flopreynat&quot;&gt;@flopreynat&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</content>
+    </entry>
   
     <entry>
       <title>Mac Finder freezes... WTF</title>
