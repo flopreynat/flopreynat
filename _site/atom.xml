@@ -3,12 +3,50 @@
   <title>flopreynat.com</title>
   <link href="http://www.flopreynat.com/atom.xml" rel="self" />
   <link href="http://www.flopreynat.com/"/>
-  <updated>2016-07-04T22:38:43+02:00</updated>
+  <updated>2016-08-30T23:23:16+02:00</updated>
   <id>http://www.flopreynat.com</id>
   <author>
     <name>flo preynat</name>
     <email>me@flopreynat.com</email>
   </author>
+  
+    <entry>
+      <title>Wordpress staging environments on the cheap</title>
+      <link href="http://www.flopreynat.com/blog/wordpress-staging-environment.html" />
+      <updated>2016-08-30T00:00:00+02:00</updated>
+      <id>http://www.flopreynat.com/blog/wordpress-staging-environment</id>
+      <content type="html">&lt;p&gt;Staging environments are one of the keys of a (proper and) controlled deployment process, whatever the technology. Wordpress isn’t any different.&lt;/p&gt;
+
+&lt;p&gt;The problem is that you run a few things on wordpress, don’t consider it as a priority subject (hence do not have the time, nor the money to commit on the suject), …yet wants to make it a decent process. Typical “have it both ways” conundrum.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;DEV &amp;gt; STAGING ENVIRONMENT &amp;gt; PRODUCTION&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Anyway, here are a few options, my views on them, and eventually a decision.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Professional Wordpress hosting (Paid)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Best option is to get people (or an app) meant to do this for you. Defo the best option if this subject is top priority for you. &lt;a href=&quot;https://wpengine.com/support/staging/&quot;&gt;“WPEngine”&lt;/a&gt; or &lt;a href=&quot;https://mediatemple.net/community/products/wordpress/204645480/staging-sites-for-your-wordpress-hosting-service&quot;&gt;“Media Temple”&lt;/a&gt; come to mind to name only a few.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note: I ain’t being sponsored for this.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;WP Migrate DB Pro (Paid)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A popular plugin, often praised on &lt;a href=&quot;http://shoptalkshow.com/&quot;&gt;“ShopTalk Show”&lt;/a&gt;, &lt;a href=&quot;https://deliciousbrains.com/wp-migrate-db-pro/pricing/&quot;&gt;“WP Migrate DB Pro”&lt;/a&gt; is a great option to get your wordpress sites in sync (all content including media) with one click. Cool option to implement a push to production process. Starting at 89 box.&lt;/p&gt;
+
+&lt;p&gt;As mentioned above, I can’t be investigating any resource in this subject. Yet, I want to be able to set up a few environments and sync content and settings in an easy (and quick process), without having to deal with media url issues (cough wordpress import cough).&lt;/p&gt;
+
+&lt;p&gt;Anyway, went with…&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;All-in-One WP Migration (Free)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;As advertised, &lt;a href=&quot;https://wordpress.org/plugins/all-in-one-wp-migration/&quot;&gt;“the plugin”&lt;/a&gt; allows you to export your database, media files, plugins, and themes. You can apply unlimited find/replace operations on your database and the plugin will also fix any serialization problems that occur during find/replace operations.&lt;/p&gt;
+
+&lt;p&gt;Not bad for a free option, and works like a charm to get those wordpress environments in sync.&lt;/p&gt;
+
+</content>
+    </entry>
   
     <entry>
       <title>Create a dribbble API-powered protfolio in no time</title>
