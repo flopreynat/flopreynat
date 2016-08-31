@@ -9,7 +9,7 @@ layout: default
 <div class="container hero-under">
   <div class="row">
     <div class="col-lg-12 text-center">
-      <h2>Nothing spectacular. Still me though</h2>
+      <br><h2>Nothing spectacular. Still me though</h2>
     </div>
     <div class="col-lg-8 col-lg-offset-2 text-center">
       <p class="pad">Hi, my name is flo. I am a front-end dev based in France. I work as UI Designer & Support Engineer at odaseva.com, a young and dynamic startup.</p>
@@ -42,10 +42,11 @@ layout: default
     </div>
   </div>
 </div>
-<div class="container">
+<div class="readMore">
+  <div class="container">
   <div class="row">
     <div class="col-lg-12 text-center">
-      <h2>Latest Blog Posts</h2>
+      <br><h2>Latest Blog Posts</h2>
       {% for post in site.posts limit:2 %}
         <div class="col-lg-6 marg">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
@@ -59,6 +60,18 @@ layout: default
         </div>
       {% endfor %}
       <div class="clearfix"></div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="readMore" style="border-bottom: 1px solid #DBDBDB">
+  <div class="row">
+    <div class="col-xs-8 col-xs-offset-2 text-center pad">
+      <h2>Wanna read more tips & tricks?</h2>
+      <br><a href="blog.html" class="btn btn-flo">READ MORE !</a>
+      <!-- <form class="form-inline pad marg">
+        <button type="submit" class="btn btn-empty">Hello</button>
+      </form> -->
     </div>
   </div>
 </div>
