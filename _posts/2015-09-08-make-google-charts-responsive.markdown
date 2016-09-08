@@ -19,7 +19,7 @@ By default, the charts come in the form of fixed width element which you can eas
 You will need to add a little jquery to get that to work as expected.
 
 <pre>
-<code class="language-ruby">
+<code class="language-javascript">
 	$(window).resize(function(){
 	  	drawChart1();
 	  	drawChart2();

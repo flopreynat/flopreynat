@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>flopreynat.com | Make Google Charts Responsive</title>
-  <meta name="description" content="A quick blog post on how to make Google Charts play nicely in responsive mode. Nothing close to rocket science but still useful.">
+  <title>flopreynat.com | Responsive video code snippet</title>
+  <meta name="description" content="An ancient blogpost of mine, and this clever responsive video code snippet presented (at the time) by Ethan Marcotte, at btconf 2014 during his Laziness In T...">
   <link rel="alternate" type="application/atom+xml" title="flopreynat" href="/atom_feed.xml" />
   <link rel="stylesheet" href="/css/global.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="canonical" href="http://www.flopreynat.com/blog/make-google-charts-responsive.html">
+  <link rel="canonical" href="http://www.flopreynat.com/blog/responsive-video-code-snippet.html">
   <link rel="alternate" type="application/rss+xml" title="flopreynat.com" href="http://www.flopreynat.com/feed.xml" />
   <script src="/js/jquery-2.1.4.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
@@ -64,35 +64,38 @@
     
     <div class="container">
   <div class="col-lg-10 col-lg-offset-1">
-    <h1 class="post-title">Make Google Charts Responsive</h1>
-    <p class="post-meta"><i class="fa fa-calendar-o"></i>Posted on Sep 8, 2015 | Category: <span class="post-category">google</span></p>
+    <h1 class="post-title">Responsive video code snippet</h1>
+    <p class="post-meta"><i class="fa fa-calendar-o"></i>Posted on Sep 15, 2015 | Category: <span class="post-category">css</span></p>
     <div class="marg">
       
-        <img src="/img/google-charts-responsive.jpg" alt="Make Google Charts Responsive" class="post-image">
+        <img src="/img/responsive-video-code-snippet.jpg" alt="Responsive video code snippet" class="post-image">
       
       <article class="pad">
-        <p>A quick blog post on how to make Google Charts play nicely in responsive mode. Nothing close to rocket science but still useful.</p>
+        <p>An ancient blogpost of mine, and this clever responsive video code snippet presented (at the time) by Ethan Marcotte, at btconf 2014 during his <a href="https://beyondtellerrand.com/events/duesseldorf-2014/speakers/ethan-marcotte#talk">Laziness In The Time Of Responsive Design</a> talk.</p>
 
-<p>For those who don’t know, <a href="https://google-developers.appspot.com/chart/">Google Charts</a> is a visualization tool, a gallery of interactive charts and data tools that you can integrate into your website. You provide data through php, json and Google Charts display it nicely for you.</p>
+<p>A quick way to make videos look good at any size, the height/width ratio of the media now respected.</p>
 
-<h4 id="issue">Issue</h4>
-
-<p>By default, the charts come in the form of fixed width element which you can easily tweak to adapt to the now-famous ‘width:100%’ format. However the charts will only appear in that format when the page is loaded. They won’t dynamically resize when the browser window width is changed.</p>
-
-<h4 id="solution">Solution</h4>
-
-<p>You will need to add a little jquery to get that to work as expected.</p>
+<p>Enough chit chat.</p>
 
 <pre>
-<code class="language-javascript">
-	$(window).resize(function(){
-	  	drawChart1();
-	  	drawChart2();
-	});
+<code class="language-css">
+.video-container {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+ 
+.video-container &gt; * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
 </code>
 </pre>
 
-<p>There’s obviously a <a href="http://codepen.io/flopreynat/pen/BfLkA">codepen</a> for this.</p>
+<p>There’s a <a href="http://codepen.io/flopreynat/pen/KGAov">codepen</a> for it.</p>
 
       </article>
       
