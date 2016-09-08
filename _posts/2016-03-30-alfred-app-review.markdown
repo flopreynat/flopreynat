@@ -1,7 +1,7 @@
 ---
 title:  "Alfred App Review"
 date:   2016-04-19
-category: productivity
+category: apps
 permalink: /blog/alfred-app-review.html
 image: alfred-app.jpg
 ---
