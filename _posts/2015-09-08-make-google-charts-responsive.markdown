@@ -9,12 +9,12 @@ A quick blog post on how to make Google Charts play nicely in responsive mode. N
 
 For those who don’t know, [Google Charts](https://google-developers.appspot.com/chart/) is a visualization tool, a gallery of interactive charts and data tools that you can integrate into your website. You provide data through php, json and Google Charts display it nicely for you.
 
-####Issue
+#### Issue
 
 By default, the charts come in the form of fixed width element which you can easily tweak to adapt to the now-famous ‘width:100%’ format. However the charts will only appear in that format when the page is loaded. They won’t dynamically resize when the browser window width is changed.
 
 
-####Solution
+#### Solution
 
 You will need to add a little jquery to get that to work as expected.
 
