@@ -1,5 +1,5 @@
 ---
-title:  "Create a dribbble API-powered protfolio in no time"
+title:  "Create a dribbble API-powered portfolio in no time"
 date:   2016-07-04
 category: design
 permalink: /blog/dribbble-api-portfolio.html
