@@ -19,9 +19,9 @@ So if you have a frozen Finder, go for it...
 
 Follow these steps to start up into safe mode.
 
-1.Start or restart your Mac. 
-2.Immediately after you hear the startup sound, press and hold the Shift key.
-3.Release the Shift key when you see the Apple logo appear on the screen.
+1. Start or restart your Mac. 
+2. Immediately after you hear the startup sound, press and hold the Shift key.
+3. Release the Shift key when you see the Apple logo appear on the screen.
 
 After the Apple logo appears, it might take longer than usual to reach the login screen or your desktop. This is because your Mac performs a directory check of your startup disk as part of safe mode.
 

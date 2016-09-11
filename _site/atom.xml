@@ -3,7 +3,7 @@
   <title>flopreynat.com</title>
   <link href="http://www.flopreynat.com/atom.xml" rel="self" />
   <link href="http://www.flopreynat.com/"/>
-  <updated>2016-09-11T10:43:26+02:00</updated>
+  <updated>2016-09-11T10:54:28+02:00</updated>
   <id>http://www.flopreynat.com</id>
   <author>
     <name>flo preynat</name>
@@ -96,9 +96,11 @@ Do not be too judgemental on the overall design, this was made in a few minutes,
 
 &lt;p&gt;Follow these steps to start up into safe mode.&lt;/p&gt;
 
-&lt;p&gt;1.Start or restart your Mac. 
-2.Immediately after you hear the startup sound, press and hold the Shift key.
-3.Release the Shift key when you see the Apple logo appear on the screen.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Start or restart your Mac.&lt;/li&gt;
+  &lt;li&gt;Immediately after you hear the startup sound, press and hold the Shift key.&lt;/li&gt;
+  &lt;li&gt;Release the Shift key when you see the Apple logo appear on the screen.&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;After the Apple logo appears, it might take longer than usual to reach the login screen or your desktop. This is because your Mac performs a directory check of your startup disk as part of safe mode.&lt;/p&gt;
 
