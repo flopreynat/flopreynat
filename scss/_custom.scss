@@ -94,12 +94,12 @@ img {
 	max-width:100%;
 }
 .btn-flo {
-	border: 1px solid #2B2F33;
 	border-radius:0;
 	background:$color1;
 	color:white;
 	&:hover {
-		border: 1px solid $color1;
+		background:darken($color1,10%);
+		color:white !important;
 	}
 }
 .borderRadius {
