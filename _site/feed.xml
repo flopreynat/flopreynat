@@ -5,9 +5,42 @@
     <description>website for flopreynat</description>
     <link>http://www.flopreynat.com/</link>
     <atom:link href="http://www.flopreynat.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 14 Sep 2016 21:50:59 +0200</pubDate>
-    <lastBuildDate>Wed, 14 Sep 2016 21:50:59 +0200</lastBuildDate>
+    <pubDate>Wed, 21 Sep 2016 22:19:39 +0200</pubDate>
+    <lastBuildDate>Wed, 21 Sep 2016 22:19:39 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>RSI and vertical mouse: a look back at the last 6 months</title>
+        <description>&lt;p&gt;Repetitive strain injury (RSI) is a frequent issue when you spend 10+ hours a day in front of a computer, and it is something I have unfortunately been experiencing these last few years.&lt;/p&gt;
+
+&lt;p&gt;Since I own a mac, I have always been using a magic mouse, but as aching in my right hand (and arm) started to occur on a more regular basis, I started wondering whether this beautiful, yet - let’s be honest - way too small device was the root of my problem.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;DANGER MOUSE !&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Discussing the matter with my osteopath quickly led to the option of using a vertical mouse. And this is why I moved to ‘verticality’ 6 months ago, with the purchase of a basic &lt;a href=&quot;https://www.amazon.fr/gp/product/B00D84P8O8/ref=oh_aui_detailpage_o07_s00?ie=UTF8&amp;amp;psc=1&quot;&gt;“usb vertical mouse ZeleSouris”&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A few reasons why I picked this low-budget mouse:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;this was going to be more like a pilot phase (so I thought)&lt;/li&gt;
+  &lt;li&gt;non-wireless mice are less heavy (no batteries), hence easier to move&lt;/li&gt;
+  &lt;li&gt;this specific device was not pricy hence more than worth a shot&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;6 months on and I have to admit this was the best choice ever. Don’t know whether this mouse is actually the best ever, but my RSI has gone for now.&lt;/p&gt;
+
+&lt;p&gt;I can only advise you to ditch the good looks of the magic mouse for an old bulky mouse, a trackpad or a vertical mouse, should you suffer (or wish to prevent) from RSI.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 21 Sep 2016 00:00:00 +0200</pubDate>
+        <link>http://www.flopreynat.com/blog/rsi-vertical-mouse.html</link>
+        <guid isPermaLink="true">http://www.flopreynat.com/blog/rsi-vertical-mouse.html</guid>
+        
+        
+        <category>uncategorized</category>
+        
+      </item>
     
       <item>
         <title>Wordpress staging environments on the cheap</title>
@@ -305,36 +338,6 @@ To be totally honest, I have never really looked into the Powerpack, but I may b
         
         
         <category>sublime</category>
-        
-      </item>
-    
-      <item>
-        <title>Macbook Pro boots to black screen... WTF</title>
-        <description>&lt;p&gt;So you boot your macbook pro, and you get… well not much. A black screen staring back at you while you frantically reach for your phone to check possible solutions to this problem.&lt;/p&gt;
-
-&lt;h4 id=&quot;pram-reset&quot;&gt;PRAM Reset&lt;/h4&gt;
-
-&lt;p&gt;Look no further. The thing just happened to me and I managed to get through it by resetting the machine’s PRAM, which is - apparently -  a common troubleshooting technique when your favorite apple goes to f***.&lt;/p&gt;
-
-&lt;p&gt;It allegedly should be the last resort when this kind of things happen. But as none of the other techniques I managed to find on the net did work, I’m only going to cover this one since, as mentioned above, it did the trick.&lt;/p&gt;
-
-&lt;p&gt;So here how it’s gotta be done.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;CMD + ALT + P + R&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;You reboot the mac, and as soon as you hear the boot-up sound, you hold down the magic key combination displayed above.&lt;/p&gt;
-
-&lt;p&gt;I haven’t got the slightest idea what the problem was, and why I had to do this.
-But it just does work.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 23 Dec 2015 00:00:00 +0100</pubDate>
-        <link>http://www.flopreynat.com/blog/macbook-pro-boots-to-black-screen.html</link>
-        <guid isPermaLink="true">http://www.flopreynat.com/blog/macbook-pro-boots-to-black-screen.html</guid>
-        
-        
-        <category>apple</category>
         
       </item>
     
