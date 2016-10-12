@@ -5,9 +5,34 @@
     <description>website for flopreynat</description>
     <link>http://www.flopreynat.com/</link>
     <atom:link href="http://www.flopreynat.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 21 Sep 2016 22:31:44 +0200</pubDate>
-    <lastBuildDate>Wed, 21 Sep 2016 22:31:44 +0200</lastBuildDate>
+    <pubDate>Wed, 12 Oct 2016 22:06:09 +0200</pubDate>
+    <lastBuildDate>Wed, 12 Oct 2016 22:06:09 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Speed up your Salesforce admin search with Sid&#39;s Searchbox</title>
+        <description>&lt;p&gt;If you’re a Salesforce user, especially a developer or admin, you may spend most of your day in the Salesforce setup area, adding and editing apex classes, visualforce pages and adjusting other admin settings.&lt;/p&gt;
+
+&lt;p&gt;Anything helping you stop wasting time on the setup area is more than welcome. Therefore I can only recommend you to give this chrome extension a go.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In Search of Speed&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Made by Salesforce MVP and Dreamforce 16 superstar ;) Sid Nagavarapu, &lt;a href=&quot;https://chrome.google.com/webstore/detail/salesforce-searchbox/moaokcjghnjifeeahifofckbmhofjdbi&quot;&gt;“Salesforce Searchbox”&lt;/a&gt; is a great way to gain in productivity by adding to all config pages a simple search box, which will search in all configuration items on the page.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/salesforce-admin-search-account.jpg&quot; alt=&quot;salesforce search admin&quot; title=&quot;salesforce search admin&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The plugin supports some basic regex searches if you want to go fancy. In any case, you’ll speed up your searches and will defo spend more time providing the most value to the CRM users.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 12 Oct 2016 00:00:00 +0200</pubDate>
+        <link>http://www.flopreynat.com/blog/salesforce-admin-search.html</link>
+        <guid isPermaLink="true">http://www.flopreynat.com/blog/salesforce-admin-search.html</guid>
+        
+        
+        <category>salesforce</category>
+        
+      </item>
     
       <item>
         <title>RSI and vertical mouse: a look back at the last 6 months</title>
@@ -311,33 +336,6 @@ To be totally honest, I have never really looked into the Powerpack, but I may b
         
         
         <category>apps</category>
-        
-      </item>
-    
-      <item>
-        <title>Autocomplete file names in Sublime</title>
-        <description>&lt;p&gt;Another cool add-on to your Sublime with this great little plugin that allows you to autocomple your file names and speed up your coding.&lt;/p&gt;
-
-&lt;p&gt;Use your &lt;a href=&quot;https://packagecontrol.io/&quot;&gt;Package Control&lt;/a&gt; (CMD + SHIFT + P) to install &lt;a href=&quot;https://github.com/BoundInCode/AutoFileName&quot;&gt;AutoFileName&lt;/a&gt; and start playing with it.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Autocomplete FTW!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Here’s a quick gif to show the plugin’s wonders.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://flopreynat.com/img/autofilename.gif&quot; alt=&quot;AutoFileName&quot; title=&quot;AutoFileName&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Been using for a long time now, but I reckon it hasn’t got the fame it deserves.&lt;/p&gt;
-
-&lt;p&gt;Kudos to &lt;a href=&quot;https://twitter.com/boundincode&quot;&gt;@boundincode&lt;/a&gt; (Liam Cain), the creator behind AutoFileName.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 06 Jan 2016 00:00:00 +0100</pubDate>
-        <link>http://www.flopreynat.com/blog/autocomplete-file-names-sublimetext.html</link>
-        <guid isPermaLink="true">http://www.flopreynat.com/blog/autocomplete-file-names-sublimetext.html</guid>
-        
-        
-        <category>sublime</category>
         
       </item>
     

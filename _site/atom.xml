@@ -3,12 +3,33 @@
   <title>flopreynat.com</title>
   <link href="http://www.flopreynat.com/atom.xml" rel="self" />
   <link href="http://www.flopreynat.com/"/>
-  <updated>2016-09-21T22:31:44+02:00</updated>
+  <updated>2016-10-12T22:06:09+02:00</updated>
   <id>http://www.flopreynat.com</id>
   <author>
     <name>flo preynat</name>
     <email>me@flopreynat.com</email>
   </author>
+  
+    <entry>
+      <title>Speed up your Salesforce admin search with Sid's Searchbox</title>
+      <link href="http://www.flopreynat.com/blog/salesforce-admin-search.html" />
+      <updated>2016-10-12T00:00:00+02:00</updated>
+      <id>http://www.flopreynat.com/blog/salesforce-admin-search</id>
+      <content type="html">&lt;p&gt;If you’re a Salesforce user, especially a developer or admin, you may spend most of your day in the Salesforce setup area, adding and editing apex classes, visualforce pages and adjusting other admin settings.&lt;/p&gt;
+
+&lt;p&gt;Anything helping you stop wasting time on the setup area is more than welcome. Therefore I can only recommend you to give this chrome extension a go.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In Search of Speed&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Made by Salesforce MVP and Dreamforce 16 superstar ;) Sid Nagavarapu, &lt;a href=&quot;https://chrome.google.com/webstore/detail/salesforce-searchbox/moaokcjghnjifeeahifofckbmhofjdbi&quot;&gt;“Salesforce Searchbox”&lt;/a&gt; is a great way to gain in productivity by adding to all config pages a simple search box, which will search in all configuration items on the page.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/salesforce-admin-search-account.jpg&quot; alt=&quot;salesforce search admin&quot; title=&quot;salesforce search admin&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The plugin supports some basic regex searches if you want to go fancy. In any case, you’ll speed up your searches and will defo spend more time providing the most value to the CRM users.&lt;/p&gt;
+</content>
+    </entry>
   
     <entry>
       <title>RSI and vertical mouse: a look back at the last 6 months</title>
