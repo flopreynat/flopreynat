@@ -23,10 +23,12 @@ The ones I've used from the start:
 *	<a href="http://fancycrave.com/" title="Fancy Crave" target="_blank">Fancy Crave</a>
 *	<a href="https://www.flickr.com/creativecommons/" title="Flickr Creative Commons" target="_blank">Flickr Creative Commons</a>
 *	<a href="http://foodiesfeed.com/category/free-food-images/" title="Foodies Feed" target="_blank">Foodies Feed</a>
+*	<a href="http://foodshot.co/" title="Foodshot" target="_blank">Foodshot</a>
 *	<a href="http://freelyphotos.com/" title="Freely Photos" target="_blank">Freely Photos</a>
 *	<a href="http://freenaturestock.com/" title="ree Nature Stock" target="_blank">Free Nature Stock</a>
 *	<a href="http://furiouscamera.com/" title="Furious Camera" target="_blank">Furious Camera</a>
-* <a href="http://getrefe.tumblr.com/" title="Getrefe" target="_blank">Getrefe</a>
+* 	<a href="http://getrefe.tumblr.com/" title="Getrefe" target="_blank">Getrefe</a>
+* 	<a href="https://www.goodfreephotos.com/" title="Good Free Photos" target="_blank">Good Free Photos</a>
 *	<a href="http://www.gratisography.com/" title="Gratisography" target="_blank">Gratisography</a>
 *	<a href="http://isorepublic.com/" title="Iso Republic" target="_blank">Iso Republic</a>
 *	<a href="http://jaymantri.com/" title="Jay mantri" target="_blank">Jay mantri</a>
@@ -50,5 +52,6 @@ The ones I've used from the start:
 *	<a href="http://images.superfamous.com/" title="" target="_blank">Superfamous</a>
 *	<a href="http://travelcoffeebook.tumblr.com/" title="Travel Coffee Book" target="_blank">Travel Coffee Book</a>
 *	<a href="http://trunklog.com/" title="Trunklog" target="_blank">Trunklog</a>
+
 
 How about that!
