@@ -95,6 +95,8 @@ var configProfile = {
   "showUser": false,
   "showTime": false,
   "showImages": false,
+  "showRetweet": false,
+  "showInteraction": false,
   "lang": 'en'
 };
 twitterFetcher.fetch(configProfile);

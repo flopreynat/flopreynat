@@ -3,7 +3,7 @@
   <title>flopreynat.com</title>
   <link href="http://www.flopreynat.com/atom.xml" rel="self" />
   <link href="http://www.flopreynat.com/"/>
-  <updated>2016-11-17T22:05:37+01:00</updated>
+  <updated>2016-11-17T22:41:45+01:00</updated>
   <id>http://www.flopreynat.com</id>
   <author>
     <name>flo preynat</name>
@@ -11,11 +11,11 @@
   </author>
   
     <entry>
-      <title>Data Privacy Matters</title>
+      <title>(Our Personal) Data Privacy Matters</title>
       <link href="http://www.flopreynat.com/blog/data-privacy-matters.html" />
       <updated>2016-11-17T00:00:00+01:00</updated>
       <id>http://www.flopreynat.com/blog/data-privacy-series</id>
-      <content type="html">&lt;p&gt;Data Privacy is a big deal. If you, like me, get annoyed every time you receive an unwanted newsletter, or feel wary about looking up some specific items while logged in on google, you’ll know what I’m talking about.&lt;/p&gt;
+      <content type="html">&lt;p&gt;(Our personal) Data Privacy is a big deal. If you, like me, get annoyed every time you receive an unwanted newsletter, or feel wary about looking up some specific items while logged in on google, you’ll know what I’m talking about.&lt;/p&gt;
 
 &lt;p&gt;This subject has always been of great interest to me, both from personal and technoligcal stand points.
 And as time passes by, and I see new generations of youngsters come into play, with absolutely no experience of what the time without the internet could have looked/felt like, it gets me thinking more and more about this situation, which I know isn’t new, but is not getting any better to say the least.&lt;/p&gt;
@@ -740,10 +740,12 @@ defaults:
   &lt;li&gt;&lt;a href=&quot;http://fancycrave.com/&quot; title=&quot;Fancy Crave&quot; target=&quot;_blank&quot;&gt;Fancy Crave&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.flickr.com/creativecommons/&quot; title=&quot;Flickr Creative Commons&quot; target=&quot;_blank&quot;&gt;Flickr Creative Commons&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://foodiesfeed.com/category/free-food-images/&quot; title=&quot;Foodies Feed&quot; target=&quot;_blank&quot;&gt;Foodies Feed&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://foodshot.co/&quot; title=&quot;Foodshot&quot; target=&quot;_blank&quot;&gt;Foodshot&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://freelyphotos.com/&quot; title=&quot;Freely Photos&quot; target=&quot;_blank&quot;&gt;Freely Photos&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://freenaturestock.com/&quot; title=&quot;ree Nature Stock&quot; target=&quot;_blank&quot;&gt;Free Nature Stock&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://furiouscamera.com/&quot; title=&quot;Furious Camera&quot; target=&quot;_blank&quot;&gt;Furious Camera&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://getrefe.tumblr.com/&quot; title=&quot;Getrefe&quot; target=&quot;_blank&quot;&gt;Getrefe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodfreephotos.com/&quot; title=&quot;Good Free Photos&quot; target=&quot;_blank&quot;&gt;Good Free Photos&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.gratisography.com/&quot; title=&quot;Gratisography&quot; target=&quot;_blank&quot;&gt;Gratisography&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://isorepublic.com/&quot; title=&quot;Iso Republic&quot; target=&quot;_blank&quot;&gt;Iso Republic&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://jaymantri.com/&quot; title=&quot;Jay mantri&quot; target=&quot;_blank&quot;&gt;Jay mantri&lt;/a&gt;&lt;/li&gt;
