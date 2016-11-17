@@ -3,12 +3,42 @@
   <title>flopreynat.com</title>
   <link href="http://www.flopreynat.com/atom.xml" rel="self" />
   <link href="http://www.flopreynat.com/"/>
-  <updated>2016-10-12T22:06:09+02:00</updated>
+  <updated>2016-11-17T21:55:43+01:00</updated>
   <id>http://www.flopreynat.com</id>
   <author>
     <name>flo preynat</name>
     <email>me@flopreynat.com</email>
   </author>
+  
+    <entry>
+      <title>Data Privacy Matters</title>
+      <link href="http://www.flopreynat.com/blog/data-privacy-matters.html" />
+      <updated>2016-11-17T00:00:00+01:00</updated>
+      <id>http://www.flopreynat.com/blog/data-privacy-series</id>
+      <content type="html">&lt;p&gt;Data Privacy is a big deal. If you, like me, get annoyed every time you receive an unwanted newsletter, or feel wary about looking up some specific items while logged in on google, you’ll know what I’m talking about.&lt;/p&gt;
+
+&lt;p&gt;This subject has always been of great interest to me, both from personal and technoligcal stand points.
+And as time passes by, and I see new generations of youngsters come into play, with absolutely no experience of what the time without the internet could have looked/felt like, it gets me thinking more and more about this situation, which I know isn’t new, but is not getting any better to say the least.&lt;/p&gt;
+
+&lt;p&gt;This is the reason why I am launching today with this quick post a series of articles on the subject.
+I have made drastic changes in my personal life theses last few weeks, and this blog is a great way to keep the words of advice from all savvy people resonate, and share my actions and overall experience in improving my personal data privacy.&lt;/p&gt;
+
+&lt;p&gt;Let’s start with a cool prez from &lt;a href=&quot;https://ar.al/&quot;&gt;“Aral Balkan”&lt;/a&gt; who’s taken his ‘&lt;a href=&quot;https://ind.ie/beyond-the-clouds/&quot;&gt;“Beyond The Clouds”&lt;/a&gt;’ prez to another level with ‘The Matrix, Inverted’, a great talk on people faming made in Malmö, at the &lt;a href=&quot;http://oredev.org/&quot;&gt;“Øredev Conference”&lt;/a&gt; earlier this month.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If it’s free, YOU are the product&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For your info, I have been following Aral’s work for a few years now. Aral is big on Human Rights, Social Justice &amp;amp; Ethical Design, and runs &lt;a href=&quot;https://ind.ie/&quot;&gt;“ind.ie”&lt;/a&gt;, a small social enterprise striving for social justice in the digital age.
+His eloquence and passion for defending data privacy are second to none.&lt;/p&gt;
+
+&lt;p&gt;Enjoy the wise words!&lt;/p&gt;
+
+&lt;iframe src=&quot;https://player.vimeo.com/video/190855745&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href=&quot;https://vimeo.com/190855745&quot;&gt;The Matrix, Inverted&lt;/a&gt; from &lt;a href=&quot;https://vimeo.com/user4280938&quot;&gt;&amp;Oslash;redev Conference&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+    </entry>
   
     <entry>
       <title>Speed up your Salesforce admin search with Sid's Searchbox</title>

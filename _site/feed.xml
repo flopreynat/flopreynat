@@ -5,9 +5,43 @@
     <description>website for flopreynat</description>
     <link>http://www.flopreynat.com/</link>
     <atom:link href="http://www.flopreynat.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Oct 2016 22:06:09 +0200</pubDate>
-    <lastBuildDate>Wed, 12 Oct 2016 22:06:09 +0200</lastBuildDate>
+    <pubDate>Thu, 17 Nov 2016 21:55:43 +0100</pubDate>
+    <lastBuildDate>Thu, 17 Nov 2016 21:55:43 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Data Privacy Matters</title>
+        <description>&lt;p&gt;Data Privacy is a big deal. If you, like me, get annoyed every time you receive an unwanted newsletter, or feel wary about looking up some specific items while logged in on google, you’ll know what I’m talking about.&lt;/p&gt;
+
+&lt;p&gt;This subject has always been of great interest to me, both from personal and technoligcal stand points.
+And as time passes by, and I see new generations of youngsters come into play, with absolutely no experience of what the time without the internet could have looked/felt like, it gets me thinking more and more about this situation, which I know isn’t new, but is not getting any better to say the least.&lt;/p&gt;
+
+&lt;p&gt;This is the reason why I am launching today with this quick post a series of articles on the subject.
+I have made drastic changes in my personal life theses last few weeks, and this blog is a great way to keep the words of advice from all savvy people resonate, and share my actions and overall experience in improving my personal data privacy.&lt;/p&gt;
+
+&lt;p&gt;Let’s start with a cool prez from &lt;a href=&quot;https://ar.al/&quot;&gt;“Aral Balkan”&lt;/a&gt; who’s taken his ‘&lt;a href=&quot;https://ind.ie/beyond-the-clouds/&quot;&gt;“Beyond The Clouds”&lt;/a&gt;’ prez to another level with ‘The Matrix, Inverted’, a great talk on people faming made in Malmö, at the &lt;a href=&quot;http://oredev.org/&quot;&gt;“Øredev Conference”&lt;/a&gt; earlier this month.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If it’s free, YOU are the product&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For your info, I have been following Aral’s work for a few years now. Aral is big on Human Rights, Social Justice &amp;amp; Ethical Design, and runs &lt;a href=&quot;https://ind.ie/&quot;&gt;“ind.ie”&lt;/a&gt;, a small social enterprise striving for social justice in the digital age.
+His eloquence and passion for defending data privacy are second to none.&lt;/p&gt;
+
+&lt;p&gt;Enjoy the wise words!&lt;/p&gt;
+
+&lt;iframe src=&quot;https://player.vimeo.com/video/190855745&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href=&quot;https://vimeo.com/190855745&quot;&gt;The Matrix, Inverted&lt;/a&gt; from &lt;a href=&quot;https://vimeo.com/user4280938&quot;&gt;&amp;Oslash;redev Conference&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 17 Nov 2016 00:00:00 +0100</pubDate>
+        <link>http://www.flopreynat.com/blog/data-privacy-matters.html</link>
+        <guid isPermaLink="true">http://www.flopreynat.com/blog/data-privacy-matters.html</guid>
+        
+        
+        <category>privacy</category>
+        
+      </item>
     
       <item>
         <title>Speed up your Salesforce admin search with Sid&#39;s Searchbox</title>
@@ -309,33 +343,6 @@ To be totally honest, I have never really looked into the Powerpack, but I may b
         
         
         <category>gruntjs</category>
-        
-      </item>
-    
-      <item>
-        <title>Record your screen in animated GIF format with Licecap</title>
-        <description>&lt;p&gt;I’m often being asked what screen recorder software I use, since I frequently document tutorials, emails, and other user guides with self-explanatory gifs.&lt;/p&gt;
-
-&lt;p&gt;And since the app I use is 1. open source (hence free), 2. super light, and 3. very easy to use, I thought I would give Licecap the credit it deserves.&lt;/p&gt;
-
-&lt;p&gt;As mentioned on &lt;a href=&quot;http://www.cockos.com/licecap/&quot;&gt;the app’s website&lt;/a&gt;, Licecap is a simple animated screen captures software. It probably has the least sexy logo ever, but the app is just great.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Show, don’t tell&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;You open it, set your width, height, and click on record, and you’re done. Stop it, and you’ll get a nice looped gif file, you’ll be able to paste anywhere.&lt;/p&gt;
-
-&lt;p&gt;How neat is that?! I had always thought it was for mac only, but it was originally for windows environments, so all of you can have a go at this little app.&lt;/p&gt;
-
-&lt;p&gt;Thanks to &lt;a href=&quot;http://www.cockos.com/&quot;&gt;Cockos Incorporated&lt;/a&gt; for this beauty.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 07 Jan 2016 00:00:00 +0100</pubDate>
-        <link>http://www.flopreynat.com/blog/record-screen-animated-gif.html</link>
-        <guid isPermaLink="true">http://www.flopreynat.com/blog/record-screen-animated-gif.html</guid>
-        
-        
-        <category>apps</category>
         
       </item>
     
