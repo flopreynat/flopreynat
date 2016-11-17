@@ -1,11 +1,11 @@
 ---
-title:  "Data Privacy Matters"
+title:  "(Our Personal) Data Privacy Matters"
 date:   2016-11-17
 category: privacy
 permalink: /blog/data-privacy-matters.html
 image: data-privacy-matters.jpg
 ---
-Data Privacy is a big deal. If you, like me, get annoyed every time you receive an unwanted newsletter, or feel wary about looking up some specific items while logged in on google, you'll know what I'm talking about.
+(Our personal) Data Privacy is a big deal. If you, like me, get annoyed every time you receive an unwanted newsletter, or feel wary about looking up some specific items while logged in on google, you'll know what I'm talking about.
 
 This subject has always been of great interest to me, both from personal and technoligcal stand points.
 And as time passes by, and I see new generations of youngsters come into play, with absolutely no experience of what the time without the internet could have looked/felt like, it gets me thinking more and more about this situation, which I know isn't new, but is not getting any better to say the least.
