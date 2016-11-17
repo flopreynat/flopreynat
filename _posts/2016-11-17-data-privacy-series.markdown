@@ -13,11 +13,11 @@ And as time passes by, and I see new generations of youngsters come into play, w
 This is the reason why I am launching today with this quick post a series of articles on the subject.
 I have made drastic changes in my personal life theses last few weeks, and this blog is a great way to keep the words of advice from all savvy people resonate, and share my actions and overall experience in improving my personal data privacy.
 
-Let's start with a cool prez from ["Aral Balkan"](https://ar.al/) who's taken his '["Beyond The Clouds"](https://ind.ie/beyond-the-clouds/)' prez to another level with 'The Matrix, Inverted', a great talk on people faming made in Malmö, at the ["Øredev Conference"](http://oredev.org/) earlier this month.
+Let's start with a cool prez from [Aral Balkan](https://ar.al/) who's taken his [Beyond The Clouds](https://ind.ie/beyond-the-clouds/) prez to another level with 'The Matrix, Inverted', a great talk on people faming made in Malmö, at the [Øredev Conference](http://oredev.org/) earlier this month.
 
 > If it's free, YOU are the product
 
-For your info, I have been following Aral's work for a few years now. Aral is big on Human Rights, Social Justice & Ethical Design, and runs ["ind.ie"](https://ind.ie/), a small social enterprise striving for social justice in the digital age.
+For your info, I have been following Aral's work for a few years now. Aral is big on Human Rights, Social Justice & Ethical Design, and runs [ind.ie](https://ind.ie/), a small social enterprise striving for social justice in the digital age.
 His eloquence and passion for defending data privacy are second to none.
 
 Enjoy the wise words!
