@@ -3,12 +3,45 @@
   <title>flopreynat.com</title>
   <link href="http://www.flopreynat.com/atom.xml" rel="self" />
   <link href="http://www.flopreynat.com/"/>
-  <updated>2016-11-17T22:49:59+01:00</updated>
+  <updated>2016-12-20T22:11:14+01:00</updated>
   <id>http://www.flopreynat.com</id>
   <author>
     <name>flo preynat</name>
     <email>me@flopreynat.com</email>
   </author>
+  
+    <entry>
+      <title>Create a PDF Compress Automator App</title>
+      <link href="http://www.flopreynat.com/blog/pdf-compress-automator-app.html" />
+      <updated>2016-12-20T00:00:00+01:00</updated>
+      <id>http://www.flopreynat.com/blog/pdf-compress-automator-app</id>
+      <content type="html">&lt;p&gt;Every time I want to compress pdfs on a new apple machine, I find myself looking for the same (great) posts on the subject, and rarely find the one I’m looking for.&lt;/p&gt;
+
+&lt;p&gt;This is why I’m putting up this nice (personal) go-to blog post on how to easily and quickly set up a PDF Compress Automator App, as I use the app almost every day.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;small is beautiful&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Right so, the steps are as follows:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Download the &lt;a href=&quot;https://github.com/joshcarr/Apple-Quartz-Filters&quot;&gt;Apple Quartz filters&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Move the filters to your ~/Library/ folder by launching Finder and using CMD + SHIFT + G to pull up the Go to access Library folder, and dropping a “Filters” folder containing the quartz filters in there.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Launch Automator and Create an Application by dragging the Apply Quartz Filter to PDF Documents from left to right, and set the desired options (eg Reduce to 150 dpi average quality - STANDARD COMPRESSION) before giving it a name (save it onto your desktop).&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Done deal.&lt;/p&gt;
+
+&lt;p&gt;You can now drag your pdf to your newly-created PDF Compress Application, and you’ll get a fresh copy reduced in size (obviously)…&lt;/p&gt;
+</content>
+    </entry>
   
     <entry>
       <title>(Our Personal) Data Privacy Matters</title>
