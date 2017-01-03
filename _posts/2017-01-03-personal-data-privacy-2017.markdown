@@ -20,7 +20,7 @@ Killing the 'nothing to hide' argument is probably the easiest thing in the worl
 - "Hand me all your passwords if you have fuck all to hide then."
 - "Give me your bank receipts of last year, since there's nothing spectacular in there."
 
-Bottom line is: I don’t have anything to hide. **But I don’t have anything I feel like showing you, either.**
+> Bottom line is: I don’t have anything to hide. **But I don’t have anything I feel like showing you, either.**
 
 ### So Why is Mass Surveillance wrong?
 
