@@ -22,7 +22,7 @@ Killing the 'nothing to hide' argument is probably the easiest thing in the worl
 
 Bottom line is: I don’t have anything to hide. **But I don’t have anything I feel like showing you, either.**
 
-###So Why is Mass Surveillance wrong?
+### So Why is Mass Surveillance wrong?
 
 - it invades our private life space
 - we have absolutely no control of what is being recorded
@@ -35,7 +35,7 @@ Bottom line is: I don’t have anything to hide. **But I don’t have anything I
 - it kills creativity
 - **it has yet to be proved successful in fight against terrorism**
 
-###The thing is, this is far from new.
+### The thing is, this is far from new.
 
 As discussed in this series' first post, people farming, or automated data processing by the likes of facebook, google and the rest is not only something we signed for (by agreeing to the unread and unreadable services' terms and conditions), but something we have absolutely accepted as THE standard web app model. As in free but far from private.
 
@@ -49,7 +49,7 @@ OK, so Google is kind of reading your emails, facebook is recording everything y
 
 So...
 
-###Any solutions out there?
+### Any solutions out there?
 
 As clearly stated by Aral Balkan in [his talk](https://vimeo.com/190855745), regulation, legislation, and ethical design are indeed the answers.
 
