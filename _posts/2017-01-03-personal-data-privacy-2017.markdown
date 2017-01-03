@@ -10,7 +10,7 @@ New year new start. What a great opportunity to start it off on the right foot a
 As discussed last time [we talked on the matter](http://flopreynat.com/blog/data-privacy-matters.html), our personal data privacy matters a lot, and yet, it is being violated more and more.
 
 A quick glimpse at the news tell us [the UK and Theresa May are trying to pass a law](http://www.androidauthority.com/prime-minister-mays-surveillance-law-729874/) that will make it obligatory for internet providers to store every user’s history for up to a year (although [the text has just been declared unlawful by EU's Highest Court](http://curia.europa.eu/juris/document/document.jsf?text=&docid=186492&pageIndex=0&doclang=EN&mode=req&dir=&occ=first&part=1&cid=516300)), or the [German secret services are allegedly wanting to decrypt messengers like WhatsApp](https://netzpolitik.org/2016/projekt-aniski-wie-der-bnd-mit-150-millionen-euro-messenger-wie-whatsapp-entschluesseln-will) via the ANISKI project. 
-Mass surveillance is a hot topic, and defo on the rise theses days.
+Mass surveillance is a hot topic, and defo on the rise these days.
 
 > Big Deal, I have nothing to hide.
 
