@@ -43,7 +43,7 @@ ___
 - it inhibits free association
 - it puts free press in real danger
 - it kills creativity
-- **it has yet to be proved successful in fight against terrorism**
+- **it has yet to be proved successful in the fight against terrorism**
 
 <br>
 
