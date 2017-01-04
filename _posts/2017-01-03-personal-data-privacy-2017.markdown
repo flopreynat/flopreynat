@@ -80,7 +80,7 @@ But while waiting for our constitution reps to dump lobbyists and defend our dig
 - Turn off your phone at night
 - Use [Tor](https://www.torproject.org/) as much as you can on your desktop
 - Use [Orbot](https://guardianproject.info/apps/orbot/) (and hence Orfox) as much as you can on your android if you have one
-- If you don't have enough patience, use [Mozilla's Firefox](https://www.mozilla.org/en-US/firefox/new/) as default browser. Ok they get funded by the other big guns I'm talking about because they need the traffic. But they're non profit, big on privacy and encryption, so let's give them credit.
+- If you don't have enough patience, use [Mozilla's Firefox](https://www.mozilla.org/en-US/firefox/new/) as default browser. Ok they get funded by the other big guns I'm talking (they need mozilla's search traffic). But they're non profit, big on privacy and encryption, so let's give them credit.
 - Block trackers ([Better from Indie](https://ind.ie/) for Safari, [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) or [Ghostery](https://addons.mozilla.org/fr/firefox/addon/ghostery/)... although I'm hearing things about Ghostery selling their stats back)
 - Get a [Protonmail](https://protonmail.com/) account ffs! Paying a small amount for private email is good for you, and a very decent model 
 - Use [Spideroak](https://spideroak.com/) for cloud storage
