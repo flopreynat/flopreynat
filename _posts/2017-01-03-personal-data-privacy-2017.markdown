@@ -33,6 +33,7 @@ Killing the 'nothing to hide' argument is probably the easiest thing in the worl
 ### So Why is Mass Surveillance wrong?
 ___
 <br>
+
 - it invades our private life space
 - we have absolutely no control of what is being recorded
 - nor how long it is being stored
