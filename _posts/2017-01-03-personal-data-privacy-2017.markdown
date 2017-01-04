@@ -5,25 +5,34 @@ category: privacy
 permalink: /blog/personal-data-privacy-in-2017.html
 image: personal-data-privacy-in-2017.jpg
 ---
-New year new start. What a great opportunity to start it off on the right foot and greatly improve your behaviour and overall awareness on the personal data privacy subject. You will feel great and you will start breaking the chain!
+**New year new start**. What a great opportunity to start it off on the right foot and greatly improve your behaviour and overall awareness on the personal data privacy subject. You will feel great and you will start breaking the chain!
 
 As discussed last time [we talked on the matter](http://flopreynat.com/blog/data-privacy-matters.html), our personal data privacy matters a lot, and yet, it is being violated more and more.
 
 A quick glimpse at the news tell us [the UK and Theresa May are trying to pass a law](http://www.androidauthority.com/prime-minister-mays-surveillance-law-729874/) that will make it obligatory for internet providers to store every user’s history for up to a year (although [the text has just been declared unlawful by EU's Highest Court](http://curia.europa.eu/juris/document/document.jsf?text=&docid=186492&pageIndex=0&doclang=EN&mode=req&dir=&occ=first&part=1&cid=516300)), or the [German secret services are allegedly wanting to decrypt messengers like WhatsApp](https://netzpolitik.org/2016/projekt-aniski-wie-der-bnd-mit-150-millionen-euro-messenger-wie-whatsapp-entschluesseln-will) via the ANISKI project. 
 Mass surveillance is a hot topic, and defo on the rise these days.
 
-> Big Deal, I have nothing to hide.
+<br>
 
+### Big Deal, I have nothing to hide.
+___
+<br>
 Killing the 'nothing to hide' argument is probably the easiest thing in the world, so try it yourselves (just for fun) if an idiot tells you he/she has nothing to hide, with this set of decent questions/requests I heard a few folks suggest.
 
 - "Why the fuck do you have curtains in your house?"
 - "Hand me all your passwords if you have fuck all to hide then."
 - "Give me your bank receipts of last year, since there's nothing spectacular in there."
 
-> Bottom line is: I don’t have anything to hide. **But I don’t have anything I feel like showing you, either.**
+<br>
+
+> Bottom line is: I don’t have anything to hide. <br>
+> **But I don’t have anything I feel like showing you, either.**
+
+<br>
 
 ### So Why is Mass Surveillance wrong?
-
+___
+<br>
 - it invades our private life space
 - we have absolutely no control of what is being recorded
 - nor how long it is being stored
@@ -35,8 +44,11 @@ Killing the 'nothing to hide' argument is probably the easiest thing in the worl
 - it kills creativity
 - **it has yet to be proved successful in fight against terrorism**
 
-### The thing is, this is far from new.
+<br>
 
+### The thing is, ...this is far from new.
+___
+<br>
 As discussed in this series' first post, people farming, or automated data processing by the likes of facebook, google and the rest is not only something we signed for (by agreeing to the unread and unreadable services' terms and conditions), but something we have absolutely accepted as THE standard web app model. As in free but far from private.
 
 Examples are countless, but to name only one, feel free to check [Über's latest terms of use update](https://www.uber.com/legal/terms/us/), where you grant Über a worldwide, perpetual, irrevocable, transferable, royalty-free license, with the right to sublicense, to use, copy, modify, create derivative works of, distribute, publicly display, publicly perform, and otherwise exploit in any manner any User Content.
@@ -48,9 +60,11 @@ In addition, and as stated in a court filing, *"all users of email must necessar
 OK, so Google is kind of reading your emails, facebook is recording everything you do/post/interact with for ever, and even if you don't use those services, you are being followed by countless trackers anywhere you go on the web. Not aware of this? Check out the [Do not track series](https://donottrack-doc.com/en/), they surely will entertain you.
 
 So...
+<br>
 
 ### Any solutions out there?
-
+___
+<br>
 As clearly stated by Aral Balkan in [his talk](https://vimeo.com/190855745), regulation, legislation, and ethical design are indeed the answers.
 
 But while waiting for our constitution reps to dump lobbyists and defend our digital rights, let's do our part.
@@ -73,8 +87,12 @@ But while waiting for our constitution reps to dump lobbyists and defend our dig
 - Use [Framatalk](https://framatalk.org) or similar tool for video conference
 - and probably the most important part of all:
 
-**PASS THIS BLOODY MESSAGE ONTO YOUR FRIENDS AND RELATIVES**
-
+<pre>
+<code class="language-bash">
+PASS THIS BLOODY MESSAGE ONTO YOUR FRIENDS AND RELATIVES !!
+</code>
+</pre>
+<br>
 Otherwise, happy new year!
 
 Publicly yours.
