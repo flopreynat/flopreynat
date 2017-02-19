@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>flopreynat.com | Responsive Images Meetup: Coming together is a beginning</title>
+  <meta name="description" content="Last time I talked about responsive images, I did mention I was due to go to the responsive images meetup in Paris, and as the long-awaited event happened a ...">
+  <link rel="alternate" type="application/atom+xml" title="flopreynat" href="/atom_feed.xml" />
+  <link rel="stylesheet" href="/css/global.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="canonical" href="http://www.flopreynat.com/blog/responsive-images-meetup-coming-together-is-a-beginning.html">
+  <link rel="alternate" type="application/rss+xml" title="flopreynat.com" href="http://www.flopreynat.com/feed.xml" />
+  <script src="/js/jquery-2.1.4.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/twitterFetcher.js"></script>
+</head>
+
+
+  <body>
+
+    <!-- Static navbar -->
+<div class="navbar navbar-inverse navbar-static-top">
+  <div class="navbar-header">
+    <div class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <a href="#" class="menuBtn type1"><span></span></a>
+    </div>
+    <a class="navbar-brand" href="/">flopreynat.com</a>
+  </div>
+  <div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav navbar-right">
+      <li>
+        <a class="page-link" href="/">Home</a>
+      </li>
+      
+        
+      
+        
+        <li>
+          <a class="page-link" href="/blog/">Blog</a>
+        </li>
+        
+      
+        
+        <li>
+          <a class="page-link" href="/contact.html">Contact</a>
+        </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </ul>
+  </div>
+</div>
+    
+    <div class="container">
+  <div class="col-lg-10 col-lg-offset-1">
+    <h1 class="post-title">Responsive Images Meetup: Coming together is a beginning</h1>
+    <p class="post-meta"><i class="fa fa-calendar-o"></i>Posted on Sep 13, 2013 | Category: <span class="post-category">design</span></p>
+    <div class="marg">
+      
+        <img src="/img/responsive-images-meetup.jpg" alt="Responsive Images Meetup: Coming together is a beginning" class="post-image">
+      
+      <article class="pad">
+        <p>Last time I talked about responsive images, I did mention I was due to go to the responsive images meetup in Paris, and as the long-awaited event happened a couple of days ago, I thought it would be nice to write a quick recap for the folks unable to make it.</p>
+
+<h3 id="side-note">SIDE NOTE</h3>
+
+<p>Before we get to the the nitty gritty, let me start this blog post with a quick line on the venue. The meetup took place in Mozilla’s Paris headquarters, a superb office located boulevard Montmartre, in Paris’ 9th arrondissement. What a place this is! Two snaps for your eyes.</p>
+
+<p>Mozilla really know how to welcome guests. Just saying.</p>
+
+<h3 id="high-hopes">HIGH HOPES</h3>
+
+<p>Having received a teasing email from <a href="https://twitter.com/yoavweiss">Yoav</a> a couple of days prior to the get-together, and seen a number of known representatives from Apple, Google, Mozilla, Microsoft and Adobe inked on the presence sheet (unfortunately Bruce Lawson from Opera was unable to make it), I was very much looking forward to this event. After all, the web community (especially the developers) had been waiting over two years for some clear stand on the subject of responsive images from the big players, while, in the mean time, and according to the latest stats, 72% of responsive websites were still serving the same amount of data to ANY device.</p>
+
+<h3 id="use-cases">USE CASES</h3>
+
+<p>The day started off with a pre-recorded presentation of the problem at hand from <a href="http://responsiveimages.org/">RICG</a>‘s front man <a href="https://twitter.com/wilto">Mat Marquis</a>, and we quickly went to real case uses with an overview of the BBC and Akamai’s ways of handling the issue.</p>
+
+<p>Very interesting to see what large scale companies had been implementing, especially since the BBC and its 83 millions monthly views (2.6 millions views per day), as <a href="https://twitter.com/integralist">Mark McDonnell</a> explained, had been using none of the so-far-proposed solutions , but ‘a form’ of javascript-dependent responsive image system. Lightweight, fast working on all devices solution, and implemented since 2011.</p>
+
+<p>I can only invite you to take a look at their project. The javascript is open-sourced and available on <a href="https://github.com/BBC-News/Imager.js/">Github</a>.</p>
+
+<p>Next, <a href="https://twitter.com/guypod">Guy Podjarny</a> took the stand to explain Akamai’s sophisticated content delivery acceleration techniques including smart delivery (with Edge Device Characterization) using patterns of characteristics drawn from a database of mobile devices, front-end optimization, the still-in-beta image converter allowing art direction, and adaptive image compression taking into account the network conditions to define the quality of the served content.</p>
+
+<p><img src="http://flopreynat.com/img/guy-podjarny.jpg" alt="Guy Podjarny" title="Guy Podjarny" /></p>
+
+<p>Quite a setup. Defo out of my league, and certainly destined to large scale sites. In a nutshell, not exactly what you would use to build the website of your local pub.</p>
+
+<h3 id="a-look-back-at-the-proposed-solutions">A LOOK BACK AT THE PROPOSED SOLUTIONS</h3>
+
+<p>DPR switching, Viewport switching and Art direction on our minds, and a few coffees down our throats, we went ahead and reviewed the proposed solutions.</p>
+
+<p>Apple’s <a href="https://twitter.com/hober">Theresa O’Connor</a> presented the <code>srcset</code> attribute, which defines the various image resources to be used, and the clues to help a user agent determine the most appropriate one to display, already implemented (at least a limited version of it) by webkit.</p>
+
+<p><code>
+&lt;img alt="The Breakfast Combo"</code><br />
+<code>src="banner.jpeg"</code><br />
+<code>srcset="banner-HD.jpeg 2x, banner-phone.jpeg 100w, banner-phone-HD.jpeg 100w 2x"&gt;
+</code></p>
+
+<p>The <code>picture</code> element presented by Mozilla’s <a href="https://twitter.com/marcosc">Marcos Caceres</a>, defining a declarative solution for grouping multiple versions of an image based on different criteria (format, resolution, orientation, and more), allowing the user agent to select the optimum image to be presented while providing the best solution (so far) for art direction.</p>
+
+<p><code>&lt;picture width="500" height="500"&gt;</code><br />
+   <code>&lt;source media="(min-width: 45em)" src="large.jpg"&gt;</code><br />
+   <code>&lt;source media="(min-width: 18em)" src="med.jpg"&gt;</code><br />
+   <code>&lt;source src="small.jpg"&gt;</code><br />
+   <code>&lt;img src="small.jpg" alt="" lazyload&gt;</code><br />
+   <code>&lt;p&gt;Accessible text&lt;/p&gt;</code><br />
+<code>&lt;/picture&gt;</code><br /></p>
+
+<p>‘HTTP Client Hints’ presented by Google’s <a href="https://twitter.com/igrigorik">Ilya Grigorik</a>, which defines a set of HTTP headers allowing browsers to indicate a list of device and agent specific preferences, and drive servers to use these “client hints” to assist in content negotiation.
+Ideal solution as the content served would match the environmental conditions of the client, ideal in the minimal developer effort sense (I knew you would love that one!), and also ideal as far as semantic is concerned (ie. a simple image tag ).</p>
+
+<p>But… we would need to use a new header where we would define the devicePixelRatio (DPR) of the terminal (e.g. CH: dpr=2) to pass the relevant info to the server, the current UA header being unable to do that. More on client hints <a href="https://www.igvita.com/2013/08/29/automating-dpr-switching-with-client-hints/">here</a>.</p>
+
+<p>The ‘SVG’s Switch element’ presented by W3C’s <a href="https://twitter.com/robinberjon">Robin Berjon</a>, <a href="https://www.w3.org/TR/SVG2/struct.html#SwitchElement">a solution</a> already well supported today, already offering a built-in, working fallback. See his full presentation <a href="http://berjon.com/presentations/20130910-ricg-switch/#/">here</a>.</p>
+
+<p><code>&lt;switch alt="Accessible text"&gt;</code><br />
+     <code>&lt;img media="(min-width: 45em)" src="large.jpg"&gt;</code><br />
+     <code>&lt;img media="(min-width: 18em)" src="med.jpg"&gt;</code><br />
+     <code>&lt;img src="small.jpg"&gt;</code><br />
+<code>&lt;/switch&gt;</code><br /></p>
+
+<p>‘New Image Format’ presented by Yoav Weiss, a responsive image container containing internal layers which uses resizing and crop operations to deal with both resolution switching and art direction. In a nutshell, the encoder takes the original picture, the required output resolutions and if needed art direction pre-requisites, and outputs a layer per resolution.
+As a picture is worth a thousand words, there you go:</p>
+
+<p><img src="http://flopreynat.com/img/responsive-image-container.jpg" alt="Responsive Image container" title="Responsive Image container" /></p>
+
+<h3 id="what-now">WHAT NOW?</h3>
+
+<p>DPR switching definitely seems to have made the top of the vast responsive images todo list. I have to admit I freaking love the concept of client hints presented by Ilya, but Google will certainly need an ally if we are to go this way… and it doesn’t look like it could be Mozilla, <a href="https://twitter.com/davidbaron">David Baron</a> having shown little enthusiasm (to say the least) to go ahead and add more (unremovable) HTTP headers.</p>
+
+<p>The ‘srcset attribute’ and the ‘Picture element’ will make last call, and will definitely keep on getting tested. Both could emerge winners, srcset for its simplicity, and picture for its art direction friendliness, a popular aspect in the developers community.</p>
+
+<p>Expect some simplification in the markup, and a likely removal of possibly w and more likely h from the spec.</p>
+
+<p>Microsoft could have a card to play in this debate, with IE12 in the box, and a strong and obvious interest from Lead Principal Program Manager <a href="https://www.linkedin.com/in/israel-hilerio-ba9a52b">Israel Hilerio</a>.</p>
+
+<h3 id="final-words">FINAL WORDS</h3>
+
+<p>A huge bravo to Marcos and Yoav for getting a crowd of proactive folks and professionals going for eight hours straight, on the sole subject of responsive images. And a massive ‘thank you’ for opening the doors to smaller companies and freelancers.</p>
+
+<p>Getting together is already a huge success, working together is the next step forward.</p>
+
+      </article>
+      
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'flopreynatcom';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+    </div>
+  </div>
+</div>
+
+    <div class="prefooter">
+  <div class="container pad">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="col-sm-9 centered" style="padding-top:50px">
+          <div class="col-md-3">
+            <img src="/img/gravatar-flopreynat-400x400.png" alt="flo preynat" class="avatar">
+          </div>
+          <div class="col-md-9 tweet">
+            <h4><i class="fa fa-twitter tweetIcon"></i>Latest Tweet</h4>
+            <div id="example1"></div>
+          </div>
+        </div>
+        <div class="col-sm-3 flickr">
+          <h4><i class="fa fa-camera-retro"></i>Latest Photos</h4>
+          <div id="flickr_badge_wrapper">
+            <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=6&display=latest&size=s&layout=x&source=user&user=91256118@N05"></script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- +++++ Footer Section +++++ -->
+<div id="footer">
+  <div class="container">
+    <div class="row pad">
+      <div class="col-sm-6 sayhi">
+        <h4>Say Hi</h4>
+        <p>Wanna go for a pint and talk web dev?<br>Feel free to contact me.</p>
+        <ul class="social">
+          <li>
+            <a href="https://twitter.com/flopreynat">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/flopreynat">
+              <i class="fa fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://dribbble.com/flopreynat">
+              <i class="fa fa-dribbble"></i>
+            </a>
+          </li>
+          <li>
+            <a href="http://codepen.io/flopreynat/">
+              <i class="fa fa-codepen"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.flickr.com/photos/shoogledesigns/">
+              <i class="fa fa-flickr"></i>
+            </a>
+          </li>
+          <li>
+            <a href="http://flopreynat.com/atom.xml">
+              <i class="fa fa-rss"></i>
+            </a>
+          </li>
+        </ul>
+        <div class="col-xs-6 col-xs-offset-3 visible-xs-block">
+          <hr>
+        </div>
+        <div class="clearfix visible-xs-block"></div>
+      </div>
+      <div class="col-sm-6 about">
+        <h4>About this site</h4>
+        <p>This site is hosted on Github, and crafted with love<br> with (among other technologies)<br>Jekyll, Sass & Grunt</p>
+      </div>
+      <div class="col-lg-12 copyright">
+        <p>© 2017 flo preynat</p>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="/js/custom.js"></script>
+<script src="/js/googleanalytics.js"></script>
+<script src="/js/prism.js"></script>
+
+  </body>
+</html>

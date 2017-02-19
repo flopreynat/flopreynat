@@ -3,7 +3,7 @@
   <title>flopreynat.com</title>
   <link href="http://www.flopreynat.com/atom.xml" rel="self" />
   <link href="http://www.flopreynat.com/"/>
-  <updated>2017-01-04T20:59:26+01:00</updated>
+  <updated>2017-02-19T21:51:19+01:00</updated>
   <id>http://www.flopreynat.com</id>
   <author>
     <name>flo preynat</name>
@@ -46,17 +46,20 @@ Killing the ‘nothing to hide’ argument is probably the easiest thing in the 
 
 &lt;h3 id=&quot;so-why-is-mass-surveillance-wrong&quot;&gt;So Why is Mass Surveillance wrong?&lt;/h3&gt;
 &lt;hr /&gt;
-&lt;p&gt;&lt;br /&gt;
-- it invades our private life space
-- we have absolutely no control of what is being recorded
-- nor how long it is being stored
-- it might not reflect reality 
-- it might reflect the reality and we might not want to let people know things
-- it inhibits free speech
-- it inhibits free association
-- it puts free press in real danger
-- it kills creativity
-- &lt;strong&gt;it has yet to be proved successful in fight against terrorism&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;it invades our private life space&lt;/li&gt;
+  &lt;li&gt;we have absolutely no control of what is being recorded&lt;/li&gt;
+  &lt;li&gt;nor how long it is being stored&lt;/li&gt;
+  &lt;li&gt;it might not reflect reality&lt;/li&gt;
+  &lt;li&gt;it might reflect the reality and we might not want to let people know things&lt;/li&gt;
+  &lt;li&gt;it inhibits free speech&lt;/li&gt;
+  &lt;li&gt;it inhibits free association&lt;/li&gt;
+  &lt;li&gt;it puts free press in real danger&lt;/li&gt;
+  &lt;li&gt;it kills creativity&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;it has yet to be proved successful in the fight against terrorism&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -96,7 +99,7 @@ As clearly stated by Aral Balkan in &lt;a href=&quot;https://vimeo.com/190855745
   &lt;li&gt;Turn off your phone at night&lt;/li&gt;
   &lt;li&gt;Use &lt;a href=&quot;https://www.torproject.org/&quot;&gt;Tor&lt;/a&gt; as much as you can on your desktop&lt;/li&gt;
   &lt;li&gt;Use &lt;a href=&quot;https://guardianproject.info/apps/orbot/&quot;&gt;Orbot&lt;/a&gt; (and hence Orfox) as much as you can on your android if you have one&lt;/li&gt;
-  &lt;li&gt;If you don’t have enough patience, use &lt;a href=&quot;https://www.mozilla.org/en-US/firefox/new/&quot;&gt;Mozilla’s Firefox&lt;/a&gt; as default browser. Ok they get funded by the other big guns I’m talking about because they need the traffic. But they’re non profit, big on privacy and encryption, so let’s give them credit.&lt;/li&gt;
+  &lt;li&gt;If you don’t have enough patience, use &lt;a href=&quot;https://www.mozilla.org/en-US/firefox/new/&quot;&gt;Mozilla’s Firefox&lt;/a&gt; as default browser. Ok they get funded by the other big guns I’m talking about (as they need mozilla’s search traffic). But they’re non profit, big on privacy and encryption, so let’s give them credit.&lt;/li&gt;
   &lt;li&gt;Block trackers (&lt;a href=&quot;https://ind.ie/&quot;&gt;Better from Indie&lt;/a&gt; for Safari, &lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/&quot;&gt;uBlock Origin&lt;/a&gt; or &lt;a href=&quot;https://addons.mozilla.org/fr/firefox/addon/ghostery/&quot;&gt;Ghostery&lt;/a&gt;… although I’m hearing things about Ghostery selling their stats back)&lt;/li&gt;
   &lt;li&gt;Get a &lt;a href=&quot;https://protonmail.com/&quot;&gt;Protonmail&lt;/a&gt; account ffs! Paying a small amount for private email is good for you, and a very decent model&lt;/li&gt;
   &lt;li&gt;Use &lt;a href=&quot;https://spideroak.com/&quot;&gt;Spideroak&lt;/a&gt; for cloud storage&lt;/li&gt;
@@ -1016,6 +1019,95 @@ sudo gem install jekyll
 &lt;p&gt;I can host all my stuff on Github and point my repo to a custom domain name in two moves, and I can enjoy what has been my dev workflow for quite a while (Like every modern developer out there, I’ve been versioning all my projects with git and Atlassian’s &lt;a href=&quot;https://bitbucket.org/&quot;&gt;Bitbucket&lt;/a&gt; for years).&lt;/p&gt;
 
 &lt;p&gt;It’s early days but so far so good. Jekyll seems to be the perfect fit for any developer wanting to enjoy an easy CMS-like setup, just without all the fuss…&lt;/p&gt;
+</content>
+    </entry>
+  
+    <entry>
+      <title>Responsive Images Meetup: Coming together is a beginning</title>
+      <link href="http://www.flopreynat.com/blog/responsive-images-meetup-coming-together-is-a-beginning.html" />
+      <updated>2013-09-13T00:00:00+02:00</updated>
+      <id>http://www.flopreynat.com/blog/responsive-images-meetup-coming-together-is-a-beginning</id>
+      <content type="html">&lt;p&gt;Last time I talked about responsive images, I did mention I was due to go to the responsive images meetup in Paris, and as the long-awaited event happened a couple of days ago, I thought it would be nice to write a quick recap for the folks unable to make it.&lt;/p&gt;
+
+&lt;h3 id=&quot;side-note&quot;&gt;SIDE NOTE&lt;/h3&gt;
+
+&lt;p&gt;Before we get to the the nitty gritty, let me start this blog post with a quick line on the venue. The meetup took place in Mozilla’s Paris headquarters, a superb office located boulevard Montmartre, in Paris’ 9th arrondissement. What a place this is! Two snaps for your eyes.&lt;/p&gt;
+
+&lt;p&gt;Mozilla really know how to welcome guests. Just saying.&lt;/p&gt;
+
+&lt;h3 id=&quot;high-hopes&quot;&gt;HIGH HOPES&lt;/h3&gt;
+
+&lt;p&gt;Having received a teasing email from &lt;a href=&quot;https://twitter.com/yoavweiss&quot;&gt;Yoav&lt;/a&gt; a couple of days prior to the get-together, and seen a number of known representatives from Apple, Google, Mozilla, Microsoft and Adobe inked on the presence sheet (unfortunately Bruce Lawson from Opera was unable to make it), I was very much looking forward to this event. After all, the web community (especially the developers) had been waiting over two years for some clear stand on the subject of responsive images from the big players, while, in the mean time, and according to the latest stats, 72% of responsive websites were still serving the same amount of data to ANY device.&lt;/p&gt;
+
+&lt;h3 id=&quot;use-cases&quot;&gt;USE CASES&lt;/h3&gt;
+
+&lt;p&gt;The day started off with a pre-recorded presentation of the problem at hand from &lt;a href=&quot;http://responsiveimages.org/&quot;&gt;RICG&lt;/a&gt;‘s front man &lt;a href=&quot;https://twitter.com/wilto&quot;&gt;Mat Marquis&lt;/a&gt;, and we quickly went to real case uses with an overview of the BBC and Akamai’s ways of handling the issue.&lt;/p&gt;
+
+&lt;p&gt;Very interesting to see what large scale companies had been implementing, especially since the BBC and its 83 millions monthly views (2.6 millions views per day), as &lt;a href=&quot;https://twitter.com/integralist&quot;&gt;Mark McDonnell&lt;/a&gt; explained, had been using none of the so-far-proposed solutions , but ‘a form’ of javascript-dependent responsive image system. Lightweight, fast working on all devices solution, and implemented since 2011.&lt;/p&gt;
+
+&lt;p&gt;I can only invite you to take a look at their project. The javascript is open-sourced and available on &lt;a href=&quot;https://github.com/BBC-News/Imager.js/&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Next, &lt;a href=&quot;https://twitter.com/guypod&quot;&gt;Guy Podjarny&lt;/a&gt; took the stand to explain Akamai’s sophisticated content delivery acceleration techniques including smart delivery (with Edge Device Characterization) using patterns of characteristics drawn from a database of mobile devices, front-end optimization, the still-in-beta image converter allowing art direction, and adaptive image compression taking into account the network conditions to define the quality of the served content.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://flopreynat.com/img/guy-podjarny.jpg&quot; alt=&quot;Guy Podjarny&quot; title=&quot;Guy Podjarny&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Quite a setup. Defo out of my league, and certainly destined to large scale sites. In a nutshell, not exactly what you would use to build the website of your local pub.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-look-back-at-the-proposed-solutions&quot;&gt;A LOOK BACK AT THE PROPOSED SOLUTIONS&lt;/h3&gt;
+
+&lt;p&gt;DPR switching, Viewport switching and Art direction on our minds, and a few coffees down our throats, we went ahead and reviewed the proposed solutions.&lt;/p&gt;
+
+&lt;p&gt;Apple’s &lt;a href=&quot;https://twitter.com/hober&quot;&gt;Theresa O’Connor&lt;/a&gt; presented the &lt;code&gt;srcset&lt;/code&gt; attribute, which defines the various image resources to be used, and the clues to help a user agent determine the most appropriate one to display, already implemented (at least a limited version of it) by webkit.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+&amp;lt;img alt=&quot;The Breakfast Combo&quot;&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;src=&quot;banner.jpeg&quot;&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;srcset=&quot;banner-HD.jpeg 2x, banner-phone.jpeg 100w, banner-phone-HD.jpeg 100w 2x&quot;&amp;gt;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;picture&lt;/code&gt; element presented by Mozilla’s &lt;a href=&quot;https://twitter.com/marcosc&quot;&gt;Marcos Caceres&lt;/a&gt;, defining a declarative solution for grouping multiple versions of an image based on different criteria (format, resolution, orientation, and more), allowing the user agent to select the optimum image to be presented while providing the best solution (so far) for art direction.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;lt;picture width=&quot;500&quot; height=&quot;500&quot;&amp;gt;&lt;/code&gt;&lt;br /&gt;
+   &lt;code&gt;&amp;lt;source media=&quot;(min-width: 45em)&quot; src=&quot;large.jpg&quot;&amp;gt;&lt;/code&gt;&lt;br /&gt;
+   &lt;code&gt;&amp;lt;source media=&quot;(min-width: 18em)&quot; src=&quot;med.jpg&quot;&amp;gt;&lt;/code&gt;&lt;br /&gt;
+   &lt;code&gt;&amp;lt;source src=&quot;small.jpg&quot;&amp;gt;&lt;/code&gt;&lt;br /&gt;
+   &lt;code&gt;&amp;lt;img src=&quot;small.jpg&quot; alt=&quot;&quot; lazyload&amp;gt;&lt;/code&gt;&lt;br /&gt;
+   &lt;code&gt;&amp;lt;p&amp;gt;Accessible text&amp;lt;/p&amp;gt;&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;&amp;lt;/picture&amp;gt;&lt;/code&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;‘HTTP Client Hints’ presented by Google’s &lt;a href=&quot;https://twitter.com/igrigorik&quot;&gt;Ilya Grigorik&lt;/a&gt;, which defines a set of HTTP headers allowing browsers to indicate a list of device and agent specific preferences, and drive servers to use these “client hints” to assist in content negotiation.
+Ideal solution as the content served would match the environmental conditions of the client, ideal in the minimal developer effort sense (I knew you would love that one!), and also ideal as far as semantic is concerned (ie. a simple image tag ).&lt;/p&gt;
+
+&lt;p&gt;But… we would need to use a new header where we would define the devicePixelRatio (DPR) of the terminal (e.g. CH: dpr=2) to pass the relevant info to the server, the current UA header being unable to do that. More on client hints &lt;a href=&quot;https://www.igvita.com/2013/08/29/automating-dpr-switching-with-client-hints/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The ‘SVG’s Switch element’ presented by W3C’s &lt;a href=&quot;https://twitter.com/robinberjon&quot;&gt;Robin Berjon&lt;/a&gt;, &lt;a href=&quot;https://www.w3.org/TR/SVG2/struct.html#SwitchElement&quot;&gt;a solution&lt;/a&gt; already well supported today, already offering a built-in, working fallback. See his full presentation &lt;a href=&quot;http://berjon.com/presentations/20130910-ricg-switch/#/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;lt;switch alt=&quot;Accessible text&quot;&amp;gt;&lt;/code&gt;&lt;br /&gt;
+     &lt;code&gt;&amp;lt;img media=&quot;(min-width: 45em)&quot; src=&quot;large.jpg&quot;&amp;gt;&lt;/code&gt;&lt;br /&gt;
+     &lt;code&gt;&amp;lt;img media=&quot;(min-width: 18em)&quot; src=&quot;med.jpg&quot;&amp;gt;&lt;/code&gt;&lt;br /&gt;
+     &lt;code&gt;&amp;lt;img src=&quot;small.jpg&quot;&amp;gt;&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;&amp;lt;/switch&amp;gt;&lt;/code&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;‘New Image Format’ presented by Yoav Weiss, a responsive image container containing internal layers which uses resizing and crop operations to deal with both resolution switching and art direction. In a nutshell, the encoder takes the original picture, the required output resolutions and if needed art direction pre-requisites, and outputs a layer per resolution.
+As a picture is worth a thousand words, there you go:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://flopreynat.com/img/responsive-image-container.jpg&quot; alt=&quot;Responsive Image container&quot; title=&quot;Responsive Image container&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;what-now&quot;&gt;WHAT NOW?&lt;/h3&gt;
+
+&lt;p&gt;DPR switching definitely seems to have made the top of the vast responsive images todo list. I have to admit I freaking love the concept of client hints presented by Ilya, but Google will certainly need an ally if we are to go this way… and it doesn’t look like it could be Mozilla, &lt;a href=&quot;https://twitter.com/davidbaron&quot;&gt;David Baron&lt;/a&gt; having shown little enthusiasm (to say the least) to go ahead and add more (unremovable) HTTP headers.&lt;/p&gt;
+
+&lt;p&gt;The ‘srcset attribute’ and the ‘Picture element’ will make last call, and will definitely keep on getting tested. Both could emerge winners, srcset for its simplicity, and picture for its art direction friendliness, a popular aspect in the developers community.&lt;/p&gt;
+
+&lt;p&gt;Expect some simplification in the markup, and a likely removal of possibly w and more likely h from the spec.&lt;/p&gt;
+
+&lt;p&gt;Microsoft could have a card to play in this debate, with IE12 in the box, and a strong and obvious interest from Lead Principal Program Manager &lt;a href=&quot;https://www.linkedin.com/in/israel-hilerio-ba9a52b&quot;&gt;Israel Hilerio&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;final-words&quot;&gt;FINAL WORDS&lt;/h3&gt;
+
+&lt;p&gt;A huge bravo to Marcos and Yoav for getting a crowd of proactive folks and professionals going for eight hours straight, on the sole subject of responsive images. And a massive ‘thank you’ for opening the doors to smaller companies and freelancers.&lt;/p&gt;
+
+&lt;p&gt;Getting together is already a huge success, working together is the next step forward.&lt;/p&gt;
 </content>
     </entry>
   
