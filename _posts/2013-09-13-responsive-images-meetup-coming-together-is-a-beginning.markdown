@@ -38,11 +38,10 @@ DPR switching, Viewport switching and Art direction on our minds, and a few coff
 Apple’s [Theresa O'Connor](https://twitter.com/hober) presented the `srcset` attribute, which defines the various image resources to be used, and the clues to help a user agent determine the most appropriate one to display, already implemented (at least a limited version of it) by webkit.
 
 
-```
-<img alt="The Breakfast Combo"```<br>
+```<img alt="The Breakfast Combo"```<br>
 ```src="banner.jpeg"```<br>
-```srcset="banner-HD.jpeg 2x, banner-phone.jpeg 100w, banner-phone-HD.jpeg 100w 2x">
-```
+```srcset="banner-HD.jpeg 2x, banner-phone.jpeg 100w, banner-phone-HD.jpeg 100w 2x">```
+
 
 The `picture` element presented by Mozilla’s [Marcos Caceres](https://twitter.com/marcosc), defining a declarative solution for grouping multiple versions of an image based on different criteria (format, resolution, orientation, and more), allowing the user agent to select the optimum image to be presented while providing the best solution (so far) for art direction.
 
