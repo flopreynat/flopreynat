@@ -3,7 +3,7 @@
   <title>flopreynat.com</title>
   <link href="http://www.flopreynat.com/atom.xml" rel="self" />
   <link href="http://www.flopreynat.com/"/>
-  <updated>2017-02-19T21:51:19+01:00</updated>
+  <updated>2017-02-22T21:31:57+01:00</updated>
   <id>http://www.flopreynat.com</id>
   <author>
     <name>flo preynat</name>
@@ -1059,11 +1059,9 @@ sudo gem install jekyll
 
 &lt;p&gt;Apple’s &lt;a href=&quot;https://twitter.com/hober&quot;&gt;Theresa O’Connor&lt;/a&gt; presented the &lt;code&gt;srcset&lt;/code&gt; attribute, which defines the various image resources to be used, and the clues to help a user agent determine the most appropriate one to display, already implemented (at least a limited version of it) by webkit.&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;
-&amp;lt;img alt=&quot;The Breakfast Combo&quot;&lt;/code&gt;&lt;br /&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;img alt=&quot;The Breakfast Combo&quot;&lt;/code&gt;&lt;br /&gt;
 &lt;code&gt;src=&quot;banner.jpeg&quot;&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;srcset=&quot;banner-HD.jpeg 2x, banner-phone.jpeg 100w, banner-phone-HD.jpeg 100w 2x&quot;&amp;gt;
-&lt;/code&gt;&lt;/p&gt;
+&lt;code&gt;srcset=&quot;banner-HD.jpeg 2x, banner-phone.jpeg 100w, banner-phone-HD.jpeg 100w 2x&quot;&amp;gt;&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;The &lt;code&gt;picture&lt;/code&gt; element presented by Mozilla’s &lt;a href=&quot;https://twitter.com/marcosc&quot;&gt;Marcos Caceres&lt;/a&gt;, defining a declarative solution for grouping multiple versions of an image based on different criteria (format, resolution, orientation, and more), allowing the user agent to select the optimum image to be presented while providing the best solution (so far) for art direction.&lt;/p&gt;
 
@@ -1108,6 +1106,40 @@ As a picture is worth a thousand words, there you go:&lt;/p&gt;
 &lt;p&gt;A huge bravo to Marcos and Yoav for getting a crowd of proactive folks and professionals going for eight hours straight, on the sole subject of responsive images. And a massive ‘thank you’ for opening the doors to smaller companies and freelancers.&lt;/p&gt;
 
 &lt;p&gt;Getting together is already a huge success, working together is the next step forward.&lt;/p&gt;
+</content>
+    </entry>
+  
+    <entry>
+      <title>Add a neat little breakpoint snippet to your Sublime</title>
+      <link href="http://www.flopreynat.com/blog/sublime-breakpoint-snippet.html" />
+      <updated>2013-05-15T00:00:00+02:00</updated>
+      <id>http://www.flopreynat.com/blog/sublime-breakpoint-snippet</id>
+      <content type="html">&lt;p&gt;Let’s get Sassy today with this little yet very useful Sublime Text 2 &lt;a href=&quot;https://gist.github.com/jnowland/5151162&quot;&gt;breakpoint snippet&lt;/a&gt; handmade by James Nowland and obviously editable as you wish.&lt;/p&gt;
+
+&lt;p&gt;If, like me, you code a lot of responsive sites, chances are that you work with Sass and end up putting half a million @include breakpoint lines, working your site’s scss the modular way… as you do.&lt;/p&gt;
+
+&lt;p&gt;Well, this little snippet will surely reduce your work, by allowing you to tabTrigger mq (or whatever you wanna call it) into the full @include breakpoint desired code lines.&lt;/p&gt;
+
+&lt;p&gt;Open Sublime, go to Tools, then New Snippet. Copy and paste James’s code in there, and save. Your’re done. You can type mq and tab in your scss and enjoy the ride.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-snippet&quot;&gt;The Snippet&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;lt;snippet&amp;gt;&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;&amp;lt;content&amp;gt;&amp;lt;![CDATA[&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;@include breakpoint(${1:papa-bear / mama-bear / baby-bear}) {&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;${2:}&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;}&lt;/code&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;]]&amp;gt;&amp;lt;/content&amp;gt;&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;&amp;lt;!-- Optional: Set a tabTrigger to define how to trigger the snippet --&amp;gt;&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;&amp;lt;tabTrigger&amp;gt;mq&amp;lt;/tabTrigger&amp;gt;&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;&amp;lt;!-- Optional: Set a scope to limit where the snippet will trigger --&amp;gt;&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;&amp;lt;!-- &amp;lt;scope&amp;gt;source.python&amp;lt;/scope&amp;gt; --&amp;gt;&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;&amp;lt;/snippet&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-result-in-sublime&quot;&gt;The result in Sublime&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://flopreynat.com/img/sublime-breakpoint-snippet.jpg&quot; alt=&quot;Sass Breakpoint snippet in Sublime&quot; title=&quot;Sass Breakpoint snippet in Sublime&quot; /&gt;&lt;/p&gt;
 </content>
     </entry>
   
