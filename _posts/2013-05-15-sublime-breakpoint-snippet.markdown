@@ -30,4 +30,4 @@ Open Sublime, go to Tools, then New Snippet. Copy and paste James’s code in th
 
 ### The result in Sublime
 
-![Sass Breakpoint snippet in Sublime](http://flopreynat.com/img/sublime-breakpoint-snippet.jpg "Sass Breakpoint snippet in Sublime")
+![Sass Breakpoint snippet in Sublime](http://flopreynat.com/img/breakpoint-snippet.jpg "Sass Breakpoint snippet in Sublime")
