@@ -5,9 +5,68 @@
     <description>website for flopreynat</description>
     <link>http://www.flopreynat.com/</link>
     <atom:link href="http://www.flopreynat.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 22 Feb 2017 21:35:28 +0100</pubDate>
-    <lastBuildDate>Wed, 22 Feb 2017 21:35:28 +0100</lastBuildDate>
+    <pubDate>Tue, 18 Apr 2017 23:00:52 +0200</pubDate>
+    <lastBuildDate>Tue, 18 Apr 2017 23:00:52 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>DuckDuckGo hacks for developers</title>
+        <description>&lt;p&gt;DuckDuckGo is by far the best search engine out there. For your own privacy for starters, and also as a great little tool for us dev folks, adept of quick tech &amp;amp; code answers, and geeky little features.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Smarter Search!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A few tips and tricks that you may not know of. I’ve been using some for few for months, and only discovered others in the last few days.&lt;/p&gt;
+
+&lt;h4 id=&quot;navigation&quot;&gt;Navigation&lt;/h4&gt;
+
+&lt;p&gt;Navigate through search results using Vim Line Navigation
+k – navigate upwards
+j – navigate downwards&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/duckduckgo-navigation.gif&quot; alt=&quot;duckduckgo navigation&quot; title=&quot;duckduckgo navigation&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;cheatsheets&quot;&gt;Cheatsheets&lt;/h4&gt;
+
+&lt;p&gt;DuckDuckGo offers a wide range of cheatsheets. Try them out. Just type the language, app, or software of your choice + cheatsheet.
+e.g. &lt;a href=&quot;https://duckduckgo.com/?q=jquery+cheatsheet&amp;amp;t=ffab&amp;amp;ia=cheatsheet&quot;&gt;“jquery cheatsheet”&lt;/a&gt;, &lt;a href=&quot;https://duckduckgo.com/?q=css+cheatsheet&amp;amp;t=ffab&amp;amp;ia=cheatsheet&quot;&gt;“css cheatsheet”&lt;/a&gt;, &lt;a href=&quot;https://duckduckgo.com/?q=javascript+cheatsheet&amp;amp;t=ffab&amp;amp;ia=cheatsheet&quot;&gt;“javascript cheatsheet”&lt;/a&gt;, etc&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/duckduckgo-cheatsheet.jpg&quot; alt=&quot;duckduckgo cheatsheet&quot; title=&quot;duckduckgo cheatsheet&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;validators-converters-and-beautifiers&quot;&gt;Validators, converters and beautifiers&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://duckduckgo.com/?q=json+validation&amp;amp;ia=answer&quot;&gt;“JSON Beautifier &amp;amp; Validator”&lt;/a&gt;, &lt;a href=&quot;https://duckduckgo.com/?q=HTML+beautifier&amp;amp;ia=answer&quot;&gt;“HTML beautifier”&lt;/a&gt;, &lt;a href=&quot;https://duckduckgo.com/?q=sass+to+css&amp;amp;ia=answer&quot;&gt;“Sass to Css Converter”&lt;/a&gt;, and more…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/duckduckgo-json-validation.jpg&quot; alt=&quot;duckduckgo json validation&quot; title=&quot;duckduckgo json validation&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;colors&quot;&gt;Colors&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://duckduckgo.com/?q=color+picker&amp;amp;ia=answer&quot;&gt;“Color picker”&lt;/a&gt; with RGB, HSV, CMYK conversion and &lt;a href=&quot;https://duckduckgo.com/?q=%23000000&amp;amp;ia=answer&quot;&gt;“Hex code converter”&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/duckduckgo-color.jpg&quot; alt=&quot;duckduckgo color&quot; title=&quot;duckduckgo color&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;qa&quot;&gt;Q/A&lt;/h4&gt;
+
+&lt;p&gt;…on coding questions like &lt;a href=&quot;https://duckduckgo.com/?q=how+to+select+img+with+jquery&amp;amp;ia=qa&quot;&gt;“how to select img with jquery”&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/duckduckgo-qa.jpg&quot; alt=&quot;duckduckgo q&amp;amp;a&quot; title=&quot;duckduckgo q&amp;amp;a&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;bangs&quot;&gt;Bangs&lt;/h4&gt;
+
+&lt;p&gt;If you wish to look for something on a specific site, like Stack Overflow (!stack + query) or CSS-Tricks (!csstricks + query). The list of bangs is &lt;a href=&quot;https://duckduckgo.com/bang&quot;&gt;“here”&lt;/a&gt;.
+Here’s a cool one you can try yourselves: &lt;a href=&quot;!caniuse flexbox&quot;&gt;“!caniuse flexbox”&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/duckduckgo-bangs.jpg&quot; alt=&quot;duckduckgo bangs&quot; title=&quot;duckduckgo bangs&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 18 Apr 2017 00:00:00 +0200</pubDate>
+        <link>http://www.flopreynat.com/blog/duckduckgo-hacks-for-developers.html</link>
+        <guid isPermaLink="true">http://www.flopreynat.com/blog/duckduckgo-hacks-for-developers.html</guid>
+        
+        
+        <category>search</category>
+        
+      </item>
     
       <item>
         <title>Personal Data Privacy: start off 2017 on the right foot</title>
@@ -396,48 +455,6 @@ v6.0.0
         
         
         <category>gulp</category>
-        
-      </item>
-    
-      <item>
-        <title>Alfred App Review</title>
-        <description>&lt;p&gt;An app all windows users envy us if they have had the chance to take Mac’s already-powerful search feature to the next level, with Alfred - the award winning app and best butler I have ever known…&lt;/p&gt;
-
-&lt;p&gt;Like any developer out there, I want to use the keyboard as much as I can. For productivity reasons first, and for others.&lt;/p&gt;
-
-&lt;p&gt;Been using Alfred for years, and I can’t get bored of it. Don’t look at this post like an expert article on the subject, I have not even purchased the &lt;a href=&quot;https://www.alfredapp.com/powerpack/buy/&quot;&gt;Powerpack&lt;/a&gt;, feature unlocking the likes of workflows, integrations, and even remote control to your IOS devices.
-To be totally honest, I have never really looked into the Powerpack, but I may be tempted to leverage their integration with Asana, another must-have IMHO.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It serves me right!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Anyway, for now, I use Alfred the most simple way ever, but it just works for me. Here are a few things you can do with Alfred:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Quickly find a file by typing “find” + the name of the file&lt;/li&gt;
-  &lt;li&gt;Launch any app without using the mouse&lt;/li&gt;
-  &lt;li&gt;calculate anything quickly by just typing numbers and operations&lt;/li&gt;
-  &lt;li&gt;Launch a search on any site (eg. google, twitter, youtube etc)&lt;/li&gt;
-  &lt;li&gt;Launch a google image search&lt;/li&gt;
-  &lt;li&gt;Look up a place on Maps&lt;/li&gt;
-  &lt;li&gt;Quit all apps at the end of the working day&lt;/li&gt;
-  &lt;li&gt;Empty the recycle bin&lt;/li&gt;
-  &lt;li&gt;etc…&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You can easily configure your shortcuts and have for example “google” shortened to “g” (just an example).&lt;/p&gt;
-
-&lt;p&gt;In a nutshell, I love this app.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.alfredapp.com/&quot;&gt;Alfred 2 for Mac&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 19 Apr 2016 00:00:00 +0200</pubDate>
-        <link>http://www.flopreynat.com/blog/alfred-app-review.html</link>
-        <guid isPermaLink="true">http://www.flopreynat.com/blog/alfred-app-review.html</guid>
-        
-        
-        <category>apps</category>
         
       </item>
     
