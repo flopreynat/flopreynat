@@ -3,12 +3,54 @@
   <title>flopreynat.com</title>
   <link href="http://www.flopreynat.com/atom.xml" rel="self" />
   <link href="http://www.flopreynat.com/"/>
-  <updated>2017-04-18T23:00:52+02:00</updated>
+  <updated>2017-05-16T23:38:09+02:00</updated>
   <id>http://www.flopreynat.com</id>
   <author>
     <name>flo preynat</name>
     <email>me@flopreynat.com</email>
   </author>
+  
+    <entry>
+      <title>Responsive email design framework MJML to the test</title>
+      <link href="http://www.flopreynat.com/blog/responsive-email-design-framework-mjml.html" />
+      <updated>2017-05-16T00:00:00+02:00</updated>
+      <id>http://www.flopreynat.com/blog/responsive-email-design-framework-mjml</id>
+      <content type="html">&lt;p&gt;Email design is a real pain in the arse. We all know that. Therefore I decided to give &lt;a href=&quot;https://mjml.io/&quot;&gt;mjml&lt;/a&gt; a go. For those who don’t know of mjml.io, it’s a responsive email design framework built by a team of developers at &lt;a href=&quot;https://www.mailjet.com&quot;&gt;Mailjet&lt;/a&gt;, a competitor of &lt;a href=&quot;https://mailchimp.com/&quot;&gt;Mailchimp&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The beauty of this framework results in the fact that you create something very much close to html, using an MJML markup language, and as mentioned in its detailed documentation, &lt;em&gt;“its semantic syntax makes it easy and straightforward and its rich standard components library speeds up your development time and lightens your email codebase.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;MJML’s open-source engine, which is - by the way - written in &lt;a href=&quot;https://nodejs.org/en/&quot;&gt;NodeJS&lt;/a&gt; (hence easily installed via &lt;a href=&quot;https://www.npmjs.com/package/mjml&quot;&gt;npm&lt;/a&gt;), leverages ReactJS and takes your mjml email designs to process high quality responsive HTML compliant with best practices. That’s the whole idea.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Easy and quick, Responsive, Component based&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;As I had nothing much to work with for starters, I decided to use somebody else’s work, and picked this beautiful minimalistic &lt;a href=&quot;https://dribbble.com/shots/1518379-Newsletter&quot;&gt;newsletter&lt;/a&gt; (designed by Dmitri Litvinov) I found on dribbble.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/mjml-dribbble-model.jpg&quot; alt=&quot;newsletter model&quot; title=&quot;newsletter model&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I won’t go into the details of the design process but with the help of the doc, I put all the components together in a matter of minutes, generated the html template using the terminal and the follwowing syntax:&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;code class=&quot;language-ruby&quot;&gt;
+mjml yourfile.mjml
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;h4 id=&quot;results&quot;&gt;Results&lt;/h4&gt;
+
+&lt;p&gt;Here’s the final result of my work in both gmail and protonmail. 
+Something not only esthetic but fully functional.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/mjml-results.jpg&quot; alt=&quot;mjml results&quot; title=&quot;mjml results&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;verdict&quot;&gt;Verdict&lt;/h4&gt;
+
+&lt;p&gt;If you’re willing to send what looks like a professional responsive email, without having to use a third-party design service, then I defo advise you to give mjml a shot.&lt;/p&gt;
+
+&lt;p&gt;So long.&lt;/p&gt;
+</content>
+    </entry>
   
     <entry>
       <title>DuckDuckGo hacks for developers</title>
