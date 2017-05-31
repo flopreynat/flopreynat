@@ -5,9 +5,48 @@
     <description>website for flopreynat</description>
     <link>http://www.flopreynat.com/</link>
     <atom:link href="http://www.flopreynat.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 May 2017 23:38:09 +0200</pubDate>
-    <lastBuildDate>Tue, 16 May 2017 23:38:09 +0200</lastBuildDate>
+    <pubDate>Wed, 31 May 2017 22:37:47 +0200</pubDate>
+    <lastBuildDate>Wed, 31 May 2017 22:37:47 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>No camera was found</title>
+        <description>&lt;p&gt;You’re most likely running on Mavericks, or El Capitan, are using your mac or a monitor with integrated camera, and keep on getting something along the lines of ‘no camera was found’ messages from Hangout or other web conferencing apps.&lt;/p&gt;
+
+&lt;p&gt;Issue happened to me on dozens of times with an Apple Thunderbolt.&lt;/p&gt;
+
+&lt;p&gt;This post isn’t intended to get to the bottom of this issue. So you can put back the screwdrivers where they belong.
+These few lines are only here to present you with a workaround, and remind myself of this little fix.&lt;/p&gt;
+
+&lt;p&gt;So,… Issue seems related to the VDCAssistant process getting invoked every time the camera is being used by an app, but not properly closing, hence blocking its future use.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Kill ‘em all&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Open the terminal, and run the following command:&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;code class=&quot;language-ruby&quot;&gt;
+$ sudo killall VDCAssistant
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;You’ll need to input your master password. Camera should be up again. 
+For now…&lt;/p&gt;
+
+&lt;p&gt;As I said, just a workaround.&lt;/p&gt;
+
+&lt;p&gt;So long.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 31 May 2017 00:00:00 +0200</pubDate>
+        <link>http://www.flopreynat.com/blog/no-camera-was-found.html</link>
+        <guid isPermaLink="true">http://www.flopreynat.com/blog/no-camera-was-found.html</guid>
+        
+        
+        <category>mac</category>
+        
+      </item>
     
       <item>
         <title>Responsive email design framework MJML to the test</title>
@@ -427,45 +466,6 @@ Do not be too judgemental on the overall design, this was made in a few minutes,
         
         
         <category>design</category>
-        
-      </item>
-    
-      <item>
-        <title>Mac Finder freezes... WTF</title>
-        <description>&lt;p&gt;Another blog post on Apple devices playing up (following the &lt;a href=&quot;http://flopreynat.com/blog/macbook-pro-boots-to-black-screen.html&quot;&gt;“boot to black screen”&lt;/a&gt; one) with this time, the way to resolve a frozen finder on OSX (Mavericks in my case).&lt;/p&gt;
-
-&lt;p&gt;The thing happened to me a few months back, with Finder freezing over and over after a few seconds or minutes of usage, forcing me to force quit Finder on numerous occasions throughout the day.&lt;/p&gt;
-
-&lt;p&gt;Fed up with this bug, and not willing to move away from the native file managing app, I eventually got it sorted out by simply using Mac’s Safe Mode, something that Windows users might be more inclined to be using on a regular basis.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Safe Mode baby&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I personnally had never used the safe mode before, despite around 10 years on apple.&lt;/p&gt;
-
-&lt;p&gt;So if you have a frozen Finder, go for it…&lt;/p&gt;
-
-&lt;p&gt;Follow these steps to start up into safe mode.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Start or restart your Mac.&lt;/li&gt;
-  &lt;li&gt;Immediately after you hear the startup sound, press and hold the Shift key.&lt;/li&gt;
-  &lt;li&gt;Release the Shift key when you see the Apple logo appear on the screen.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;After the Apple logo appears, it might take longer than usual to reach the login screen or your desktop. This is because your Mac performs a directory check of your startup disk as part of safe mode.&lt;/p&gt;
-
-&lt;p&gt;To leave safe mode, restart your computer without pressing any keys during startup.&lt;/p&gt;
-
-&lt;p&gt;(Taken from &lt;a href=&quot;https://support.apple.com/en-us/HT201262&quot;&gt;“Apple Support website”&lt;/a&gt;)&lt;/p&gt;
-</description>
-        <pubDate>Sun, 29 May 2016 00:00:00 +0200</pubDate>
-        <link>http://www.flopreynat.com/blog/mac-finder-freezes.html</link>
-        <guid isPermaLink="true">http://www.flopreynat.com/blog/mac-finder-freezes.html</guid>
-        
-        
-        <category>apple</category>
         
       </item>
     
