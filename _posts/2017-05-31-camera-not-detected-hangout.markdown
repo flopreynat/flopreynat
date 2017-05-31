@@ -1,7 +1,7 @@
 ---
 title:  "No camera was found"
 date:   2017-05-31
-category: mac
+category: apple
 permalink: /blog/no-camera-was-found.html
 image: no-camera-was-found.jpg
 ---
