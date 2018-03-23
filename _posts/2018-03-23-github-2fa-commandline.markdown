@@ -24,4 +24,4 @@ Instead, you must create a personal access token and use its as a password.
 7. Select the scope and permissions of your token
 8. Use your token as your password when prompted in the terminal
 
-Done.
+Done ;)
