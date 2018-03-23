@@ -5,9 +5,42 @@
     <description>website for flopreynat</description>
     <link>http://www.flopreynat.com/</link>
     <atom:link href="http://www.flopreynat.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 Jan 2018 17:37:38 +0100</pubDate>
-    <lastBuildDate>Mon, 01 Jan 2018 17:37:38 +0100</lastBuildDate>
+    <pubDate>Fri, 23 Mar 2018 22:13:57 +0100</pubDate>
+    <lastBuildDate>Fri, 23 Mar 2018 22:13:57 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Github: 2FA and personal token</title>
+        <description>&lt;p&gt;So you’ve decided to turn on two-factor authentication (as you do) for your github account and you can’t commit (anymore) to your repos using the command line.&lt;/p&gt;
+
+&lt;p&gt;TL;DR&lt;/p&gt;
+
+&lt;p&gt;Create a personal token.&lt;/p&gt;
+
+&lt;p&gt;You won’t be asked to provide a 2FA code when authenticating to GitHub on the command line using HTTPS URLs.
+Instead, you must create a personal access token and use its as a password.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Log into your account&lt;/li&gt;
+  &lt;li&gt;Click on your avatar, then Settings&lt;/li&gt;
+  &lt;li&gt;Click on Developer Settings&lt;/li&gt;
+  &lt;li&gt;Choose Personal access tokens&lt;/li&gt;
+  &lt;li&gt;Generate new token&lt;/li&gt;
+  &lt;li&gt;Give your token a name&lt;/li&gt;
+  &lt;li&gt;Select the scope and permissions of your token&lt;/li&gt;
+  &lt;li&gt;Use your token as your password when prompted in the terminal&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Done.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 23 Mar 2018 00:00:00 +0100</pubDate>
+        <link>http://www.flopreynat.com/blog/github-2fa-personal-token.html</link>
+        <guid isPermaLink="true">http://www.flopreynat.com/blog/github-2fa-personal-token.html</guid>
+        
+        
+        <category>github</category>
+        
+      </item>
     
       <item>
         <title>Fontawesome Alfred Workflow</title>
@@ -418,51 +451,6 @@ His eloquence and passion for defending data privacy are second to none.&lt;/p&g
         
         
         <category>uncategorized</category>
-        
-      </item>
-    
-      <item>
-        <title>Wordpress staging environments on the cheap</title>
-        <description>&lt;p&gt;Staging environments are one of the keys of a (proper and) controlled deployment process, whatever the technology. Wordpress isn’t any different.&lt;/p&gt;
-
-&lt;p&gt;You have a problem if you - like me - run a few things on wordpress, don’t consider it as a priority subject (hence do not have the time, nor the money to commit on the suject), …yet still want to make it a decent process.&lt;/p&gt;
-
-&lt;p&gt;Typical “have it both ways” conundrum.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;DEV &amp;gt; STAGING ENVIRONMENT &amp;gt; PRODUCTION&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Anyway, here are a few options, my views on them, and eventually a decision.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Professional Wordpress hosting (Paid)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Best option is to get people (or an app) meant to do this for you. Defo the best option if this subject is top priority for you. &lt;a href=&quot;https://wpengine.com/support/staging/&quot;&gt;“WPEngine”&lt;/a&gt; or &lt;a href=&quot;https://mediatemple.net/community/products/wordpress/204645480/staging-sites-for-your-wordpress-hosting-service&quot;&gt;“Media Temple”&lt;/a&gt; come to mind to name only a few.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;WP Migrate DB Pro (Paid)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;A popular plugin, often praised on &lt;a href=&quot;http://shoptalkshow.com/&quot;&gt;“ShopTalk Show”&lt;/a&gt;, &lt;a href=&quot;https://deliciousbrains.com/wp-migrate-db-pro/pricing/&quot;&gt;“WP Migrate DB Pro”&lt;/a&gt; is a great option to get your wordpress sites in sync (all content including media) with one click. Cool option to implement a push to production process. Starting at 89 box.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Note: I ain’t being sponsored for any of those paid options.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;As mentioned above, I can’t be investigating any resource in this subject. Yet, I want to be able to set up a few environments and sync content and settings in an easy (and quick process), without having to deal with media url issues (cough wordpress import cough).&lt;/p&gt;
-
-&lt;p&gt;Let me emphasize on the repeatable process here since I really want to be able to do more than the usual local wp-cloud wp sync’ing. Testing things as they live on the web has got to be a pre-requisite. Things happen differently when not happening on local machines.&lt;/p&gt;
-
-&lt;p&gt;Anyway, went with…&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;All-in-One WP Migration (Free)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;As advertised, &lt;a href=&quot;https://wordpress.org/plugins/all-in-one-wp-migration/&quot;&gt;“the plugin”&lt;/a&gt; allows you to export your database, media files, plugins, and themes. You can apply unlimited find/replace operations on your database and the plugin will also fix any serialization problems that occur during find/replace operations.&lt;/p&gt;
-
-&lt;p&gt;Not bad for a free option, and works like a charm to get those wordpress environments in sync.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 30 Aug 2016 00:00:00 +0200</pubDate>
-        <link>http://www.flopreynat.com/blog/wordpress-staging-environment.html</link>
-        <guid isPermaLink="true">http://www.flopreynat.com/blog/wordpress-staging-environment.html</guid>
-        
-        
-        <category>wordpress</category>
         
       </item>
     
