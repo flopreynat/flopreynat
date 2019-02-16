@@ -9,7 +9,7 @@ Already talked about this issue once... <a href="http://flopreynat.com/blog/macb
 
 The only chance I get is to enter my password and see the apple screen get stuck for ever.
 
-####SAFE MODE
+> SAFE MODE
 
 Once I enter my password, the only thing I can do is press on the SHIFT key and hold it, until I enter the Safe mode.
 

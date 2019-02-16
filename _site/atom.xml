@@ -3,7 +3,7 @@
   <title>flopreynat.com</title>
   <link href="http://www.flopreynat.com/atom.xml" rel="self" />
   <link href="http://www.flopreynat.com/"/>
-  <updated>2019-02-16T14:12:45+01:00</updated>
+  <updated>2019-02-16T14:17:42+01:00</updated>
   <id>http://www.flopreynat.com</id>
   <author>
     <name>flo preynat</name>
@@ -19,7 +19,9 @@
 
 &lt;p&gt;The only chance I get is to enter my password and see the apple screen get stuck for ever.&lt;/p&gt;
 
-&lt;h4 id=&quot;safe-mode&quot;&gt;SAFE MODE&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;SAFE MODE&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;Once I enter my password, the only thing I can do is press on the SHIFT key and hold it, until I enter the Safe mode.&lt;/p&gt;
 
