@@ -5,9 +5,34 @@
     <description>website for flopreynat</description>
     <link>http://www.flopreynat.com/</link>
     <atom:link href="http://www.flopreynat.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 24 Mar 2018 00:01:55 +0100</pubDate>
-    <lastBuildDate>Sat, 24 Mar 2018 00:01:55 +0100</lastBuildDate>
+    <pubDate>Sat, 16 Feb 2019 14:12:45 +0100</pubDate>
+    <lastBuildDate>Sat, 16 Feb 2019 14:12:45 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Macbook Pro boot up issue with no startup chime... WTF</title>
+        <description>&lt;p&gt;Already talked about this issue once… &lt;a href=&quot;http://flopreynat.com/blog/macbook-pro-boots-to-black-screen.html&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;, except this time I don’t have the chance to hear the startup chime, nor to reset any PRAM, nothing.&lt;/p&gt;
+
+&lt;p&gt;The only chance I get is to enter my password and see the apple screen get stuck for ever.&lt;/p&gt;
+
+&lt;h4 id=&quot;safe-mode&quot;&gt;SAFE MODE&lt;/h4&gt;
+
+&lt;p&gt;Once I enter my password, the only thing I can do is press on the SHIFT key and hold it, until I enter the Safe mode.&lt;/p&gt;
+
+&lt;p&gt;At this stage, If you reboot, or try any disk utility, it should not fix the issue.
+If you’re lucky (like me), you’ll have some software updates to install.&lt;/p&gt;
+
+&lt;p&gt;Launch the download/restart and install and hope for the best.
+It did work in my case.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 16 Feb 2019 00:00:00 +0100</pubDate>
+        <link>http://www.flopreynat.com/blog/macbook-pro-boot-up-issue-no-startup-chime.html</link>
+        <guid isPermaLink="true">http://www.flopreynat.com/blog/macbook-pro-boot-up-issue-no-startup-chime.html</guid>
+        
+        
+        <category>apple</category>
+        
+      </item>
     
       <item>
         <title>Github: 2FA and personal token</title>
@@ -418,39 +443,6 @@ His eloquence and passion for defending data privacy are second to none.&lt;/p&g
         
         
         <category>salesforce</category>
-        
-      </item>
-    
-      <item>
-        <title>RSI and vertical mouse: a look back at the last 6 months</title>
-        <description>&lt;p&gt;Repetitive strain injury (RSI) is a frequent issue when you spend 10+ hours a day in front of a computer, and it is something I have unfortunately been experiencing these last few years.&lt;/p&gt;
-
-&lt;p&gt;Since I own a mac, I have always been using a magic mouse, but as aching in my right hand (and arm) started to occur on a more regular basis, I started wondering whether this beautiful, yet - let’s be honest - way too small device was the root of my problem.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;DANGER MOUSE !&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Discussing the matter with my osteopath quickly led to the option of using a vertical mouse, helping you  keep your hand in a natural position. This is why I moved to ‘verticality’ 6 months ago, with the purchase of a basic &lt;a href=&quot;https://www.amazon.fr/gp/product/B00D84P8O8/ref=oh_aui_detailpage_o07_s00?ie=UTF8&amp;amp;psc=1&quot;&gt;“usb vertical mouse ZeleSouris”&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A few reasons why I picked this low-budget mouse:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;this was going to be more like a pilot phase (so I thought)&lt;/li&gt;
-  &lt;li&gt;non-wireless mice are less heavy (no batteries), hence easier to move&lt;/li&gt;
-  &lt;li&gt;this specific device was not pricy hence more than worth a shot&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;6 months on and I have to admit this was the best choice ever. Getting used to it took only a few days as far as I was concerned. I doubt the mouse I picked is the best ever, but my RSI has gone for now.&lt;/p&gt;
-
-&lt;p&gt;I can only advise you to ditch the good looks of the magic mouse for an old bulky mouse, a trackpad or a vertical mouse, should you suffer (or wish to prevent) from RSI.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 21 Sep 2016 00:00:00 +0200</pubDate>
-        <link>http://www.flopreynat.com/blog/rsi-vertical-mouse.html</link>
-        <guid isPermaLink="true">http://www.flopreynat.com/blog/rsi-vertical-mouse.html</guid>
-        
-        
-        <category>uncategorized</category>
         
       </item>
     

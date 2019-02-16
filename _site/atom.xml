@@ -3,12 +3,33 @@
   <title>flopreynat.com</title>
   <link href="http://www.flopreynat.com/atom.xml" rel="self" />
   <link href="http://www.flopreynat.com/"/>
-  <updated>2018-03-24T00:01:55+01:00</updated>
+  <updated>2019-02-16T14:12:45+01:00</updated>
   <id>http://www.flopreynat.com</id>
   <author>
     <name>flo preynat</name>
     <email>me@flopreynat.com</email>
   </author>
+  
+    <entry>
+      <title>Macbook Pro boot up issue with no startup chime... WTF</title>
+      <link href="http://www.flopreynat.com/blog/macbook-pro-boot-up-issue-no-startup-chime.html" />
+      <updated>2019-02-16T00:00:00+01:00</updated>
+      <id>http://www.flopreynat.com/blog/macbook-pro-boot-up-issue-no-startup-chime</id>
+      <content type="html">&lt;p&gt;Already talked about this issue once… &lt;a href=&quot;http://flopreynat.com/blog/macbook-pro-boots-to-black-screen.html&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;, except this time I don’t have the chance to hear the startup chime, nor to reset any PRAM, nothing.&lt;/p&gt;
+
+&lt;p&gt;The only chance I get is to enter my password and see the apple screen get stuck for ever.&lt;/p&gt;
+
+&lt;h4 id=&quot;safe-mode&quot;&gt;SAFE MODE&lt;/h4&gt;
+
+&lt;p&gt;Once I enter my password, the only thing I can do is press on the SHIFT key and hold it, until I enter the Safe mode.&lt;/p&gt;
+
+&lt;p&gt;At this stage, If you reboot, or try any disk utility, it should not fix the issue.
+If you’re lucky (like me), you’ll have some software updates to install.&lt;/p&gt;
+
+&lt;p&gt;Launch the download/restart and install and hope for the best.
+It did work in my case.&lt;/p&gt;
+</content>
+    </entry>
   
     <entry>
       <title>Github: 2FA and personal token</title>
