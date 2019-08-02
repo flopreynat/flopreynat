@@ -3,7 +3,7 @@
   <title>flopreynat.com</title>
   <link href="http://www.flopreynat.com/atom.xml" rel="self" />
   <link href="http://www.flopreynat.com/"/>
-  <updated>2019-08-02T22:33:06+02:00</updated>
+  <updated>2019-08-02T22:45:48+02:00</updated>
   <id>http://www.flopreynat.com</id>
   <author>
     <name>flo preynat</name>
@@ -25,7 +25,7 @@
 
 &lt;p&gt;The quickest and easisest way (to me) is to use &lt;a href=&quot;https://www.virtualbox.org/&quot;&gt;Virtualbox&lt;/a&gt; (open source and free), download a free virtual Windows machine from the &lt;a href=&quot;https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/&quot;&gt;Microsoft developer website&lt;/a&gt;, and spin it.&lt;/p&gt;
 
-&lt;p&gt;So, ok, those virtual machines expire after 90 days. In most case, this will be way enough for you to test your application, and run your stuff.&lt;/p&gt;
+&lt;p&gt;So, ok, those virtual machines expire after 90 days. In most cases, this will be way enough for you to test your application, and run your stuff.&lt;/p&gt;
 
 &lt;p&gt;One thing you may need while you’re playing with your windows machine, is to share things with your mac. Sharing folders between your machine and a VM is not native. Here’s how you do it:&lt;/p&gt;
 
