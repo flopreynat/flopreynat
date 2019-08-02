@@ -3,12 +3,45 @@
   <title>flopreynat.com</title>
   <link href="http://www.flopreynat.com/atom.xml" rel="self" />
   <link href="http://www.flopreynat.com/"/>
-  <updated>2019-02-16T14:17:42+01:00</updated>
+  <updated>2019-08-02T22:33:06+02:00</updated>
   <id>http://www.flopreynat.com</id>
   <author>
     <name>flo preynat</name>
     <email>me@flopreynat.com</email>
   </author>
+  
+    <entry>
+      <title>Quick way to run a windows application on a mac</title>
+      <link href="http://www.flopreynat.com/blog/quick-way-run-windows-application-on-mac.html" />
+      <updated>2019-08-02T00:00:00+02:00</updated>
+      <id>http://www.flopreynat.com/blog/quick-way-run-windows-application-on-mac</id>
+      <content type="html">&lt;p&gt;From time to time, as a mac owner, you’ll have to run a Windows application for testing (or other) purposes.&lt;/p&gt;
+
+&lt;p&gt;Obviously, there are tons of solutions allowing you to run windows on a mac, but not all are light, free and quick wins.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;VIRTUALIZATION TIME&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The quickest and easisest way (to me) is to use &lt;a href=&quot;https://www.virtualbox.org/&quot;&gt;Virtualbox&lt;/a&gt; (open source and free), download a free virtual Windows machine from the &lt;a href=&quot;https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/&quot;&gt;Microsoft developer website&lt;/a&gt;, and spin it.&lt;/p&gt;
+
+&lt;p&gt;So, ok, those virtual machines expire after 90 days. In most case, this will be way enough for you to test your application, and run your stuff.&lt;/p&gt;
+
+&lt;p&gt;One thing you may need while you’re playing with your windows machine, is to share things with your mac. Sharing folders between your machine and a VM is not native. Here’s how you do it:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;In Virtualbox, select your VM, and go to Settings &amp;gt; Shared Folders, and add the folder (on your mac) you wish to use on your VM&lt;/li&gt;
+  &lt;li&gt;Then go to Settings &amp;gt; Storage and add an optical drive (+ and cdrom icon) to your IDE controller (choose ‘Leave Empty’)&lt;/li&gt;
+  &lt;li&gt;Start your VM&lt;/li&gt;
+  &lt;li&gt;In Virtulabox, go to Devices &amp;gt; Insert Guest Additions CD Image, and run the install program&lt;/li&gt;
+  &lt;li&gt;Once the program has been installed, reboot your VM&lt;/li&gt;
+  &lt;li&gt;That’s it, ope file explorer, your file sharing folder should be appearing in there.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Hope this helps.&lt;/p&gt;
+
+</content>
+    </entry>
   
     <entry>
       <title>Macbook Pro boot up issue with no startup chime... WTF</title>

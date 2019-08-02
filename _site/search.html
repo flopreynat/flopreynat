@@ -87,6 +87,15 @@
       <script>
         window.store = {
           
+            "blog-quick-way-run-windows-application-on-mac-html": {
+              "title": "Quick way to run a windows application on a mac",
+              "author": "flo preynat",
+              "category": "tools",
+              "content": "From time to time, as a mac owner, you’ll have to run a Windows application for testing (or other) purposes.Obviously, there are tons of solutions allowing you to run windows on a mac, but not all are light, free and quick wins.  VIRTUALIZATION TIMEThe quickest and easisest way (to me) is to use Virtualbox (open source and free), download a free virtual Windows machine from the Microsoft developer website, and spin it.So, ok, those virtual machines expire after 90 days. In most case, this will be way enough for you to test your application, and run your stuff.One thing you may need while you’re playing with your windows machine, is to share things with your mac. Sharing folders between your machine and a VM is not native. Here’s how you do it:  In Virtualbox, select your VM, and go to Settings &gt; Shared Folders, and add the folder (on your mac) you wish to use on your VM  Then go to Settings &gt; Storage and add an optical drive (+ and cdrom icon) to your IDE controller (choose ‘Leave Empty’)  Start your VM  In Virtulabox, go to Devices &gt; Insert Guest Additions CD Image, and run the install program  Once the program has been installed, reboot your VM  That’s it, ope file explorer, your file sharing folder should be appearing in there.Hope this helps.",
+              "url": "/blog/quick-way-run-windows-application-on-mac.html"
+            }
+            ,
+          
             "blog-macbook-pro-boot-up-issue-no-startup-chime-html": {
               "title": "Macbook Pro boot up issue with no startup chime... WTF",
               "author": "flo preynat",
