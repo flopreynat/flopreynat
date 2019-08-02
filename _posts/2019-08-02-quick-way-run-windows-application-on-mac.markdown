@@ -13,7 +13,7 @@ Obviously, there are tons of solutions allowing you to run windows on a mac, but
 
 The quickest and easisest way (to me) is to use [Virtualbox](https://www.virtualbox.org/) (open source and free), download a free virtual Windows machine from the [Microsoft developer website](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/), and spin it.
 
-So, ok, those virtual machines expire after 90 days. In most case, this will be way enough for you to test your application, and run your stuff.
+So, ok, those virtual machines expire after 90 days. In most cases, this will be way enough for you to test your application, and run your stuff.
 
 One thing you may need while you're playing with your windows machine, is to share things with your mac. Sharing folders between your machine and a VM is not native. Here's how you do it:
 
