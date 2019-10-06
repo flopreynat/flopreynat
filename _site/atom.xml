@@ -3,12 +3,38 @@
   <title>flopreynat.com</title>
   <link href="http://www.flopreynat.com/atom.xml" rel="self" />
   <link href="http://www.flopreynat.com/"/>
-  <updated>2019-08-02T22:45:48+02:00</updated>
+  <updated>2019-10-06T18:35:13+02:00</updated>
   <id>http://www.flopreynat.com</id>
   <author>
     <name>flo preynat</name>
     <email>me@flopreynat.com</email>
   </author>
+  
+    <entry>
+      <title>Crop documents with Mac's Preview</title>
+      <link href="http://www.flopreynat.com/blog/crop-documents-mac-preview.html" />
+      <updated>2019-10-06T00:00:00+02:00</updated>
+      <id>http://www.flopreynat.com/blog/crop-documents-mac-preview</id>
+      <content type="html">&lt;p&gt;So you want to quickly/cheaply crop a jpg or pdf but have no tools lying around your mac to do so.
+There’s actually an easy way to do it using Mac’s native image and PDF viewer Preview.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Command + K&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Really handy way if you can’t be bothered installing gimp, or alternative.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Open the file in Preview&lt;/li&gt;
+  &lt;li&gt;Select Tools &amp;gt; Rectangular Selection&lt;/li&gt;
+  &lt;li&gt;Draw your selection area on the file&lt;/li&gt;
+  &lt;li&gt;Use Command + K to crop the image&lt;/li&gt;
+  &lt;li&gt;Save your document&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;So long.&lt;/p&gt;
+</content>
+    </entry>
   
     <entry>
       <title>Quick way to run a windows application on a mac</title>
