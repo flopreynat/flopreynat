@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>flopreynat.com</title>
-  <link href="http://www.flopreynat.com/atom.xml" rel="self" />
-  <link href="http://www.flopreynat.com/"/>
-  <updated>2019-12-01T20:53:09+01:00</updated>
-  <id>http://www.flopreynat.com</id>
+  <link href="https://www.flopreynat.com/atom.xml" rel="self" />
+  <link href="https://www.flopreynat.com/"/>
+  <updated>2019-12-01T22:47:34+01:00</updated>
+  <id>https://www.flopreynat.com</id>
   <author>
     <name>flo preynat</name>
     <email>me@flopreynat.com</email>
@@ -12,9 +12,9 @@
   
     <entry>
       <title>Spin up php server locally in no time</title>
-      <link href="http://www.flopreynat.com/blog/php-server-spin-easy.html" />
+      <link href="https://www.flopreynat.com/blog/php-server-spin-easy.html" />
       <updated>2019-12-01T00:00:00+01:00</updated>
-      <id>http://www.flopreynat.com/blog/php-server-spin-easy</id>
+      <id>https://www.flopreynat.com/blog/php-server-spin-easy</id>
       <content type="html">&lt;p&gt;Another post on tooling with this time a quick and easy way to locally spin up a php server, for - say - php templating and testing.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -34,9 +34,9 @@ Proof &lt;a href=&quot;https://github.com/flopreynat/php-server&quot;&gt;here&lt
   
     <entry>
       <title>Crop documents with Mac's Preview</title>
-      <link href="http://www.flopreynat.com/blog/crop-documents-mac-preview.html" />
+      <link href="https://www.flopreynat.com/blog/crop-documents-mac-preview.html" />
       <updated>2019-10-06T00:00:00+02:00</updated>
-      <id>http://www.flopreynat.com/blog/crop-documents-mac-preview</id>
+      <id>https://www.flopreynat.com/blog/crop-documents-mac-preview</id>
       <content type="html">&lt;p&gt;So you want to quickly/cheaply crop a jpg or pdf but have no tools lying around your mac to do so.
 There’s actually an easy way to do it using Mac’s native image and PDF viewer Preview.&lt;/p&gt;
 
@@ -60,9 +60,9 @@ There’s actually an easy way to do it using Mac’s native image and PDF viewe
   
     <entry>
       <title>Quick way to run a windows application on a mac</title>
-      <link href="http://www.flopreynat.com/blog/quick-way-run-windows-application-on-mac.html" />
+      <link href="https://www.flopreynat.com/blog/quick-way-run-windows-application-on-mac.html" />
       <updated>2019-08-02T00:00:00+02:00</updated>
-      <id>http://www.flopreynat.com/blog/quick-way-run-windows-application-on-mac</id>
+      <id>https://www.flopreynat.com/blog/quick-way-run-windows-application-on-mac</id>
       <content type="html">&lt;p&gt;From time to time, as a mac owner, you’ll have to run a Windows application for testing (or other) purposes.&lt;/p&gt;
 
 &lt;p&gt;Obviously, there are tons of solutions allowing you to run windows on a mac, but not all are light, free and quick wins.&lt;/p&gt;
@@ -93,9 +93,9 @@ There’s actually an easy way to do it using Mac’s native image and PDF viewe
   
     <entry>
       <title>Macbook Pro boot up issue with no startup chime... WTF</title>
-      <link href="http://www.flopreynat.com/blog/macbook-pro-boot-up-issue-no-startup-chime.html" />
+      <link href="https://www.flopreynat.com/blog/macbook-pro-boot-up-issue-no-startup-chime.html" />
       <updated>2019-02-16T00:00:00+01:00</updated>
-      <id>http://www.flopreynat.com/blog/macbook-pro-boot-up-issue-no-startup-chime</id>
+      <id>https://www.flopreynat.com/blog/macbook-pro-boot-up-issue-no-startup-chime</id>
       <content type="html">&lt;p&gt;Already talked about this issue once… &lt;a href=&quot;http://flopreynat.com/blog/macbook-pro-boots-to-black-screen.html&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;, except this time I don’t have the chance to hear the startup chime, nor to reset any PRAM, nothing.&lt;/p&gt;
 
 &lt;p&gt;The only chance I get is to enter my password and see the apple screen get stuck for ever.&lt;/p&gt;
@@ -116,9 +116,9 @@ It did work in my case.&lt;/p&gt;
   
     <entry>
       <title>Github: 2FA and personal token</title>
-      <link href="http://www.flopreynat.com/blog/github-2fa-personal-token.html" />
+      <link href="https://www.flopreynat.com/blog/github-2fa-personal-token.html" />
       <updated>2018-03-23T00:00:00+01:00</updated>
-      <id>http://www.flopreynat.com/blog/github-2fa-commandline</id>
+      <id>https://www.flopreynat.com/blog/github-2fa-commandline</id>
       <content type="html">&lt;p&gt;So you’ve decided to turn on two-factor authentication (as you do) for your github account and you can’t commit (anymore) to your repos using the command line.&lt;/p&gt;
 
 &lt;p&gt;TL;DR&lt;/p&gt;
@@ -145,9 +145,9 @@ Instead, you must create a personal access token and use its as a password.&lt;/
   
     <entry>
       <title>Fontawesome Alfred Workflow</title>
-      <link href="http://www.flopreynat.com/blog/fontawesome-alfred-workflow.html" />
+      <link href="https://www.flopreynat.com/blog/fontawesome-alfred-workflow.html" />
       <updated>2018-01-01T00:00:00+01:00</updated>
-      <id>http://www.flopreynat.com/blog/fontawesome-alfred-workflow</id>
+      <id>https://www.flopreynat.com/blog/fontawesome-alfred-workflow</id>
       <content type="html">&lt;ol&gt;
   &lt;li&gt;You have &lt;a href=&quot;https://www.alfredapp.com/&quot;&gt;Alfred&lt;/a&gt; and use it on a regular basis?&lt;/li&gt;
   &lt;li&gt;Your job is to build websites, or simple protoypes?&lt;/li&gt;
@@ -166,9 +166,9 @@ Instead, you must create a personal access token and use its as a password.&lt;/
   
     <entry>
       <title>No camera was found</title>
-      <link href="http://www.flopreynat.com/blog/no-camera-was-found.html" />
+      <link href="https://www.flopreynat.com/blog/no-camera-was-found.html" />
       <updated>2017-05-31T00:00:00+02:00</updated>
-      <id>http://www.flopreynat.com/blog/camera-not-detected-hangout</id>
+      <id>https://www.flopreynat.com/blog/camera-not-detected-hangout</id>
       <content type="html">&lt;p&gt;You’re most likely running on Mavericks, or El Capitan, are using your mac or a monitor with integrated camera, and keep on getting something along the lines of ‘no camera was found’ messages from Hangout or other web conferencing apps.&lt;/p&gt;
 
 &lt;p&gt;Issue happened to me on dozens of times with an Apple Thunderbolt.&lt;/p&gt;
@@ -201,9 +201,9 @@ For now…&lt;/p&gt;
   
     <entry>
       <title>Responsive email design framework MJML to the test</title>
-      <link href="http://www.flopreynat.com/blog/responsive-email-design-framework-mjml.html" />
+      <link href="https://www.flopreynat.com/blog/responsive-email-design-framework-mjml.html" />
       <updated>2017-05-16T00:00:00+02:00</updated>
-      <id>http://www.flopreynat.com/blog/responsive-email-design-framework-mjml</id>
+      <id>https://www.flopreynat.com/blog/responsive-email-design-framework-mjml</id>
       <content type="html">&lt;p&gt;Email design is a real pain in the arse. We all know that. Therefore I decided to give &lt;a href=&quot;https://mjml.io/&quot;&gt;mjml&lt;/a&gt; a go. For those who don’t know of mjml.io, it’s a responsive email design framework built by a team of developers at &lt;a href=&quot;https://www.mailjet.com&quot;&gt;Mailjet&lt;/a&gt;, a competitor of &lt;a href=&quot;https://mailchimp.com/&quot;&gt;Mailchimp&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;The beauty of this framework results in the fact that you create something very much close to html, using an MJML markup language, and as mentioned in its detailed documentation, &lt;em&gt;“its semantic syntax makes it easy and straightforward and its rich standard components library speeds up your development time and lightens your email codebase.”&lt;/em&gt;&lt;/p&gt;
@@ -243,9 +243,9 @@ Something not only esthetic but fully functional.&lt;/p&gt;
   
     <entry>
       <title>DuckDuckGo hacks for developers</title>
-      <link href="http://www.flopreynat.com/blog/duckduckgo-hacks-for-developers.html" />
+      <link href="https://www.flopreynat.com/blog/duckduckgo-hacks-for-developers.html" />
       <updated>2017-04-18T00:00:00+02:00</updated>
-      <id>http://www.flopreynat.com/blog/duckduckgo-hacks-for-developers</id>
+      <id>https://www.flopreynat.com/blog/duckduckgo-hacks-for-developers</id>
       <content type="html">&lt;p&gt;DuckDuckGo is by far the best search engine out there. For your own privacy for starters, and also as a great little tool for us dev folks, adept of quick tech &amp;amp; code answers, and geeky little features.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -298,9 +298,9 @@ Here’s a cool one you can try yourselves: &lt;a href=&quot;!caniuse flexbox&qu
   
     <entry>
       <title>Personal Data Privacy: start off 2017 on the right foot</title>
-      <link href="http://www.flopreynat.com/blog/personal-data-privacy-in-2017.html" />
+      <link href="https://www.flopreynat.com/blog/personal-data-privacy-in-2017.html" />
       <updated>2017-01-03T00:00:00+01:00</updated>
-      <id>http://www.flopreynat.com/blog/personal-data-privacy-2017</id>
+      <id>https://www.flopreynat.com/blog/personal-data-privacy-2017</id>
       <content type="html">&lt;p&gt;&lt;strong&gt;New year new start&lt;/strong&gt;. What a great opportunity to start it off on the right foot and greatly improve your behaviour and overall awareness on the personal data privacy subject. You will feel great and you will start breaking the chain!&lt;/p&gt;
 
 &lt;p&gt;As discussed last time &lt;a href=&quot;http://flopreynat.com/blog/data-privacy-matters.html&quot;&gt;we talked on the matter&lt;/a&gt;, our personal data privacy matters a lot, and yet, it is being violated more and more.&lt;/p&gt;
@@ -408,9 +408,9 @@ Otherwise, happy new year!&lt;/p&gt;
   
     <entry>
       <title>Create a PDF Compress Automator App</title>
-      <link href="http://www.flopreynat.com/blog/pdf-compress-automator-app.html" />
+      <link href="https://www.flopreynat.com/blog/pdf-compress-automator-app.html" />
       <updated>2016-12-20T00:00:00+01:00</updated>
-      <id>http://www.flopreynat.com/blog/pdf-compress-automator-app</id>
+      <id>https://www.flopreynat.com/blog/pdf-compress-automator-app</id>
       <content type="html">&lt;p&gt;Every time I want to compress pdfs on a new apple machine, I find myself looking for the same (great) posts on the subject, and rarely find the one I’m looking for.&lt;/p&gt;
 
 &lt;p&gt;This is why I’m putting up this nice (personal) go-to blog post on how to easily and quickly set up a PDF Compress Automator App, as I use the app almost every day.&lt;/p&gt;
@@ -441,9 +441,9 @@ Otherwise, happy new year!&lt;/p&gt;
   
     <entry>
       <title>(Our Personal) Data Privacy Matters</title>
-      <link href="http://www.flopreynat.com/blog/data-privacy-matters.html" />
+      <link href="https://www.flopreynat.com/blog/data-privacy-matters.html" />
       <updated>2016-11-17T00:00:00+01:00</updated>
-      <id>http://www.flopreynat.com/blog/data-privacy-series</id>
+      <id>https://www.flopreynat.com/blog/data-privacy-series</id>
       <content type="html">&lt;p&gt;(Our personal) Data Privacy is a big deal. If you, like me, get annoyed every time you receive an unwanted newsletter, or feel wary about looking up some specific items while logged in on google, you’ll know what I’m talking about.&lt;/p&gt;
 
 &lt;p&gt;This subject has always been of great interest to me, both from personal and technoligcal stand points.
@@ -471,9 +471,9 @@ His eloquence and passion for defending data privacy are second to none.&lt;/p&g
   
     <entry>
       <title>Speed up your Salesforce admin search with Sid's Searchbox</title>
-      <link href="http://www.flopreynat.com/blog/salesforce-admin-search.html" />
+      <link href="https://www.flopreynat.com/blog/salesforce-admin-search.html" />
       <updated>2016-10-12T00:00:00+02:00</updated>
-      <id>http://www.flopreynat.com/blog/salesforce-admin-search</id>
+      <id>https://www.flopreynat.com/blog/salesforce-admin-search</id>
       <content type="html">&lt;p&gt;If you’re a Salesforce user, especially a developer or admin, you may spend most of your day in the Salesforce setup area, adding and editing apex classes, visualforce pages and adjusting other admin settings.&lt;/p&gt;
 
 &lt;p&gt;Anything helping you stop wasting time on the setup area is more than welcome. Therefore I can only recommend you to give this chrome extension a go.&lt;/p&gt;
@@ -492,9 +492,9 @@ His eloquence and passion for defending data privacy are second to none.&lt;/p&g
   
     <entry>
       <title>RSI and vertical mouse: a look back at the last 6 months</title>
-      <link href="http://www.flopreynat.com/blog/rsi-vertical-mouse.html" />
+      <link href="https://www.flopreynat.com/blog/rsi-vertical-mouse.html" />
       <updated>2016-09-21T00:00:00+02:00</updated>
-      <id>http://www.flopreynat.com/blog/rsi-vertical-mouse</id>
+      <id>https://www.flopreynat.com/blog/rsi-vertical-mouse</id>
       <content type="html">&lt;p&gt;Repetitive strain injury (RSI) is a frequent issue when you spend 10+ hours a day in front of a computer, and it is something I have unfortunately been experiencing these last few years.&lt;/p&gt;
 
 &lt;p&gt;Since I own a mac, I have always been using a magic mouse, but as aching in my right hand (and arm) started to occur on a more regular basis, I started wondering whether this beautiful, yet - let’s be honest - way too small device was the root of my problem.&lt;/p&gt;
@@ -521,9 +521,9 @@ His eloquence and passion for defending data privacy are second to none.&lt;/p&g
   
     <entry>
       <title>Wordpress staging environments on the cheap</title>
-      <link href="http://www.flopreynat.com/blog/wordpress-staging-environment.html" />
+      <link href="https://www.flopreynat.com/blog/wordpress-staging-environment.html" />
       <updated>2016-08-30T00:00:00+02:00</updated>
-      <id>http://www.flopreynat.com/blog/wordpress-staging-environment</id>
+      <id>https://www.flopreynat.com/blog/wordpress-staging-environment</id>
       <content type="html">&lt;p&gt;Staging environments are one of the keys of a (proper and) controlled deployment process, whatever the technology. Wordpress isn’t any different.&lt;/p&gt;
 
 &lt;p&gt;You have a problem if you - like me - run a few things on wordpress, don’t consider it as a priority subject (hence do not have the time, nor the money to commit on the suject), …yet still want to make it a decent process.&lt;/p&gt;
@@ -562,9 +562,9 @@ His eloquence and passion for defending data privacy are second to none.&lt;/p&g
   
     <entry>
       <title>Create a dribbble API-powered portfolio in no time</title>
-      <link href="http://www.flopreynat.com/blog/dribbble-api-portfolio.html" />
+      <link href="https://www.flopreynat.com/blog/dribbble-api-portfolio.html" />
       <updated>2016-07-04T00:00:00+02:00</updated>
-      <id>http://www.flopreynat.com/blog/dribbble-api-portfolio</id>
+      <id>https://www.flopreynat.com/blog/dribbble-api-portfolio</id>
       <content type="html">&lt;p&gt;APIs are a foundational element in today’s tech world. They help you enrich your data, and remain the best, simplest and quickest way to integrate to other engines, apps … you name it.&lt;/p&gt;
 
 &lt;p&gt;In this example, we’ll focus on a quick (and dirty) dribble to website integration, helping you generate a dribbble-api-powered portfolio, and kill two birds with one stone.&lt;/p&gt;
@@ -586,9 +586,9 @@ Do not be too judgemental on the overall design, this was made in a few minutes,
   
     <entry>
       <title>Mac Finder freezes... WTF</title>
-      <link href="http://www.flopreynat.com/blog/mac-finder-freezes.html" />
+      <link href="https://www.flopreynat.com/blog/mac-finder-freezes.html" />
       <updated>2016-05-29T00:00:00+02:00</updated>
-      <id>http://www.flopreynat.com/blog/mac-finder-freezes</id>
+      <id>https://www.flopreynat.com/blog/mac-finder-freezes</id>
       <content type="html">&lt;p&gt;Another blog post on Apple devices playing up (following the &lt;a href=&quot;http://flopreynat.com/blog/macbook-pro-boots-to-black-screen.html&quot;&gt;“boot to black screen”&lt;/a&gt; one) with this time, the way to resolve a frozen finder on OSX (Mavericks in my case).&lt;/p&gt;
 
 &lt;p&gt;The thing happened to me a few months back, with Finder freezing over and over after a few seconds or minutes of usage, forcing me to force quit Finder on numerous occasions throughout the day.&lt;/p&gt;
@@ -621,9 +621,9 @@ Do not be too judgemental on the overall design, this was made in a few minutes,
   
     <entry>
       <title>Gulp throws Potentially unhandled rejection error</title>
-      <link href="http://www.flopreynat.com/blog/gulp-throws-potentially-unhandled-rejection-no-writecb.html" />
+      <link href="https://www.flopreynat.com/blog/gulp-throws-potentially-unhandled-rejection-no-writecb.html" />
       <updated>2016-04-27T00:00:00+02:00</updated>
-      <id>http://www.flopreynat.com/blog/gulp-throws-potentially-unhandled-rejection</id>
+      <id>https://www.flopreynat.com/blog/gulp-throws-potentially-unhandled-rejection</id>
       <content type="html">&lt;p&gt;So you’re using Gulp and you’re thrown a “Potentially unhandled rejection [2] Error: no writecb” and you have no idea what to do next…&lt;/p&gt;
 
 &lt;p&gt;It was my case up to last night when running Gulp for the first time (I usually run Grunt) during the initialization of &lt;a href=&quot;https://reactforbeginners.com/&quot;&gt;Wes Bos’ “React for Beginners”&lt;/a&gt;, and the run of a gulp-stylus task.&lt;/p&gt;
@@ -652,9 +652,9 @@ v6.0.0
   
     <entry>
       <title>Alfred App Review</title>
-      <link href="http://www.flopreynat.com/blog/alfred-app-review.html" />
+      <link href="https://www.flopreynat.com/blog/alfred-app-review.html" />
       <updated>2016-04-19T00:00:00+02:00</updated>
-      <id>http://www.flopreynat.com/blog/alfred-app-review</id>
+      <id>https://www.flopreynat.com/blog/alfred-app-review</id>
       <content type="html">&lt;p&gt;An app all windows users envy us if they have had the chance to take Mac’s already-powerful search feature to the next level, with Alfred - the award winning app and best butler I have ever known…&lt;/p&gt;
 
 &lt;p&gt;Like any developer out there, I want to use the keyboard as much as I can. For productivity reasons first, and for others.&lt;/p&gt;
@@ -690,9 +690,9 @@ To be totally honest, I have never really looked into the Powerpack, but I may b
   
     <entry>
       <title>Leverage Sublime Text Macros to automate repeatable actions</title>
-      <link href="http://www.flopreynat.com/blog/leverage-sublime-macros-to-automate-repeatable-actions.html" />
+      <link href="https://www.flopreynat.com/blog/leverage-sublime-macros-to-automate-repeatable-actions.html" />
       <updated>2016-03-30T00:00:00+02:00</updated>
-      <id>http://www.flopreynat.com/blog/leverage-sublime-macros-to-automate-repeatable-actions</id>
+      <id>https://www.flopreynat.com/blog/leverage-sublime-macros-to-automate-repeatable-actions</id>
       <content type="html">&lt;p&gt;Sublime Text Macros are a smart little tool to automate repeatable (and often-repeated) patterns.&lt;/p&gt;
 
 &lt;p&gt;For example, I need to build arrays from lists of things on a regular basis. As easy as it can be in sublime to perform such an operation, using the basic automation provided by Macros is the best way forward.&lt;/p&gt;
@@ -709,9 +709,9 @@ To be totally honest, I have never really looked into the Powerpack, but I may b
   
     <entry>
       <title>Grunt throws a Maximum call stack size exceeded error</title>
-      <link href="http://www.flopreynat.com/blog/gruntjs-maximum-call-stack-size-exceeded-error.html" />
+      <link href="https://www.flopreynat.com/blog/gruntjs-maximum-call-stack-size-exceeded-error.html" />
       <updated>2016-01-27T00:00:00+01:00</updated>
-      <id>http://www.flopreynat.com/blog/gruntjs-maximum-call-stack-size-exceeded-error</id>
+      <id>https://www.flopreynat.com/blog/gruntjs-maximum-call-stack-size-exceeded-error</id>
       <content type="html">&lt;p&gt;Grunt throws a ‘maximum call stack size exceeded’ error after running a simple task, and you haven’t got the slightest idea what it means. No sweat.&lt;/p&gt;
 
 &lt;p&gt;But I can’t blame as this is just what happened to me today while working on a website redesign. The grunt task is a simple ‘imagemin’ task I decided to run separately, and I don’t recall having had the same issue before.&lt;/p&gt;
@@ -738,9 +738,9 @@ To be totally honest, I have never really looked into the Powerpack, but I may b
   
     <entry>
       <title>Record your screen in animated GIF format with Licecap</title>
-      <link href="http://www.flopreynat.com/blog/record-screen-animated-gif.html" />
+      <link href="https://www.flopreynat.com/blog/record-screen-animated-gif.html" />
       <updated>2016-01-07T00:00:00+01:00</updated>
-      <id>http://www.flopreynat.com/blog/record-screen-animated-gif</id>
+      <id>https://www.flopreynat.com/blog/record-screen-animated-gif</id>
       <content type="html">&lt;p&gt;I’m often being asked what screen recorder software I use, since I frequently document tutorials, emails, and other user guides with self-explanatory gifs.&lt;/p&gt;
 
 &lt;p&gt;And since the app I use is 1. open source (hence free), 2. super light, and 3. very easy to use, I thought I would give Licecap the credit it deserves.&lt;/p&gt;
@@ -761,9 +761,9 @@ To be totally honest, I have never really looked into the Powerpack, but I may b
   
     <entry>
       <title>Autocomplete file names in Sublime</title>
-      <link href="http://www.flopreynat.com/blog/autocomplete-file-names-sublimetext.html" />
+      <link href="https://www.flopreynat.com/blog/autocomplete-file-names-sublimetext.html" />
       <updated>2016-01-06T00:00:00+01:00</updated>
-      <id>http://www.flopreynat.com/blog/autocomplete-file-names-sublimetext</id>
+      <id>https://www.flopreynat.com/blog/autocomplete-file-names-sublimetext</id>
       <content type="html">&lt;p&gt;Another cool add-on to your Sublime with this great little plugin that allows you to autocomple your file names and speed up your coding.&lt;/p&gt;
 
 &lt;p&gt;Use your &lt;a href=&quot;https://packagecontrol.io/&quot;&gt;Package Control&lt;/a&gt; (CMD + SHIFT + P) to install &lt;a href=&quot;https://github.com/BoundInCode/AutoFileName&quot;&gt;AutoFileName&lt;/a&gt; and start playing with it.&lt;/p&gt;
@@ -784,9 +784,9 @@ To be totally honest, I have never really looked into the Powerpack, but I may b
   
     <entry>
       <title>Macbook Pro boots to black screen... WTF</title>
-      <link href="http://www.flopreynat.com/blog/macbook-pro-boots-to-black-screen.html" />
+      <link href="https://www.flopreynat.com/blog/macbook-pro-boots-to-black-screen.html" />
       <updated>2015-12-23T00:00:00+01:00</updated>
-      <id>http://www.flopreynat.com/blog/macbook-pro-boots-to-black-screen</id>
+      <id>https://www.flopreynat.com/blog/macbook-pro-boots-to-black-screen</id>
       <content type="html">&lt;p&gt;So you boot your macbook pro, and you get… well not much. A black screen staring back at you while you frantically reach for your phone to check possible solutions to this problem.&lt;/p&gt;
 
 &lt;h4 id=&quot;pram-reset&quot;&gt;PRAM Reset&lt;/h4&gt;
@@ -810,9 +810,9 @@ But it just does work.&lt;/p&gt;
   
     <entry>
       <title>Move and resize windows with Spectacle</title>
-      <link href="http://www.flopreynat.com/blog/move-and-resize-windows-with-spectacle.html" />
+      <link href="https://www.flopreynat.com/blog/move-and-resize-windows-with-spectacle.html" />
       <updated>2015-12-18T00:00:00+01:00</updated>
-      <id>http://www.flopreynat.com/blog/move-and-resize-windows-with-spectacle</id>
+      <id>https://www.flopreynat.com/blog/move-and-resize-windows-with-spectacle</id>
       <content type="html">&lt;p&gt;Repositioning and resizing windows isn’t probably the most entertaining subject out there, but as we do those two all day long, let’s talk about it once and for all.&lt;/p&gt;
 
 &lt;p&gt;I remember having blogged about this subject on another blog about 3 years ago, and today, I’m finding myself talking about this very same subject to various mac users (since it’s a native feature on windows), having failed to deal with the issue.&lt;/p&gt;
@@ -828,11 +828,11 @@ And I’ve been using it for ever now.&lt;/p&gt;
 
 &lt;p&gt;Once installed, you’ll have to enable access for assistive devices.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://www.flopreynat.com/img/spectacle1.jpg&quot; alt=&quot;Universal Access&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.flopreynat.com/img/spectacle1.jpg&quot; alt=&quot;Universal Access&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Review your shortcuts, change them if you wish, and start getting more productive with your open windows…&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://www.flopreynat.com/img/spectacle2.jpg&quot; alt=&quot;Spectacle shortcuts&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.flopreynat.com/img/spectacle2.jpg&quot; alt=&quot;Spectacle shortcuts&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;You can run the app in the background but I suggest you add it in the status menu.&lt;/p&gt;
 </content>
@@ -840,9 +840,9 @@ And I’ve been using it for ever now.&lt;/p&gt;
   
     <entry>
       <title>My Sublime Text Shortcuts CheatSheet</title>
-      <link href="http://www.flopreynat.com/blog/sublime-text-shortcuts-cheatsheet.html" />
+      <link href="https://www.flopreynat.com/blog/sublime-text-shortcuts-cheatsheet.html" />
       <updated>2015-10-27T00:00:00+01:00</updated>
-      <id>http://www.flopreynat.com/blog/sublime-text-shortcuts-cheat-sheet</id>
+      <id>https://www.flopreynat.com/blog/sublime-text-shortcuts-cheat-sheet</id>
       <content type="html">&lt;p&gt;‘Have you documented your own Sublime Text shortcut cheatsheet?’ is a question I never get asked. But despite all your efforts to avoid the subject, here it is. In your face!&lt;/p&gt;
 
 &lt;p&gt;This post is likely to get updated on a regular basis since I tend to learn new stuff every day. See, when you start low, you’re bound to progress more often than never :)&lt;/p&gt;
@@ -934,9 +934,9 @@ And I’ve been using it for ever now.&lt;/p&gt;
   
     <entry>
       <title>Google Authenticator is producing the wrong codes</title>
-      <link href="http://www.flopreynat.com/blog/google-authenticator-wrong-code.html" />
+      <link href="https://www.flopreynat.com/blog/google-authenticator-wrong-code.html" />
       <updated>2015-09-30T00:00:00+02:00</updated>
-      <id>http://www.flopreynat.com/blog/google-authenticator-producing-wrong-code</id>
+      <id>https://www.flopreynat.com/blog/google-authenticator-producing-wrong-code</id>
       <content type="html">&lt;p&gt;What do you do when your Google Authenticator produces the wrong codes, and there’s nothing much you can do about it?&lt;/p&gt;
 
 &lt;p&gt;I’m a huge fan of the two-factor authentification, the now famous user identification system by means of the combination of two different components. It usually involves a password and some kind of time-based token available via an app on a mobile phone.&lt;/p&gt;
@@ -961,9 +961,9 @@ And I’ve been using it for ever now.&lt;/p&gt;
   
     <entry>
       <title>Responsive video code snippet</title>
-      <link href="http://www.flopreynat.com/blog/responsive-video-code-snippet.html" />
+      <link href="https://www.flopreynat.com/blog/responsive-video-code-snippet.html" />
       <updated>2015-09-15T00:00:00+02:00</updated>
-      <id>http://www.flopreynat.com/blog/responsive-video-code-snippet</id>
+      <id>https://www.flopreynat.com/blog/responsive-video-code-snippet</id>
       <content type="html">&lt;p&gt;An ancient blogpost of mine, and this clever responsive video code snippet presented (at the time) by Ethan Marcotte, at btconf 2014 during his &lt;a href=&quot;https://beyondtellerrand.com/events/duesseldorf-2014/speakers/ethan-marcotte#talk&quot;&gt;Laziness In The Time Of Responsive Design&lt;/a&gt; talk.&lt;/p&gt;
 
 &lt;p&gt;A quick way to make videos look good at any size, the height/width ratio of the media now respected.&lt;/p&gt;
@@ -994,9 +994,9 @@ And I’ve been using it for ever now.&lt;/p&gt;
   
     <entry>
       <title>Make Google Charts Responsive</title>
-      <link href="http://www.flopreynat.com/blog/make-google-charts-responsive.html" />
+      <link href="https://www.flopreynat.com/blog/make-google-charts-responsive.html" />
       <updated>2015-09-08T00:00:00+02:00</updated>
-      <id>http://www.flopreynat.com/blog/make-google-charts-responsive</id>
+      <id>https://www.flopreynat.com/blog/make-google-charts-responsive</id>
       <content type="html">&lt;p&gt;A quick blog post on how to make Google Charts play nicely in responsive mode. Nothing close to rocket science but still useful.&lt;/p&gt;
 
 &lt;p&gt;For those who don’t know, &lt;a href=&quot;https://google-developers.appspot.com/chart/&quot;&gt;Google Charts&lt;/a&gt; is a visualization tool, a gallery of interactive charts and data tools that you can integrate into your website. You provide data through php, json and Google Charts display it nicely for you.&lt;/p&gt;
@@ -1024,9 +1024,9 @@ And I’ve been using it for ever now.&lt;/p&gt;
   
     <entry>
       <title>Using Jekyll plugins on Github</title>
-      <link href="http://www.flopreynat.com/blog/jekyll-plugins-github.html" />
+      <link href="https://www.flopreynat.com/blog/jekyll-plugins-github.html" />
       <updated>2015-08-25T00:00:00+02:00</updated>
-      <id>http://www.flopreynat.com/blog/jekyll-plugins-github</id>
+      <id>https://www.flopreynat.com/blog/jekyll-plugins-github</id>
       <content type="html">&lt;p&gt;A bit of reading for all jekyll newbies who, like me, decided to host their Jekyll site on Github pages (or are in the process to do so), and wouldn’t be aware of the limitations around the subject.&lt;/p&gt;
 
 &lt;p&gt;I’ve been running this site on Jekyll for a few weeks only, and making discoveries along the way. When I decided to install and use &lt;a href=&quot;https://github.com/UsabilityEtc/responsive-youtube-jekyll-tag&quot;&gt;the first of many plugins available&lt;/a&gt;, I hit the wall and quickly realised the topic was far from an easy affair.&lt;/p&gt;
@@ -1050,9 +1050,9 @@ I personnaly decided not to go with any of them.&lt;/p&gt;
   
     <entry>
       <title>Sublime Text 3 Clipboard History</title>
-      <link href="http://www.flopreynat.com/blog/sublimetext-clipboard-history.html" />
+      <link href="https://www.flopreynat.com/blog/sublimetext-clipboard-history.html" />
       <updated>2015-08-18T00:00:00+02:00</updated>
-      <id>http://www.flopreynat.com/blog/sublimetext-clipboard-history</id>
+      <id>https://www.flopreynat.com/blog/sublimetext-clipboard-history</id>
       <content type="html">&lt;p&gt;I’ve recently moved to Sublime Text 3, having enjoyed several years of cruising on version 2. The latest version is now more than mature (hence my move) and has additional features ST2 was short of. The ability to browse through your clipboard history is defo one of them.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -1074,9 +1074,9 @@ I personnaly decided not to go with any of them.&lt;/p&gt;
   
     <entry>
       <title>Adding Disqus comments to Jekyll</title>
-      <link href="http://www.flopreynat.com/blog/adding-disqus-comments-jekyll.html" />
+      <link href="https://www.flopreynat.com/blog/adding-disqus-comments-jekyll.html" />
       <updated>2015-08-14T00:00:00+02:00</updated>
-      <id>http://www.flopreynat.com/blog/adding-disqus-comments-jekyll</id>
+      <id>https://www.flopreynat.com/blog/adding-disqus-comments-jekyll</id>
       <content type="html">&lt;p&gt;Adding comments via Disqus to your Jekyll blog is something you probably want to do if you want a bit of life and interaction. Good news: it couldn’t be easier.&lt;/p&gt;
 
 &lt;p&gt;There are installation instructions on the &lt;a href=&quot;https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions&quot;&gt;Disqus documentation&lt;/a&gt;, and on various places around the web, but I thought I would recap the lot for y’all.&lt;/p&gt;
@@ -1116,9 +1116,9 @@ defaults:
   
     <entry>
       <title>Jekyll contact form with Formspree</title>
-      <link href="http://www.flopreynat.com/blog/jekyll-contact-form.html" />
+      <link href="https://www.flopreynat.com/blog/jekyll-contact-form.html" />
       <updated>2015-08-10T00:00:00+02:00</updated>
-      <id>http://www.flopreynat.com/blog/jekyll-contact-form</id>
+      <id>https://www.flopreynat.com/blog/jekyll-contact-form</id>
       <content type="html">&lt;p&gt;So you got yourself a nice static site, and you want to give your audience a chance to talk to you (directly) with a simple contact form, something you might be used to having used wordpress, php, and a database.&lt;/p&gt;
 
 &lt;p&gt;Except there ain’t no database here. Even less php back end. Hence you’ve got to rely on other ways to get personal messages sent to you.&lt;/p&gt;
@@ -1145,9 +1145,9 @@ defaults:
   
     <entry>
       <title>Free stock photos for your projects</title>
-      <link href="http://www.flopreynat.com/blog/free-stock-photos-that-dont-suck.html" />
+      <link href="https://www.flopreynat.com/blog/free-stock-photos-that-dont-suck.html" />
       <updated>2015-08-06T00:00:00+02:00</updated>
-      <id>http://www.flopreynat.com/blog/free-stock-photos-that-dont-suck</id>
+      <id>https://www.flopreynat.com/blog/free-stock-photos-that-dont-suck</id>
       <content type="html">&lt;p&gt;Just a go-to blog post (for myself really) when on the lookout for free stock photos (that don’t suck) for your web design projects, print needs et al.&lt;/p&gt;
 
 &lt;p&gt;A lot of good and excellent sites for you to pick exceptionnally-pro-looking pics from… Here we go.&lt;/p&gt;
@@ -1206,9 +1206,9 @@ defaults:
   
     <entry>
       <title>Error installing jekyll: Failed to build gem native extension</title>
-      <link href="http://www.flopreynat.com/blog/jekyll-failed-to-build-gem-native-extension.html" />
+      <link href="https://www.flopreynat.com/blog/jekyll-failed-to-build-gem-native-extension.html" />
       <updated>2015-07-29T00:00:00+02:00</updated>
-      <id>http://www.flopreynat.com/blog/jekyll-failed-to-build-gem-native-extension</id>
+      <id>https://www.flopreynat.com/blog/jekyll-failed-to-build-gem-native-extension</id>
       <content type="html">&lt;p&gt;Though I would post this one since I did experience a few issues attempting to install jekyll, including this “Failed to build gem native extension” annoying error.&lt;/p&gt;
 
 &lt;p&gt;Right, so you have it all installed. So you think. As advised on the jekyll site, you’ve done your:&lt;/p&gt;
@@ -1283,9 +1283,9 @@ sudo gem install jekyll
   
     <entry>
       <title>Why Jekyll?</title>
-      <link href="http://www.flopreynat.com/blog/why-jekyll.html" />
+      <link href="https://www.flopreynat.com/blog/why-jekyll.html" />
       <updated>2015-07-22T00:00:00+02:00</updated>
-      <id>http://www.flopreynat.com/blog/why-jekyll</id>
+      <id>https://www.flopreynat.com/blog/why-jekyll</id>
       <content type="html">&lt;p&gt;I’ve got it easy on that one. Site is brand new, hence built from scratch, with absolutely no data to migrate/integrate. Picking a technology like Jekyll to build and run this new personal pad was therefore an easy choice to make.&lt;/p&gt;
 
 &lt;p&gt;I’ve been using Wordpress (most times) and Perch (a few times) to create most of my personal/client/others’ websites, and despite having nagged a few times about performance or bloated code, it was most of the time down to me.&lt;/p&gt;
@@ -1310,9 +1310,9 @@ sudo gem install jekyll
   
     <entry>
       <title>Responsive Images Meetup: Coming together is a beginning</title>
-      <link href="http://www.flopreynat.com/blog/responsive-images-meetup-coming-together-is-a-beginning.html" />
+      <link href="https://www.flopreynat.com/blog/responsive-images-meetup-coming-together-is-a-beginning.html" />
       <updated>2013-09-13T00:00:00+02:00</updated>
-      <id>http://www.flopreynat.com/blog/responsive-images-meetup-coming-together-is-a-beginning</id>
+      <id>https://www.flopreynat.com/blog/responsive-images-meetup-coming-together-is-a-beginning</id>
       <content type="html">&lt;p&gt;Last time I talked about responsive images, I did mention I was due to go to the responsive images meetup in Paris, and as the long-awaited event happened a couple of days ago, I thought it would be nice to write a quick recap for the folks unable to make it.&lt;/p&gt;
 
 &lt;h3 id=&quot;side-note&quot;&gt;SIDE NOTE&lt;/h3&gt;
@@ -1397,9 +1397,9 @@ As a picture is worth a thousand words, there you go:&lt;/p&gt;
   
     <entry>
       <title>Add a neat little breakpoint snippet to your Sublime</title>
-      <link href="http://www.flopreynat.com/blog/sublime-breakpoint-snippet.html" />
+      <link href="https://www.flopreynat.com/blog/sublime-breakpoint-snippet.html" />
       <updated>2013-05-15T00:00:00+02:00</updated>
-      <id>http://www.flopreynat.com/blog/sublime-breakpoint-snippet</id>
+      <id>https://www.flopreynat.com/blog/sublime-breakpoint-snippet</id>
       <content type="html">&lt;p&gt;Let’s get Sassy today with this little yet very useful Sublime Text 2 &lt;a href=&quot;https://gist.github.com/jnowland/5151162&quot;&gt;breakpoint snippet&lt;/a&gt; handmade by James Nowland and obviously editable as you wish.&lt;/p&gt;
 
 &lt;p&gt;If, like me, you code a lot of responsive sites, chances are that you work with Sass and end up putting half a million @include breakpoint lines, working your site’s scss the modular way… as you do.&lt;/p&gt;
