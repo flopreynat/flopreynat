@@ -3,12 +3,34 @@
   <title>flopreynat.com</title>
   <link href="http://www.flopreynat.com/atom.xml" rel="self" />
   <link href="http://www.flopreynat.com/"/>
-  <updated>2019-10-06T18:35:13+02:00</updated>
+  <updated>2019-12-01T20:53:09+01:00</updated>
   <id>http://www.flopreynat.com</id>
   <author>
     <name>flo preynat</name>
     <email>me@flopreynat.com</email>
   </author>
+  
+    <entry>
+      <title>Spin up php server locally in no time</title>
+      <link href="http://www.flopreynat.com/blog/php-server-spin-easy.html" />
+      <updated>2019-12-01T00:00:00+01:00</updated>
+      <id>http://www.flopreynat.com/blog/php-server-spin-easy</id>
+      <content type="html">&lt;p&gt;Another post on tooling with this time a quick and easy way to locally spin up a php server, for - say - php templating and testing.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;php -S localhost:2222&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;As mentioned &lt;a href=&quot;https://www.php.net/manual/en/features.commandline.webserver.php&quot;&gt;here&lt;/a&gt;, the CLI SAPI provides a built-in web server (as of PHP 5.4.0).&lt;/p&gt;
+
+&lt;p&gt;It is not intended to be a full-featured web server. But designed to aid application development.&lt;/p&gt;
+
+&lt;p&gt;Using the above command line is pretty much all is needed.
+Proof &lt;a href=&quot;https://github.com/flopreynat/php-server&quot;&gt;here&lt;/a&gt; with a tiny templated php website.&lt;/p&gt;
+
+&lt;p&gt;So long.&lt;/p&gt;
+</content>
+    </entry>
   
     <entry>
       <title>Crop documents with Mac's Preview</title>

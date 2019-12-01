@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>flopreynat.com</title>
-  <meta name="description" content="website for flopreynat">
+  <title>flopreynat.com | Spin up php server locally in no time</title>
+  <meta name="description" content="Another post on tooling with this time a quick and easy way to locally spin up a php server, for - say - php templating and testing.">
   <link rel="alternate" type="application/atom+xml" title="flopreynat" href="/atom_feed.xml" />
   <link rel="stylesheet" href="/css/global.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="canonical" href="http://www.flopreynat.com/">
+  <link rel="canonical" href="http://www.flopreynat.com/blog/php-server-spin-easy.html">
   <link rel="alternate" type="application/rss+xml" title="flopreynat.com" href="http://www.flopreynat.com/feed.xml" />
   <script src="/js/jquery-2.1.4.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
@@ -65,93 +65,46 @@
   </div>
 </div>
     
-    <div class="hero hero-home">
-  <h1>Code like nobody's watching</h1>
-  <hr class="hrSmall">
-  <h4><em>and rolling their eyes thinking wtf</em></h4>
-</div>
-<div class="container hero-under">
-  <div class="row">
-    <div class="col-lg-12 text-center">
-      <br><h2>Nothing spectacular. Still me though</h2>
-    </div>
-    <div class="col-lg-8 col-lg-offset-2 text-center">
-      <p class="pad">Hi, my name is flo. I used to be a front-end dev, I'm based in France and I work at Odaseva, a young and dynamic tech company.</p>
-    </div>
-  </div>
-</div>
-<div class="container marg text-center">
-  <div class="row">
-    <div class="col-lg-6">
-      <img src="/img/odaseva.png" alt="odaseva.com" width="150px">
-      <h3>odaseva</h3>
-      <p class="pad">Odaseva, a platform currently providing Salesforce customers with Data Governance capabilities sunch as Backup & Restore, Archiving, GDPR capabilities, and more. The company has a wide range of enterprise customers, including Fortune 500 companies, and now operates from all over the world.
-      <br>If you're into Salesforce, GDPR and solid data governance apps, check us out <a href="http://www.odaseva.com">odaseva.com</a></p>
-    </div>
-    <div class="col-lg-6">
-      <img src="/img/shoogledesigns.png" alt="shoogledesigns" width="150px" class="borderRadius">
-      <h3>Development addict</h3>
-      <p class="pad">Developer by day,... developer by night. The design and development experience I have gathered during 15+ years spent within various firms has made me an addict to the Front-end subject. I quickly specialized in responsive web design (like everybody else) when the trend emerged, often use Wordpress, Perch and Jekyll as prefered CMS solutions, and like to get involved in mentorship.</p>
-    </div>
-  </div>
-</div>
-<div class="getinTouch pad">
-  <div class="row">
-    <div class="col-xs-8 col-xs-offset-2 text-center pad">
-      <h2>Wanna discuss mentorship / Say Hi ?</h2>
-      <br><a href="contact.html" class="btn btn-flo">REACH OUT !</a>
-      <!-- <form class="form-inline pad marg">
-        <button type="submit" class="btn btn-empty">Hello</button>
-      </form> -->
-    </div>
-  </div>
-</div>
-<div class="readMore">
-  <div class="container">
-  <div class="row">
-    <div class="col-lg-12 text-center">
-      <br><h2>Latest Blog Posts</h2>
+    <div class="container">
+  <div class="col-lg-10 col-lg-offset-1">
+    <h1 class="post-title">Spin up php server locally in no time</h1>
+    <p class="post-meta"><i class="fa fa-calendar-o"></i>Posted on Dec 1, 2019 | Category: <span class="post-category">tools</span></p>
+    <div class="marg">
       
-        <div class="col-lg-6 marg">
-          <a class="post-link" href="/blog/php-server-spin-easy.html">
-            <img src="/img/php-server-spin-easy.jpg" alt="Spin up php server locally in no time">
-          </a>
-          <br><br><i class="fa fa-calendar-o"></i><span class="post-meta">Dec 1, 2019</span>
-          <h3>
-            <a class="post-link" href="/blog/php-server-spin-easy.html">Spin up php server locally in no time</a>
-          </h3>
-          <p><p>Another post on tooling with this time a quick and easy way to locally spin up a php server, for - say - php templating and testing.</p>
+        <img src="/img/php-server-spin-easy.jpg" alt="Spin up php server locally in no time" class="post-image">
+      
+      <article class="pad">
+        <p>Another post on tooling with this time a quick and easy way to locally spin up a php server, for - say - php templating and testing.</p>
 
-</p>
-        </div>
-      
-        <div class="col-lg-6 marg">
-          <a class="post-link" href="/blog/crop-documents-mac-preview.html">
-            <img src="/img/crop-documents-mac-preview.jpg" alt="Crop documents with Mac's Preview">
-          </a>
-          <br><br><i class="fa fa-calendar-o"></i><span class="post-meta">Oct 6, 2019</span>
-          <h3>
-            <a class="post-link" href="/blog/crop-documents-mac-preview.html">Crop documents with Mac's Preview</a>
-          </h3>
-          <p><p>So you want to quickly/cheaply crop a jpg or pdf but have no tools lying around your mac to do so.
-There’s actually an easy way to do it using Mac’s native image and PDF viewer Preview.</p>
+<blockquote>
+  <p>php -S localhost:2222</p>
+</blockquote>
 
-</p>
-        </div>
+<p>As mentioned <a href="https://www.php.net/manual/en/features.commandline.webserver.php">here</a>, the CLI SAPI provides a built-in web server (as of PHP 5.4.0).</p>
+
+<p>It is not intended to be a full-featured web server. But designed to aid application development.</p>
+
+<p>Using the above command line is pretty much all is needed.
+Proof <a href="https://github.com/flopreynat/php-server">here</a> with a tiny templated php website.</p>
+
+<p>So long.</p>
+
+      </article>
       
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</div>
-</div>
-<div class="readMore" style="border-bottom: 1px solid #DBDBDB">
-  <div class="row">
-    <div class="col-xs-8 col-xs-offset-2 text-center pad">
-      <h2>Wanna read more tips & tricks?</h2>
-      <br><a href="blog" class="btn btn-flo">READ MORE !</a>
-      <!-- <form class="form-inline pad marg">
-        <button type="submit" class="btn btn-empty">Hello</button>
-      </form> -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'flopreynatcom';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
     </div>
   </div>
 </div>

@@ -5,9 +5,35 @@
     <description>website for flopreynat</description>
     <link>http://www.flopreynat.com/</link>
     <atom:link href="http://www.flopreynat.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 06 Oct 2019 18:35:13 +0200</pubDate>
-    <lastBuildDate>Sun, 06 Oct 2019 18:35:13 +0200</lastBuildDate>
+    <pubDate>Sun, 01 Dec 2019 20:53:09 +0100</pubDate>
+    <lastBuildDate>Sun, 01 Dec 2019 20:53:09 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Spin up php server locally in no time</title>
+        <description>&lt;p&gt;Another post on tooling with this time a quick and easy way to locally spin up a php server, for - say - php templating and testing.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;php -S localhost:2222&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;As mentioned &lt;a href=&quot;https://www.php.net/manual/en/features.commandline.webserver.php&quot;&gt;here&lt;/a&gt;, the CLI SAPI provides a built-in web server (as of PHP 5.4.0).&lt;/p&gt;
+
+&lt;p&gt;It is not intended to be a full-featured web server. But designed to aid application development.&lt;/p&gt;
+
+&lt;p&gt;Using the above command line is pretty much all is needed.
+Proof &lt;a href=&quot;https://github.com/flopreynat/php-server&quot;&gt;here&lt;/a&gt; with a tiny templated php website.&lt;/p&gt;
+
+&lt;p&gt;So long.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Dec 2019 00:00:00 +0100</pubDate>
+        <link>http://www.flopreynat.com/blog/php-server-spin-easy.html</link>
+        <guid isPermaLink="true">http://www.flopreynat.com/blog/php-server-spin-easy.html</guid>
+        
+        
+        <category>tools</category>
+        
+      </item>
     
       <item>
         <title>Crop documents with Mac&#39;s Preview</title>
@@ -416,43 +442,6 @@ Otherwise, happy new year!&lt;/p&gt;
         
         
         <category>privacy</category>
-        
-      </item>
-    
-      <item>
-        <title>Create a PDF Compress Automator App</title>
-        <description>&lt;p&gt;Every time I want to compress pdfs on a new apple machine, I find myself looking for the same (great) posts on the subject, and rarely find the one I’m looking for.&lt;/p&gt;
-
-&lt;p&gt;This is why I’m putting up this nice (personal) go-to blog post on how to easily and quickly set up a PDF Compress Automator App, as I use the app almost every day.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;small is beautiful&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Right so, the steps are as follows:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Download the &lt;a href=&quot;https://github.com/joshcarr/Apple-Quartz-Filters&quot;&gt;Apple Quartz filters&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Move the filters to your ~/Library/ folder by launching Finder and using CMD + SHIFT + G to pull up the Go to access Library folder, and dropping a “Filters” folder containing the quartz filters in there.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Launch Automator and Create an Application by dragging the Apply Quartz Filter to PDF Documents from left to right, and set the desired options (eg Reduce to 150 dpi average quality - STANDARD COMPRESSION) before giving it a name (save it onto your desktop).&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Done deal.&lt;/p&gt;
-
-&lt;p&gt;You can now drag your pdf to your newly-created PDF Compress Application, and you’ll get a fresh copy reduced in size (obviously)…&lt;/p&gt;
-</description>
-        <pubDate>Tue, 20 Dec 2016 00:00:00 +0100</pubDate>
-        <link>http://www.flopreynat.com/blog/pdf-compress-automator-app.html</link>
-        <guid isPermaLink="true">http://www.flopreynat.com/blog/pdf-compress-automator-app.html</guid>
-        
-        
-        <category>tools</category>
         
       </item>
     
