@@ -3,12 +3,32 @@
   <title>flopreynat.com</title>
   <link href="https://www.flopreynat.com/atom.xml" rel="self" />
   <link href="https://www.flopreynat.com/"/>
-  <updated>2019-12-01T22:47:34+01:00</updated>
+  <updated>2019-12-26T21:56:19+01:00</updated>
   <id>https://www.flopreynat.com</id>
   <author>
     <name>flo preynat</name>
     <email>me@flopreynat.com</email>
   </author>
+  
+    <entry>
+      <title>Spin up php server locally with Docker</title>
+      <link href="https://www.flopreynat.com/blog/php-server-docker.html" />
+      <updated>2019-12-26T00:00:00+01:00</updated>
+      <id>https://www.flopreynat.com/blog/php-server-docker</id>
+      <content type="html">&lt;p&gt;Almost same use case and files than &lt;a href=&quot;http://flopreynat.com/blog/php-server-spin-easy.html&quot;&gt;last time&lt;/a&gt;.
+But this time, using Docker, which I had been wanting to test out for so long.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;docker run -p 80:80 -v /Users/your-username/path-to-docker-folder/src/:/var/www/html/ hello-world&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Everything is brilliantly explained on this &lt;a href=&quot;https://www.youtube.com/watch?v=YFl2mCHdv24&quot;&gt;Learn Docker in 12 Minutes&lt;/a&gt; video.&lt;/p&gt;
+
+&lt;p&gt;Like on last post, proof files &lt;a href=&quot;https://github.com/flopreynat/php-server-docker&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So long.&lt;/p&gt;
+</content>
+    </entry>
   
     <entry>
       <title>Spin up php server locally in no time</title>

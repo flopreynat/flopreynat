@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>flopreynat.com | Error installing jekyll: Failed to build gem native extension</title>
-  <meta name="description" content="Though I would post this one since I did experience a few issues attempting to install jekyll, including this “Failed to build gem native extension” annoying...">
+  <title>flopreynat.com | Spin up php server locally with Docker</title>
+  <meta name="description" content="Almost same use case and files than last time.But this time, using Docker, which I had been wanting to test out for so long.">
   <link rel="alternate" type="application/atom+xml" title="flopreynat" href="/atom_feed.xml" />
   <link rel="stylesheet" href="/css/global.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="canonical" href="https://www.flopreynat.com/blog/jekyll-failed-to-build-gem-native-extension.html">
+  <link rel="canonical" href="https://www.flopreynat.com/blog/php-server-docker.html">
   <link rel="alternate" type="application/rss+xml" title="flopreynat.com" href="https://www.flopreynat.com/feed.xml" />
   <script src="/js/jquery-2.1.4.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
@@ -65,82 +65,25 @@
     
     <div class="container">
   <div class="col-lg-10 col-lg-offset-1">
-    <h1 class="post-title">Error installing jekyll: Failed to build gem native extension</h1>
-    <p class="post-meta"><i class="fa fa-calendar-o"></i>Posted on Jul 29, 2015 | Category: <span class="post-category">jekyll</span></p>
+    <h1 class="post-title">Spin up php server locally with Docker</h1>
+    <p class="post-meta"><i class="fa fa-calendar-o"></i>Posted on Dec 26, 2019 | Category: <span class="post-category">tools</span></p>
     <div class="marg">
       
-        <img src="/img/jekyll-gem-native-extension.jpg" alt="Error installing jekyll: Failed to build gem native extension" class="post-image">
+        <img src="/img/php-server-docker.jpg" alt="Spin up php server locally with Docker" class="post-image">
       
       <article class="pad">
-        <p>Though I would post this one since I did experience a few issues attempting to install jekyll, including this “Failed to build gem native extension” annoying error.</p>
+        <p>Almost same use case and files than <a href="http://flopreynat.com/blog/php-server-spin-easy.html">last time</a>.
+But this time, using Docker, which I had been wanting to test out for so long.</p>
 
-<p>Right, so you have it all installed. So you think. As advised on the jekyll site, you’ve done your:</p>
+<blockquote>
+  <p>docker run -p 80:80 -v /Users/your-username/path-to-docker-folder/src/:/var/www/html/ hello-world</p>
+</blockquote>
 
-<pre>
-<code class="language-bash">
-sudo gem update --system
-</code>
-</pre>
+<p>Everything is brilliantly explained on this <a href="https://www.youtube.com/watch?v=YFl2mCHdv24">Learn Docker in 12 Minutes</a> video.</p>
 
-<p>Xcode and its command line tools are in there, but you still get an error while running:</p>
+<p>Like on last post, proof files <a href="https://github.com/flopreynat/php-server-docker">here</a>.</p>
 
-<pre>
-<code class="language-bash">
-sudo gem install jekyll
-</code>
-</pre>
-
-<p>something like:</p>
-
-<pre>
-<code class="language-bash">
-Building native extensions.  This could take a while...
-ERROR:  Error installing jekyll:
-ERROR: Failed to build gem native extension.
-</code>
-</pre>
-
-<p>It appears that the installation order is vital, and therefore you should try to uninstall ruby, start from a clean situation, and reinstall it.</p>
-
-<p>It did fix it for me, so have a try if you’re stuck and you’re a numpty like me when it comes down to gems, CLI, and the rest.</p>
-
-<p>Start with:</p>
-
-<pre>
-<code class="language-bash">
-rvm get head
-rvm reset
-</code>
-</pre>
-
-<p>Then check what’s in there with:</p>
-
-<pre>
-<code class="language-bash">
-rvm list
-</code>
-</pre>
-
-<p>Note what ruby version is installed, in my case it was ruby-2.0.0-p247.</p>
-
-<pre>
-<code class="language-bash">
-rvm remove ruby-2.0.0-p247
-rvm cleanup
-rvm repair
-</code>
-</pre>
-
-<p>Only then go with:</p>
-
-<pre>
-<code class="language-bash">
-sudo gem update --system
-sudo gem install jekyll
-</code>
-</pre>
-
-<p>Hope this helps.</p>
+<p>So long.</p>
 
       </article>
       
