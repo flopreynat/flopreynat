@@ -20,7 +20,7 @@
  Everything is brilliantly explained on this Learn Docker in 12 Minutes video.
 Like on last post, proof files here.
 So long.</description>
-            <content type="html"><![CDATA[<p>Almost same use case and files than <a href="http://flopreynat.com/blog/php-server-spin-easy.html">last time</a>.
+            <content type="html"><![CDATA[<p>Almost same use case and files than <a href="http://flopreynat.com/posts/2019-12-01-php-server-spin-easy/">last time</a>.
 But this time, using Docker, which I had been wanting to test out for so long.</p>
 <blockquote>
 <p>docker run -p 80:80 -v /Users/your-username/path-to-docker-folder/src/:/var/www/html/ hello-world</p>
@@ -290,7 +290,7 @@ Here&rsquo;s a cool one you can try yourselves: [&quot;!caniuse flexbox&rdquo;](
 As discussed last time we talked on the matter, our personal data privacy matters a lot, and yet, it is being violated more and more.
 A quick glimpse at the news tell us the UK and Theresa May are trying to pass a law that will make it obligatory for internet providers to store every user’s history for up to a year (although the text has just been declared unlawful by EU&amp;rsquo;s Highest Court), or the German secret services are allegedly wanting to decrypt messengers like WhatsApp via the ANISKI project.</description>
             <content type="html"><![CDATA[<p><strong>New year new start</strong>. What a great opportunity to start it off on the right foot and greatly improve your behaviour and overall awareness on the personal data privacy subject. You will feel great and you will start breaking the chain!</p>
-<p>As discussed last time <a href="http://flopreynat.com/blog/data-privacy-matters.html">we talked on the matter</a>, our personal data privacy matters a lot, and yet, it is being violated more and more.</p>
+<p>As discussed last time <a href="http://flopreynat.com/posts/2016-11-17-data-privacy-series/">we talked on the matter</a>, our personal data privacy matters a lot, and yet, it is being violated more and more.</p>
 <p>A quick glimpse at the news tell us <a href="http://www.androidauthority.com/prime-minister-mays-surveillance-law-729874/">the UK and Theresa May are trying to pass a law</a> that will make it obligatory for internet providers to store every user’s history for up to a year (although <a href="http://curia.europa.eu/juris/document/document.jsf?text=&amp;docid=186492&amp;pageIndex=0&amp;doclang=EN&amp;mode=req&amp;dir=&amp;occ=first&amp;part=1&amp;cid=516300">the text has just been declared unlawful by EU&rsquo;s Highest Court</a>), or the <a href="https://netzpolitik.org/2016/projekt-aniski-wie-der-bnd-mit-150-millionen-euro-messenger-wie-whatsapp-entschluesseln-will">German secret services are allegedly wanting to decrypt messengers like WhatsApp</a> via the ANISKI project.
 Mass surveillance is a hot topic, and defo on the rise these days.</p>
 <!-- raw HTML omitted -->
@@ -527,7 +527,7 @@ Do not be too judgemental on the overall design, this was made in a few minutes,
             <description>Another blog post on Apple devices playing up (following the &amp;ldquo;boot to black screen&amp;rdquo; one) with this time, the way to resolve a frozen finder on OSX (Mavericks in my case).
 The thing happened to me a few months back, with Finder freezing over and over after a few seconds or minutes of usage, forcing me to force quit Finder on numerous occasions throughout the day.
 Fed up with this bug, and not willing to move away from the native file managing app, I eventually got it sorted out by simply using Mac&amp;rsquo;s Safe Mode, something that Windows users might be more inclined to be using on a regular basis.</description>
-            <content type="html"><![CDATA[<p>Another blog post on Apple devices playing up (following the <a href="http://flopreynat.com/blog/macbook-pro-boots-to-black-screen.html">&ldquo;boot to black screen&rdquo;</a> one) with this time, the way to resolve a frozen finder on OSX (Mavericks in my case).</p>
+            <content type="html"><![CDATA[<p>Another blog post on Apple devices playing up (following the <a href="http://flopreynat.com/posts/2015-12-23-macbook-pro-boots-to-black-screen/">&ldquo;boot to black screen&rdquo;</a> one) with this time, the way to resolve a frozen finder on OSX (Mavericks in my case).</p>
 <p>The thing happened to me a few months back, with Finder freezing over and over after a few seconds or minutes of usage, forcing me to force quit Finder on numerous occasions throughout the day.</p>
 <p>Fed up with this bug, and not willing to move away from the native file managing app, I eventually got it sorted out by simply using Mac&rsquo;s Safe Mode, something that Windows users might be more inclined to be using on a regular basis.</p>
 <blockquote>
@@ -751,7 +751,7 @@ This post is likely to get updated on a regular basis since I tend to learn new 
 So we&amp;rsquo;ve already spoken about ST3&amp;rsquo;s clipboard history capability.</description>
             <content type="html"><![CDATA[<p>&lsquo;Have you documented your own Sublime Text shortcut cheatsheet?&rsquo; is a question I never get asked. But despite all your efforts to avoid the subject, here it is. In your face!</p>
 <p>This post is likely to get updated on a regular basis since I tend to learn new stuff every day. See, when you start low, you&rsquo;re bound to progress more often than never :)</p>
-<p>So we&rsquo;ve already spoken about <a href="http://flopreynat.com/blog/sublimetext-clipboard-history.html">ST3&rsquo;s clipboard history capability</a>. Here&rsquo;s the rest of the stuff I use on a daily basis.</p>
+<p>So we&rsquo;ve already spoken about <a href="http://flopreynat.com/posts/2015-08-18-sublimetext-clipboard-history/">ST3&rsquo;s clipboard history capability</a>. Here&rsquo;s the rest of the stuff I use on a daily basis.</p>
 <!-- raw HTML omitted -->
 <p>More to come obviously&hellip;</p>
 <p>ps: get yourself a <a href="https://www.sublimetext.com/buy">licence</a>, it&rsquo;s only 70 box.</p>
