@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://github.com/flopreynat/flopreynat/tree/gh-pages"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
