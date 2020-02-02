@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-12-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2019-12-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2019-12-26-php-server-docker/</loc>
+    <lastmod>2019-12-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2019-12-01-php-server-spin-easy/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2019-10-06-crop-documents-mac-preview/</loc>
+    <lastmod>2019-10-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2019-08-02-quick-way-run-windows-application-on-mac/</loc>
+    <lastmod>2019-08-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2019-02-16-macbook-pro-boot-up-issue-no-startup-chime/</loc>
+    <lastmod>2019-02-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2018-03-23-github-2fa-commandline/</loc>
+    <lastmod>2018-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2018-01-01-fontawesome-alfred-workflow/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2017-05-31-camera-not-detected-hangout/</loc>
+    <lastmod>2017-05-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2017-05-16-responsive-email-design-framework-mjml/</loc>
+    <lastmod>2017-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2017-04-18-duckduckgo-hacks-for-developers/</loc>
+    <lastmod>2017-04-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2017-01-03-personal-data-privacy-2017/</loc>
+    <lastmod>2017-01-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2016-12-20-pdf-compress-automator-app/</loc>
+    <lastmod>2016-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2016-11-17-data-privacy-series/</loc>
+    <lastmod>2016-11-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2016-10-12-salesforce-admin-search/</loc>
+    <lastmod>2016-10-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2016-09-21-rsi-vertical-mouse/</loc>
+    <lastmod>2016-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2016-08-30-wordpress-staging-environment/</loc>
+    <lastmod>2016-08-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2016-07-04-dribbble-api-portfolio/</loc>
+    <lastmod>2016-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2016-05-29-mac-finder-freezes/</loc>
+    <lastmod>2016-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2016-04-27-gulp-throws-potentially-unhandled-rejection/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2016-03-30-alfred-app-review/</loc>
+    <lastmod>2016-04-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2016-03-30-leverage-sublime-macros-to-automate-repeatable-actions/</loc>
+    <lastmod>2016-03-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2016-01-27-gruntjs-maximum-call-stack-size-exceeded-error/</loc>
+    <lastmod>2016-01-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2016-01-07-record-screen-animated-gif/</loc>
+    <lastmod>2016-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2016-01-06-autocomplete-file-names-sublimetext/</loc>
+    <lastmod>2016-01-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2015-12-23-macbook-pro-boots-to-black-screen/</loc>
+    <lastmod>2015-12-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2015-12-18-move-and-resize-windows-with-spectacle/</loc>
+    <lastmod>2015-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2015-10-27-sublime-text-shortcuts-cheat-sheet/</loc>
+    <lastmod>2015-10-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2015-09-30-google-authenticator-producing-wrong-code/</loc>
+    <lastmod>2015-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2015-09-15-responsive-video-code-snippet/</loc>
+    <lastmod>2015-09-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2015-09-08-make-google-charts-responsive/</loc>
+    <lastmod>2015-09-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2015-08-25-jekyll-plugins-github/</loc>
+    <lastmod>2015-08-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2015-08-18-sublimetext-clipboard-history/</loc>
+    <lastmod>2015-08-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2015-08-14-adding-disqus-comments-jekyll/</loc>
+    <lastmod>2015-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2015-08-10-jekyll-contact-form/</loc>
+    <lastmod>2015-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2015-08-06-free-stock-photos-that-dont-suck/</loc>
+    <lastmod>2015-08-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2015-07-29-jekyll-failed-to-build-gem-native-extension/</loc>
+    <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2015-07-22-why-jekyll/</loc>
+    <lastmod>2015-07-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2013-09-13-responsive-images-meetup-coming-together-is-a-beginning/</loc>
+    <lastmod>2013-09-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2013-05-15-sublime-breakpoint-snippet/</loc>
+    <lastmod>2013-05-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+  </url>
+  
+</urlset>
