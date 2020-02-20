@@ -131,15 +131,17 @@ Cut a long story short, you launch something along the lines of: &ldquo;grunt im
 <p>But I can&rsquo;t blame as this is just what happened to me today while working on a website redesign. The grunt task is a simple &lsquo;imagemin&rsquo; task I decided to run separately, and I don&rsquo;t recall having had the same issue before.</p>
 <p>Cut a long story short, you launch something along the lines of:
 &ldquo;grunt imagemin&rdquo; in your terminal, and you&rsquo;re thrown the following error:</p>
-<p><code>RangeError: Maximum call stack size exceeded</code></p>
-<blockquote>
+<pre><code>RangeError: Maximum call stack size exceeded
+</code></pre><blockquote>
 <p>Don&rsquo;t name your task aliases like your tasks</p>
 </blockquote>
 <p>I did not find the issue in Grunt&rsquo;s documentation but managed to find it in my search results.</p>
 <p>You can not name your tasks like the task itself, <a href="http://gruntjs.com/frequently-asked-questions#why-am-i-getting-a-maximum-call-stack-size-exceeded-error">as detailed here</a>.</p>
 <p>So I went from:</p>
-<p><code>grunt.registerTask(&quot;imagemin&quot;, [&quot;imagemin&quot;]);_** to **_grunt.registerTask(&quot;imageminifier&quot;, [&quot;imagemin&quot;]);</code></p>
-<p>&hellip; and it worked like a charm.</p>
+<pre><code>grunt.registerTask(&quot;imagemin&quot;, [&quot;imagemin&quot;]);
+</code></pre><p>to</p>
+<pre><code>grunt.registerTask(&quot;imageminifier&quot;, [&quot;imagemin&quot;]);
+</code></pre><p>&hellip; and it worked like a charm.</p>
 
             </div>
         </article>
