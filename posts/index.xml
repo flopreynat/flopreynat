@@ -6,8 +6,44 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>flopreynat</copyright>
-        <lastBuildDate>Thu, 26 Dec 2019 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 23 Feb 2020 10:33:11 +0100</lastBuildDate>
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>How I keep on improving my Data Privacy in 2020</title>
+            <link>/posts/2020-02-23-data-privacy-2020/</link>
+            <pubDate>Sun, 23 Feb 2020 10:33:11 +0100</pubDate>
+            
+            <guid>/posts/2020-02-23-data-privacy-2020/</guid>
+            <description>Data privacy has been a hot subject even before GDPR (25 May 2018) and CCPA (1st January 2020) became officially applicable.
+I actually discussed this very subject early 2017, discussing the various open source tools I opted for at the time.
+Anyway, 2 years on, let&amp;rsquo;s make a quick assessment of what was succesful and kept as well as look into the other tools I am currently using to ensure my data pricacy is in great shape.</description>
+            <content type="html"><![CDATA[<p>Data privacy has been a hot subject even before GDPR (25 May 2018) and CCPA (1st January 2020) became officially applicable.</p>
+<p>I actually discussed this very subject <a href="http://flopreynat.com/posts/2017-01-03-personal-data-privacy-2017/">early 2017</a>, discussing the various open source tools I opted for at the time.</p>
+<p>Anyway, 2 years on, let&rsquo;s make a quick assessment of what was succesful and kept as well as look into the other tools I am currently using to ensure my data pricacy is in great shape.</p>
+<h3 id="my-data-privacy-stack">My Data Privacy stack</h3>
+<ul>
+<li><strong>Search engine</strong>: <a href="https://duckduckgo.com/">Duckduckgo</a> is (still) my preferred and only search engine. It&rsquo;s being used on both my desktop and mobile for a number of years.</li>
+<li><strong>Mail</strong>: Same applies to <a href="https://protonmail.com/">Protonmail</a>, my favourite (open-source secured) email provider.</li>
+<li><strong>VPN</strong>: Since we&rsquo;re talking about the Proton team, let&rsquo;s give them another thumbs up with <a href="https://protonvpn.com/">ProtonVPN</a> offering security, privacy for all, and freedom for journalists and activists.</li>
+<li><strong>SMS and calls</strong>: <a href="https://www.signal.org/">Signal</a>. <em>Although I&rsquo;m experiencing a few issues as I have started using dual-sim phone</em> , Signal has always been my preferred choice as its messages and calls are end-to-end encrypted. Switch to safe communications, people.</li>
+<li><strong>Browser</strong>: I use a mix of <a href="https://www.mozilla.org/en-US/firefox/">Firefox</a>, <a href="https://brave.com/">Brave</a>, and <a href="https://www.torproject.org/">Tor</a></li>
+<li><strong>File hosting service</strong>: none. At the time I had pushed <a href="https://spideroak.com/">Spideroak</a> as a great alternative to dropbox &amp; co. I am not using this service since I actually have removed most of my problems by acquiring my own <a href="https://www.synology.com/en-global">Synology NAS</a>. Having your own home server is a game changer.</li>
+<li><strong>Note taking</strong>: <a href="https://github.com/BoostIO/Boostnote">Boostnote</a>, great app and open source project, soon to be coming as a mobile app (allegedely).</li>
+<li><strong>File synchronization</strong>: I currently use <a href="https://syncthing.net/">Syncthing</a> as my tool of choice for synching my day-to-day files between my mac and my mobile.</li>
+<li><strong>To do app</strong>: I ditched asana for <a href="http://todotxt.org/">todo.txt</a>. It has everything I need from tagging my tasks, give them a due date, and priority in the most simplistic way, and I use it with <a href="https://mjdescy.github.io/TodoTxtMac/">TodoTxtMac</a> on my macbookpro, and <a href="https://play.google.com/store/apps/details?id=net.c306.ttsuper&amp;referrer=utm_source%3Dtodotxt_website%26utm_medium%3Dcommunity_apps">Todo.txt for Android</a> by Aditya Bhaskar. And obviously, I get my tasks synched via syncthing as mentioned above.</li>
+<li><strong>Video Streaming</strong>: I&rsquo;d love not to be using Youtube but since there are so much great content in there, I use <a href="https://newpipe.schabi.org/">Newpipe</a> on my Android (NewPipe only parses the YouTube website in order to gain the information it needs) and <a href="https://freetubeapp.io/">Freetube</a>, a YouTube client for Windows, Mac, and Linux built around using YouTube more privately.</li>
+<li><strong>2FA</strong>: I ditched google authenticator to use <a href="https://freeotp.github.io/">Freeotp</a>.</li>
+<li><strong>Navigation</strong>: I ditched google maps and waze to use <a href="https://osmand.net/">OsmAnd</a>. It&rsquo;s great for Map Viewing and Navigation for both Online and Offline. I like the vintage look and feel and amount of details in there.</li>
+<li><strong>RSS</strong>: The good ol&rsquo; days of leveraging RSS technology should never have disappeared. But it (stangely) is what occurred in my case. I&rsquo;m back at it, and I use <a href="https://www.vienna-rss.com/">Vienna RSS</a> for this. Great native macOS Open Source project, that gets the info to me, as opposed to go get it and get tracked.</li>
+<li><strong>Other softwares</strong>: I make the most of the <a href="https://framalibre.org/annuaires/logiciel">Framalibre software alternatives</a> by the great <a href="https://framasoft.org/en/">Framasoft</a>, and use as a few examples: <a href="https://jitsi.org/">Jitsi</a> instead of Hangouts/Skype, <a href="https://framadate.org/">Framadate</a> instead of doodle.</li>
+</ul>
+<h3 id="yet-to-test-mytodo">Yet to test (mytodo)</h3>
+<ul>
+<li><strong>Password manager</strong>: <a href="https://bitwarden.com/">Bitwarden</a> which I would like to test self-hosted. I&rsquo;m on another password manager app at the moment, but switching to an open-source solution would be nice.</li>
+</ul>
+]]></content>
+        </item>
         
         <item>
             <title>Spin up php server locally with Docker</title>
@@ -16,16 +52,13 @@
             
             <guid>/posts/2019-12-26-php-server-docker/</guid>
             <description>Almost same use case and files than last time. But this time, using Docker, which I had been wanting to test out for so long.
- docker run -p 80:80 -v /Users/your-username/path-to-docker-folder/src/:/var/www/html/ hello-world
- Everything is brilliantly explained on this Learn Docker in 12 Minutes video.
+docker run -p 80:80 -v /Users/your-username/path-to-docker-folder/src/:/var/www/html/ hello-world Everything is brilliantly explained on this Learn Docker in 12 Minutes video.
 Like on last post, proof files here.
 So long.</description>
             <content type="html"><![CDATA[<p>Almost same use case and files than <a href="http://flopreynat.com/posts/2019-12-01-php-server-spin-easy/">last time</a>.
 But this time, using Docker, which I had been wanting to test out for so long.</p>
-<blockquote>
-<p>docker run -p 80:80 -v /Users/your-username/path-to-docker-folder/src/:/var/www/html/ hello-world</p>
-</blockquote>
-<p>Everything is brilliantly explained on this <a href="https://www.youtube.com/watch?v=YFl2mCHdv24">Learn Docker in 12 Minutes</a> video.</p>
+<pre><code>docker run -p 80:80 -v /Users/your-username/path-to-docker-folder/src/:/var/www/html/ hello-world
+</code></pre><p>Everything is brilliantly explained on this <a href="https://www.youtube.com/watch?v=YFl2mCHdv24">Learn Docker in 12 Minutes</a> video.</p>
 <p>Like on last post, proof files <a href="https://github.com/flopreynat/php-server-docker">here</a>.</p>
 <p>So long.</p>
 ]]></content>
@@ -38,15 +71,12 @@ But this time, using Docker, which I had been wanting to test out for so long.</
             
             <guid>/posts/2019-12-01-php-server-spin-easy/</guid>
             <description>Another post on tooling with this time a quick and easy way to locally spin up a php server, for - say - php templating and testing.
- php -S localhost:2222
- As mentioned here, the CLI SAPI provides a built-in web server (as of PHP 5.4.0).
+php -S localhost:2222 As mentioned here, the CLI SAPI provides a built-in web server (as of PHP 5.4.0).
 It is not intended to be a full-featured web server. But designed to aid application development.
 Using the above command line is pretty much all is needed.</description>
             <content type="html"><![CDATA[<p>Another post on tooling with this time a quick and easy way to locally spin up a php server, for - say - php templating and testing.</p>
-<blockquote>
-<p>php -S localhost:2222</p>
-</blockquote>
-<p>As mentioned <a href="https://www.php.net/manual/en/features.commandline.webserver.php">here</a>, the CLI SAPI provides a built-in web server (as of PHP 5.4.0).</p>
+<pre><code>php -S localhost:2222
+</code></pre><p>As mentioned <a href="https://www.php.net/manual/en/features.commandline.webserver.php">here</a>, the CLI SAPI provides a built-in web server (as of PHP 5.4.0).</p>
 <p>It is not intended to be a full-featured web server. But designed to aid application development.</p>
 <p>Using the above command line is pretty much all is needed.
 Proof <a href="https://github.com/flopreynat/php-server">here</a> with a tiny templated php website.</p>
@@ -121,7 +151,7 @@ Obviously, there are tons of solutions allowing you to run windows on a mac, but
 The only chance I get is to enter my password and see the apple screen get stuck for ever.
  SAFE MODE
  Once I enter my password, the only thing I can do is press on the SHIFT key and hold it, until I enter the Safe mode.</description>
-            <content type="html"><![CDATA[<p>Already talked about this issue once&hellip; <!-- raw HTML omitted -->here<!-- raw HTML omitted -->, except this time I don&rsquo;t have the chance to hear the startup chime, nor to reset any PRAM, nothing.</p>
+            <content type="html"><![CDATA[<p>Already talked about this issue once&hellip; <a href="http://flopreynat.com/posts/2015-12-23-macbook-pro-boots-to-black-screen">here</a>, except this time I don&rsquo;t have the chance to hear the startup chime, nor to reset any PRAM, nothing.</p>
 <p>The only chance I get is to enter my password and see the apple screen get stuck for ever.</p>
 <blockquote>
 <p>SAFE MODE</p>
@@ -203,9 +233,8 @@ These few lines are only here to present you with a workaround, and remind mysel
 <p>Kill &lsquo;em all</p>
 </blockquote>
 <p>Open the terminal, and run the following command:</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>You&rsquo;ll need to input your master password. Camera should be up again.
+<pre><code>$ sudo killall VDCAssistant
+</code></pre><p>You&rsquo;ll need to input your master password. Camera should be up again.
 For now&hellip;</p>
 <p>As I said, just a workaround.</p>
 <p>So long.</p>
@@ -229,9 +258,8 @@ The beauty of this framework results in the fact that you create something very 
 <p>As I had nothing much to work with for starters, I decided to use somebody else&rsquo;s work, and picked this beautiful minimalistic <a href="https://dribbble.com/shots/1518379-Newsletter">newsletter</a> (designed by Dmitri Litvinov) I found on dribbble.</p>
 <p><img src="/img/mjml-dribbble-model.jpg" alt="newsletter model" title="newsletter model"></p>
 <p>I won&rsquo;t go into the details of the design process but with the help of the doc, I put all the components together in a matter of minutes, generated the html template using the terminal and the follwowing syntax:</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h4 id="results">Results</h4>
+<pre><code>mjml yourfile.mjml
+</code></pre><h4 id="results">Results</h4>
 <p>Here&rsquo;s the final result of my work in both gmail and protonmail.
 Something not only esthetic but fully functional.</p>
 <p><img src="/img/mjml-results.jpg" alt="mjml results" title="mjml results"></p>
@@ -293,24 +321,19 @@ A quick glimpse at the news tell us the UK and Theresa May are trying to pass a 
 <p>As discussed last time <a href="http://flopreynat.com/posts/2016-11-17-data-privacy-series/">we talked on the matter</a>, our personal data privacy matters a lot, and yet, it is being violated more and more.</p>
 <p>A quick glimpse at the news tell us <a href="http://www.androidauthority.com/prime-minister-mays-surveillance-law-729874/">the UK and Theresa May are trying to pass a law</a> that will make it obligatory for internet providers to store every user’s history for up to a year (although <a href="http://curia.europa.eu/juris/document/document.jsf?text=&amp;docid=186492&amp;pageIndex=0&amp;doclang=EN&amp;mode=req&amp;dir=&amp;occ=first&amp;part=1&amp;cid=516300">the text has just been declared unlawful by EU&rsquo;s Highest Court</a>), or the <a href="https://netzpolitik.org/2016/projekt-aniski-wie-der-bnd-mit-150-millionen-euro-messenger-wie-whatsapp-entschluesseln-will">German secret services are allegedly wanting to decrypt messengers like WhatsApp</a> via the ANISKI project.
 Mass surveillance is a hot topic, and defo on the rise these days.</p>
-<!-- raw HTML omitted -->
 <h3 id="big-deal-i-have-nothing-to-hide">Big Deal, I have nothing to hide.</h3>
 <hr>
-<!-- raw HTML omitted -->
+<p>Killing the &lsquo;nothing to hide&rsquo; argument is probably the easiest thing in the world, so try it yourselves (just for fun) if an idiot tells you he/she has nothing to hide, with this set of decent questions/requests I heard a few folks suggest.</p>
 <ul>
 <li>&ldquo;Why the fuck do you have curtains in your house?&rdquo;</li>
 <li>&ldquo;Hand me all your passwords if you have fuck all to hide then.&rdquo;</li>
 <li>&ldquo;Give me your bank receipts of last year, since there&rsquo;s nothing spectacular in there.&rdquo;</li>
 </ul>
-<!-- raw HTML omitted -->
 <blockquote>
-<p>Bottom line is: I don’t have anything to hide. <!-- raw HTML omitted -->
-<strong>But I don’t have anything I feel like showing you, either.</strong></p>
+<p>I don’t have anything to hide <strong>But I don’t have anything I feel like showing you, either.</strong></p>
 </blockquote>
-<!-- raw HTML omitted -->
 <h3 id="so-why-is-mass-surveillance-wrong">So Why is Mass Surveillance wrong?</h3>
 <hr>
-<!-- raw HTML omitted -->
 <ul>
 <li>it invades our private life space</li>
 <li>we have absolutely no control of what is being recorded</li>
@@ -323,19 +346,17 @@ Mass surveillance is a hot topic, and defo on the rise these days.</p>
 <li>it kills creativity</li>
 <li><strong>it has yet to be proved successful in the fight against terrorism</strong></li>
 </ul>
-<!-- raw HTML omitted -->
 <h3 id="the-thing-is-this-is-far-from-new">The thing is, &hellip;this is far from new.</h3>
 <hr>
-<!-- raw HTML omitted -->
+<p>As discussed in this series&rsquo; first post, people farming, or automated data processing by the likes of facebook, google and the rest is not only something we signed for (by agreeing to the unread and unreadable services&rsquo; terms and conditions), but something we have absolutely accepted as THE standard web app model. As in free but far from private.</p>
 <p>Examples are countless, but to name only one, feel free to check <a href="https://www.uber.com/legal/terms/us/">Über&rsquo;s latest terms of use update</a>, where you grant Über a worldwide, perpetual, irrevocable, transferable, royalty-free license, with the right to sublicense, to use, copy, modify, create derivative works of, distribute, publicly display, publicly perform, and otherwise exploit in any manner any User Content.</p>
 <p>Talking about Big Brothers, you will also enjoy those quotes from a Google executive, stating <em>&ldquo;Google policy is to get right up to the creepy line and not cross it&rdquo;</em>, or even <em>“With your permission you give us more information about you, about your friends, and we can improve the quality of our searches [&hellip;] We don&rsquo;t need you to type at all.”</em></p>
 <p>In addition, and as stated in a court filing, <em>&ldquo;all users of email must necessarily expect that their emails will be subject to automated processing. Just as a sender of a letter to a business colleague cannot be surprised that the recipient’s assistant opens the letter, people who use web-based email today cannot be surprised if their emails are processed by the recipient’s [email provider] in the course of delivery.&quot;</em></p>
 <p>OK, so Google is kind of reading your emails, facebook is recording everything you do/post/interact with for ever, and even if you don&rsquo;t use those services, you are being followed by countless trackers anywhere you go on the web. Not aware of this? Check out the <a href="https://donottrack-doc.com/en/">Do not track series</a>, they surely will entertain you.</p>
-<p>So&hellip;
-<!-- raw HTML omitted --></p>
+<p>So&hellip;</p>
 <h3 id="any-solutions-out-there">Any solutions out there?</h3>
 <hr>
-<!-- raw HTML omitted -->
+<p>As clearly stated by Aral Balkan in <a href="https://vimeo.com/190855745">his talk</a>, regulation, legislation, and ethical design are indeed the answers.</p>
 <p>But while waiting for our constitution reps to dump lobbyists and defend our digital rights, let&rsquo;s do our part.</p>
 <blockquote>
 <p>Let&rsquo;s do our part and break the chain</p>
@@ -357,9 +378,8 @@ Mass surveillance is a hot topic, and defo on the rise these days.</p>
 <li>Use <a href="https://framatalk.org">Framatalk</a> or similar tool for video conference</li>
 <li>and probably the most important part of all:</li>
 </ul>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<pre><code>PASS THIS BLOODY MESSAGE ONTO YOUR FRIENDS AND RELATIVES !!
+</code></pre><p>Otherwise, happy new year!</p>
 <p>Publicly yours.</p>
 ]]></content>
         </item>
@@ -381,15 +401,9 @@ This is why I&amp;rsquo;m putting up this nice (personal) go-to blog post on how
 </blockquote>
 <p>Right so, the steps are as follows:</p>
 <ol>
-<li>
-<p>Download the <a href="https://github.com/joshcarr/Apple-Quartz-Filters">Apple Quartz filters</a></p>
-</li>
-<li>
-<p>Move the filters to your ~/Library/ folder by launching Finder and using CMD + SHIFT + G to pull up the Go to access Library folder, and dropping a “Filters&rdquo; folder containing the quartz filters in there.</p>
-</li>
-<li>
-<p>Launch Automator and Create an Application by dragging the Apply Quartz Filter to PDF Documents from left to right, and set the desired options (eg Reduce to 150 dpi average quality - STANDARD COMPRESSION) before giving it a name (save it onto your desktop).</p>
-</li>
+<li>Download the <a href="https://github.com/joshcarr/Apple-Quartz-Filters">Apple Quartz filters</a></li>
+<li>Move the filters to your ~/Library/ folder by launching Finder and using CMD + SHIFT + G to pull up the Go to access Library folder, and dropping a “Filters&rdquo; folder containing the quartz filters in there.</li>
+<li>Launch Automator and Create an Application by dragging the Apply Quartz Filter to PDF Documents from left to right, and set the desired options (eg Reduce to 150 dpi average quality - STANDARD COMPRESSION) before giving it a name (save it onto your desktop).</li>
 </ol>
 <p>Done deal.</p>
 <p>You can now drag your pdf to your newly-created PDF Compress Application, and you&rsquo;ll get a fresh copy reduced in size (obviously)&hellip;</p>
@@ -416,7 +430,7 @@ I have made drastic changes in my personal life theses last few weeks, and this 
 <p>For your info, I have been following Aral&rsquo;s work for a few years now. Aral is big on Human Rights, Social Justice &amp; Ethical Design, and runs <a href="https://ind.ie/">ind.ie</a>, a small social enterprise striving for social justice in the digital age.
 His eloquence and passion for defending data privacy are second to none.</p>
 <p>Enjoy the wise words!</p>
-<!-- raw HTML omitted -->
+<p><a href="https://vimeo.com/190855745">The Matrix, Inverted</a></p>
 ]]></content>
         </item>
         
@@ -429,14 +443,14 @@ His eloquence and passion for defending data privacy are second to none.</p>
             <description>If you&amp;rsquo;re a Salesforce user, especially a developer or admin, you may spend most of your day in the Salesforce setup area, adding and editing apex classes, visualforce pages and adjusting other admin settings.
 Anything helping you stop wasting time on the setup area is more than welcome. Therefore I can only recommend you to give this chrome extension a go.
  In Search of Speed
- Made by Salesforce MVP and Dreamforce 16 superstar ;) Sid Nagavarapu, &amp;ldquo;Salesforce Searchbox&amp;rdquo; is a great way to gain in productivity by adding to all config pages a simple search box, which will search in all configuration items on the page.</description>
+ Made by Salesforce MVP and Dreamforce 16 superstar ;) Sid Nagavarapu, Salesforce Searchbox is a great way to gain in productivity by adding to all config pages a simple search box, which will search in all configuration items on the page.</description>
             <content type="html"><![CDATA[<p>If you&rsquo;re a Salesforce user, especially a developer or admin, you may spend most of your day in the Salesforce setup area, adding and editing apex classes, visualforce pages and adjusting other admin settings.</p>
 <p>Anything helping you stop wasting time on the setup area is more than welcome. Therefore I can only recommend you to give this chrome extension a go.</p>
 <blockquote>
 <p>In Search of Speed</p>
 </blockquote>
-<p>Made by Salesforce MVP and Dreamforce 16 superstar ;) Sid Nagavarapu, <a href="https://chrome.google.com/webstore/detail/salesforce-searchbox/moaokcjghnjifeeahifofckbmhofjdbi">&ldquo;Salesforce Searchbox&rdquo;</a> is a great way to gain in productivity by adding to all config pages a simple search box, which will search in all configuration items on the page.</p>
-<p><img src="/img/salesforce-admin-search-account.jpg" alt="salesforce search admin" title="salesforce search admin"></p>
+<p>Made by Salesforce MVP and Dreamforce 16 superstar ;) Sid Nagavarapu, <a href="https://chrome.google.com/webstore/detail/salesforce-searchbox/moaokcjghnjifeeahifofckbmhofjdbi">Salesforce Searchbox</a> is a great way to gain in productivity by adding to all config pages a simple search box, which will search in all configuration items on the page.</p>
+<p><img src="http://flopreynat.com/img/salesforce-admin-search-account.jpg" alt="salesforce search admin" title="salesforce search admin"></p>
 <p>The plugin supports some basic regex searches if you want to go fancy. In any case, you&rsquo;ll speed up your searches and will defo spend more time providing the most value to the CRM users.</p>
 ]]></content>
         </item>
@@ -454,7 +468,7 @@ Since I own a mac, I have always been using a magic mouse, but as aching in my r
 <blockquote>
 <p>DANGER MOUSE !</p>
 </blockquote>
-<p>Discussing the matter with my osteopath quickly led to the option of using a vertical mouse, helping you  keep your hand in a natural position. This is why I moved to &lsquo;verticality&rsquo; 6 months ago, with the purchase of a basic <a href="https://www.amazon.fr/gp/product/B00D84P8O8/ref=oh_aui_detailpage_o07_s00?ie=UTF8&amp;psc=1">&ldquo;usb vertical mouse ZeleSouris&rdquo;</a>.</p>
+<p>Discussing the matter with my osteopath quickly led to the option of using a vertical mouse, helping you  keep your hand in a natural position. This is why I moved to &lsquo;verticality&rsquo; 6 months ago, with the purchase of a basic <a href="https://www.amazon.fr/gp/product/B00D84P8O8/ref=oh_aui_detailpage_o07_s00?ie=UTF8&amp;psc=1">usb vertical mouse ZeleSouris</a>.</p>
 <p>A few reasons why I picked this low-budget mouse:</p>
 <ul>
 <li>this was going to be more like a pilot phase (so I thought)</li>
@@ -482,15 +496,15 @@ Typical &amp;ldquo;have it both ways&amp;rdquo; conundrum.</description>
 <p>DEV &gt; STAGING ENVIRONMENT &gt; PRODUCTION</p>
 </blockquote>
 <p>Anyway, here are a few options, my views on them, and eventually a decision.</p>
-<p><strong>Professional Wordpress hosting (Paid)</strong></p>
+<h4 id="professional-wordpress-hosting-paid">Professional Wordpress hosting (Paid)</h4>
 <p>Best option is to get people (or an app) meant to do this for you. Defo the best option if this subject is top priority for you. <a href="https://wpengine.com/support/staging/">&ldquo;WPEngine&rdquo;</a> or <a href="https://mediatemple.net/community/products/wordpress/204645480/staging-sites-for-your-wordpress-hosting-service">&ldquo;Media Temple&rdquo;</a> come to mind to name only a few.</p>
-<p><strong>WP Migrate DB Pro (Paid)</strong></p>
+<h4 id="wp-migrate-db-pro-paid">WP Migrate DB Pro (Paid)</h4>
 <p>A popular plugin, often praised on <a href="http://shoptalkshow.com/">&ldquo;ShopTalk Show&rdquo;</a>, <a href="https://deliciousbrains.com/wp-migrate-db-pro/pricing/">&ldquo;WP Migrate DB Pro&rdquo;</a> is a great option to get your wordpress sites in sync (all content including media) with one click. Cool option to implement a push to production process. Starting at 89 box.</p>
 <p><em>Note: I ain&rsquo;t being sponsored for any of those paid options.</em></p>
 <p>As mentioned above, I can&rsquo;t be investigating any resource in this subject. Yet, I want to be able to set up a few environments and sync content and settings in an easy (and quick process), without having to deal with media url issues (cough wordpress import cough).</p>
 <p>Let me emphasize on the repeatable process here since I really want to be able to do more than the usual local wp-cloud wp sync&rsquo;ing. Testing things as they live on the web has got to be a pre-requisite. Things happen differently when not happening on local machines.</p>
-<p>Anyway, went with&hellip;</p>
-<p><strong>All-in-One WP Migration (Free)</strong></p>
+<p>Anyway, I went with&hellip;</p>
+<h4 id="all-in-one-wp-migration-free">All-in-One WP Migration (Free)</h4>
 <p>As advertised, <a href="https://wordpress.org/plugins/all-in-one-wp-migration/">&ldquo;the plugin&rdquo;</a> allows you to export your database, media files, plugins, and themes. You can apply unlimited find/replace operations on your database and the plugin will also fix any serialization problems that occur during find/replace operations.</p>
 <p>Not bad for a free option, and works like a charm to get those wordpress environments in sync.</p>
 ]]></content>
@@ -505,16 +519,15 @@ Typical &amp;ldquo;have it both ways&amp;rdquo; conundrum.</description>
             <description>APIs are a foundational element in today&amp;rsquo;s tech world. They help you enrich your data, and remain the best, simplest and quickest way to integrate to other engines, apps &amp;hellip; you name it.
 In this example, we&amp;rsquo;ll focus on a quick (and dirty) dribble to website integration, helping you generate a dribbble-api-powered portfolio, and kill two birds with one stone.
  Leveraging APIs Matters
- Quick (code)pen below showing you in details how I did it.</description>
+ Quick codepen showing you in details how I did it.</description>
             <content type="html"><![CDATA[<p>APIs are a foundational element in today&rsquo;s tech world. They help you enrich your data, and remain the best, simplest and quickest way to integrate to other engines, apps &hellip; you name it.</p>
 <p>In this example, we&rsquo;ll focus on a quick (and dirty) dribble to website integration, helping you generate a dribbble-api-powered portfolio, and kill two birds with one stone.</p>
 <blockquote>
 <p>Leveraging APIs Matters</p>
 </blockquote>
-<p>Quick (code)pen below showing you in details how I did it.
-Do not be too judgemental on the overall design, this was made in a few minutes, throwing bootstrap on a page before connecting to my dribbble account.</p>
+<p>Quick <a href="http://codepen.io/flopreynat/pen/oLgyZQ/">codepen</a> showing you in details how I did it.</p>
+<p>Do not be too judgemental on the overall design, this was made in a few minutes, throwing bootstrap on a page before connecting to my dribbble account.</p>
 <p>The longest part was to register an application on your dribbble account. Simply log into your account, navigate to Account Settings &gt; Applications, and register your app. You&rsquo;ll be needing your Client Access Token to make this work&hellip;</p>
-<!-- raw HTML omitted -->
 ]]></content>
         </item>
         
@@ -564,9 +577,12 @@ It was my case up to last night when running Gulp for the first time (I usually 
 </blockquote>
 <p>Initial reaction should be to make sure you&rsquo;re up to date with all components at hand. All modules being all on their latest versions, let&rsquo;s turn to node.</p>
 <p>Quick check shows an outdated version, let&rsquo;s get this updated. Here&rsquo;s how to do it.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>Try running gulp again. Error should have gone&hellip;</p>
+<pre><code>(sudo) npm cache clean -f
+(sudo) npm install -g n
+(sudo) n stable
+node -v
+v6.0.0
+</code></pre><p>Try running gulp again. Error should have gone&hellip;</p>
 ]]></content>
         </item>
         
@@ -598,7 +614,7 @@ To be totally honest, I have never really looked into the Powerpack, but I may b
 <li>Empty the recycle bin</li>
 <li>etc&hellip;</li>
 </ul>
-<p>You can easily configure your shortcuts and have for example &ldquo;google&rdquo; shortened to &ldquo;g&rdquo; (just an example).</p>
+<p>You can easily configure your shortcuts and have for example &ldquo;duckduckgo&rdquo; shortened to &ldquo;d&rdquo; (just an example).</p>
 <p>In a nutshell, I love this app.</p>
 <p><a href="https://www.alfredapp.com/">Alfred 2 for Mac</a></p>
 ]]></content>
@@ -637,15 +653,17 @@ Cut a long story short, you launch something along the lines of: &amp;ldquo;grun
 <p>But I can&rsquo;t blame as this is just what happened to me today while working on a website redesign. The grunt task is a simple &lsquo;imagemin&rsquo; task I decided to run separately, and I don&rsquo;t recall having had the same issue before.</p>
 <p>Cut a long story short, you launch something along the lines of:
 &ldquo;grunt imagemin&rdquo; in your terminal, and you&rsquo;re thrown the following error:</p>
-<p><strong><em>RangeError: Maximum call stack size exceeded</em></strong></p>
-<blockquote>
+<pre><code>RangeError: Maximum call stack size exceeded
+</code></pre><blockquote>
 <p>Don&rsquo;t name your task aliases like your tasks</p>
 </blockquote>
-<p>I did not find the issue in Grunt&rsquo;s documentation as, ironically, it&rsquo;s not the first hit on google serach results, but it&rsquo;s in there.</p>
+<p>I did not find the issue in Grunt&rsquo;s documentation but managed to find it in my search results.</p>
 <p>You can not name your tasks like the task itself, <a href="http://gruntjs.com/frequently-asked-questions#why-am-i-getting-a-maximum-call-stack-size-exceeded-error">as detailed here</a>.</p>
-<p>So I went from
-<strong><em>grunt.registerTask(&ldquo;imagemin&rdquo;, [&ldquo;imagemin&rdquo;]);</em></strong> to <strong><em>grunt.registerTask(&ldquo;imageminifier&rdquo;, [&ldquo;imagemin&rdquo;]);</em></strong></p>
-<p>&hellip; and it worked like a charm.</p>
+<p>So I went from:</p>
+<pre><code>grunt.registerTask(&quot;imagemin&quot;, [&quot;imagemin&quot;]);
+</code></pre><p>to</p>
+<pre><code>grunt.registerTask(&quot;imageminifier&quot;, [&quot;imagemin&quot;]);
+</code></pre><p>&hellip; and it worked like a charm.</p>
 ]]></content>
         </item>
         
@@ -700,10 +718,9 @@ Been using for a long time now, but I reckon it hasn&amp;rsquo;t got the fame it
             
             <guid>/posts/2015-12-23-macbook-pro-boots-to-black-screen/</guid>
             <description>So you boot your macbook pro, and you get&amp;hellip; well not much. A black screen staring back at you while you frantically reach for your phone to check possible solutions to this problem.
-####PRAM Reset
-Look no further. The thing just happened to me and I managed to get through it by resetting the machine&amp;rsquo;s PRAM, which is - apparently - a common troubleshooting technique when your favorite apple goes to f***.</description>
+PRAM Reset Look no further. The thing just happened to me and I managed to get through it by resetting the machine&amp;rsquo;s PRAM, which is - apparently - a common troubleshooting technique when your favorite apple goes to f***.</description>
             <content type="html"><![CDATA[<p>So you boot your macbook pro, and you get&hellip; well not much. A black screen staring back at you while you frantically reach for your phone to check possible solutions to this problem.</p>
-<p>####PRAM Reset</p>
+<h4 id="pram-reset">PRAM Reset</h4>
 <p>Look no further. The thing just happened to me and I managed to get through it by resetting the machine&rsquo;s PRAM, which is - apparently -  a common troubleshooting technique when your favorite apple goes to f***.</p>
 <p>It allegedly should be the last resort when this kind of things happen. But as none of the other techniques I managed to find on the net did work, I&rsquo;m only going to cover this one since, as mentioned above, it did the trick.</p>
 <p>So here how it&rsquo;s gotta be done.</p>
@@ -729,13 +746,13 @@ I remember having blogged about this subject on another blog about 3 years ago, 
 <blockquote>
 <p>CMD + ALT + LEFT/RIGHT</p>
 </blockquote>
-<p>####Spectacle</p>
+<h4 id="spectacle">Spectacle</h4>
 <p>Cut a long story short. The app is called <a href="https://www.spectacleapp.com/">Spectacle</a>. It’s very cool, simple, non-obtrusive and free.
 And I&rsquo;ve been using it for ever now.</p>
 <p>Once installed, you’ll have to enable access for assistive devices.</p>
-<p>![Universal Access]({{ site.url }}/img/spectacle1.jpg)</p>
+<p><img src="http://flopreynat.com/img/spectacle1.jpg" alt="Universal Access"></p>
 <p>Review your shortcuts, change them if you wish, and start getting more productive with your open windows&hellip;</p>
-<p>![Spectacle shortcuts]({{ site.url }}/img/spectacle2.jpg)</p>
+<p><img src="http://flopreynat.com/img/spectacle2.jpg" alt="Spectacle shortcuts"></p>
 <p>You can run the app in the background but I suggest you add it in the status menu.</p>
 ]]></content>
         </item>
@@ -752,7 +769,88 @@ So we&amp;rsquo;ve already spoken about ST3&amp;rsquo;s clipboard history capabi
             <content type="html"><![CDATA[<p>&lsquo;Have you documented your own Sublime Text shortcut cheatsheet?&rsquo; is a question I never get asked. But despite all your efforts to avoid the subject, here it is. In your face!</p>
 <p>This post is likely to get updated on a regular basis since I tend to learn new stuff every day. See, when you start low, you&rsquo;re bound to progress more often than never :)</p>
 <p>So we&rsquo;ve already spoken about <a href="http://flopreynat.com/posts/2015-08-18-sublimetext-clipboard-history/">ST3&rsquo;s clipboard history capability</a>. Here&rsquo;s the rest of the stuff I use on a daily basis.</p>
-<!-- raw HTML omitted -->
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Command + click</td>
+<td>Multiple cursors</td>
+</tr>
+<tr>
+<td>Command + C/V</td>
+<td>(without selecting something) Copy/paste entire line</td>
+</tr>
+<tr>
+<td>Command + O/S/W</td>
+<td>Open/Save/Close file</td>
+</tr>
+<tr>
+<td>Command + Control + P</td>
+<td>Get List of Saved Projects</td>
+</tr>
+<tr>
+<td>Command + X</td>
+<td>Cut Line</td>
+</tr>
+<tr>
+<td>Command + D</td>
+<td>Grab similar occurences</td>
+</tr>
+<tr>
+<td>Command + Control + G</td>
+<td>Grab all occurences</td>
+</tr>
+<tr>
+<td>Command + Shift + F</td>
+<td>Find stuff through files &amp; folders</td>
+</tr>
+<tr>
+<td>Command + K B</td>
+<td>Toggle sidebar</td>
+</tr>
+<tr>
+<td>Command + K L</td>
+<td>Go Lower case</td>
+</tr>
+<tr>
+<td>Command + K U</td>
+<td>Go Upper case</td>
+</tr>
+<tr>
+<td>Command + Shift + /</td>
+<td>Commenting/Uncommenting</td>
+</tr>
+<tr>
+<td>Command + Control + up/down</td>
+<td>Swap line order</td>
+</tr>
+<tr>
+<td>Alt + drag</td>
+<td>Initial a column select</td>
+</tr>
+<tr>
+<td>Command + Shift + left/right</td>
+<td>Select content from cursor to left/right end</td>
+</tr>
+<tr>
+<td>Control + Shift + W</td>
+<td>Wrap Line or Selection with Tag (absolute favourite)</td>
+</tr>
+<tr>
+<td>Command + Control + Shift +F</td>
+<td>Enjoy Distraction-free fullscreen</td>
+</tr>
+<tr>
+<td>Select + [/(</td>
+<td>Wrap selection between parenthesis/brackets</td>
+</tr>
+</tbody>
+</table>
 <p>More to come obviously&hellip;</p>
 <p>ps: get yourself a <a href="https://www.sublimetext.com/buy">licence</a>, it&rsquo;s only 70 box.</p>
 ]]></content>
@@ -790,13 +888,24 @@ I&amp;rsquo;m a huge fan of the two-factor authentification, the now famous user
             <description>An ancient blogpost of mine, and this clever responsive video code snippet presented (at the time) by Ethan Marcotte, at btconf 2014 during his Laziness In The Time Of Responsive Design talk.
 A quick way to make videos look good at any size, the height/width ratio of the media now respected.
 Enough chit chat.
-There’s a codepen for it.</description>
+.video-container { position: relative; height: 0; padding-bottom: 56.25%; } .video-container &amp;gt; * { position: absolute; top: 0; left: 0; height: 100%; width: 100%; } There’s a codepen for it.</description>
             <content type="html"><![CDATA[<p>An ancient blogpost of mine, and this clever responsive video code snippet presented (at the time) by Ethan Marcotte, at btconf 2014 during his <a href="https://beyondtellerrand.com/events/duesseldorf-2014/speakers/ethan-marcotte#talk">Laziness In The Time Of Responsive Design</a> talk.</p>
 <p>A quick way to make videos look good at any size, the height/width ratio of the media now respected.</p>
 <p>Enough chit chat.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>There’s a <a href="http://codepen.io/flopreynat/pen/KGAov">codepen</a> for it.</p>
+<pre><code>.video-container {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+ 
+.video-container &gt; * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+</code></pre><p>There’s a <a href="http://codepen.io/flopreynat/pen/KGAov">codepen</a> for it.</p>
 ]]></content>
         </item>
         
@@ -815,9 +924,11 @@ Issue By default, the charts come in the form of fixed width element which you c
 <p>By default, the charts come in the form of fixed width element which you can easily tweak to adapt to the now-famous ‘width:100%’ format. However the charts will only appear in that format when the page is loaded. They won’t dynamically resize when the browser window width is changed.</p>
 <h4 id="solution">Solution</h4>
 <p>You will need to add a little jquery to get that to work as expected.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>There’s obviously a <a href="http://codepen.io/flopreynat/pen/BfLkA">codepen</a> for this.</p>
+<pre><code>	$(window).resize(function(){
+	  	drawChart1();
+	  	drawChart2();
+	});
+</code></pre><p>There’s obviously a <a href="http://codepen.io/flopreynat/pen/BfLkA">codepen</a> for this.</p>
 ]]></content>
         </item>
         
@@ -857,8 +968,7 @@ I personnaly decided not to go with any of them.</p>
 <p>⌘ + K then ⌘ + V</p>
 </blockquote>
 <p>It&rsquo;s as simple as that, just go ⌘ + K before hitting your usual ⌘ + V and you&rsquo;ll be able to pick from your latest clipboard entries.</p>
-<p>Everything is in the video below, made by <a href="http://wesbos.com/">Wes Bos</a>, a web dev recently featured on the <a href="http://shoptalkshow.com/episodes/176-with-wes-bos/">ShopTalk show of July 27th</a>.</p>
-<!-- raw HTML omitted -->
+<p>Everything is in <a href="https://www.youtube.com/embed/IaddB_GQ4Ps">this video</a>, made by <a href="http://wesbos.com/">Wes Bos</a>, a web dev recently featured on the <a href="http://shoptalkshow.com/episodes/176-with-wes-bos/">ShopTalk show of July 27th</a>.</p>
 <p><em>Note, if you want to speed up your development, optimize your ST workflows and become a better developer, Wes has released <a href="https://sublimetextbook.com/">a book on the subject</a>.</em></p>
 ]]></content>
         </item>
@@ -882,9 +992,16 @@ There are installation instructions on the Disqus documentation, and on various 
 <p>Copy your script and paste it into a disqus.html template in /_includes.
 Make sure you surround the script between the <strong>if page.comments</strong> and  <strong>endif</strong> liquid code lines.</p>
 <p>Then edit your _config.yml file to add the &ldquo;comments: true&rdquo; bit&hellip;</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>Finally, go to your /_layouts/post.html template and add <strong>include disqus.html disqus_identifier=page.disqus_identifier</strong> (between liquid handles) below the end of your blog post.</p>
+<pre><code>defaults:
+  -
+    scope:
+      path: &quot;&quot; # an empty string here means all files in the project
+      type: &quot;posts&quot; # previously `post` in Jekyll 2.2.
+    values:
+      author: flo preynat
+      layout: &quot;post&quot;
+      comments: true
+</code></pre><p>Finally, go to your /_layouts/post.html template and add <strong>include disqus.html disqus_identifier=page.disqus_identifier</strong> (between liquid handles) below the end of your blog post.</p>
 <p><strong>You&rsquo;re done!</strong></p>
 ]]></content>
         </item>
@@ -897,10 +1014,10 @@ Make sure you surround the script between the <strong>if page.comments</strong> 
             <guid>/posts/2015-08-10-jekyll-contact-form/</guid>
             <description>So you got yourself a nice static site, and you want to give your audience a chance to talk to you (directly) with a simple contact form, something you might be used to having used wordpress, php, and a database.
 Except there ain&amp;rsquo;t no database here. Even less php back end. Hence you&amp;rsquo;ve got to rely on other ways to get personal messages sent to you.
-###Formspree - Functional HTML forms</description>
+Formspree - Functional HTML forms When I stumbled upon Formspree, it did look like the perfect match.</description>
             <content type="html"><![CDATA[<p>So you got yourself a nice static site, and you want to give your audience a chance to talk to you (directly) with a simple contact form, something you might be used to having used wordpress, php, and a database.</p>
 <p>Except there ain&rsquo;t no database here. Even less php back end. Hence you&rsquo;ve got to rely on other ways to get personal messages sent to you.</p>
-<p>###Formspree - Functional HTML forms</p>
+<h3 id="formspree---functional-html-forms">Formspree - Functional HTML forms</h3>
 <p>When I stumbled upon <a href="http://formspree.io/">Formspree</a>, it did look like the perfect match.</p>
 <p><em>Side note: Kudos to the crew that put the site together. Minimalistic, straight to the point and no fuss around the subject.</em></p>
 <blockquote>
@@ -908,7 +1025,7 @@ Except there ain&amp;rsquo;t no database here. Even less php back end. Hence you
 </blockquote>
 <p>So, formspree is a tool apparently maintained by a community of developers, clearly stating no contents of the form submissions are stored (emails are sent using <a href="http://www.mailgun.com/">Mailgun&rsquo;s API</a>).</p>
 <p>You do think about privacy, but not for long. First of all, you ain&rsquo;t giving much away, api or not. Folks are going to initiate discussions in a few words then you take over the talk, privately. No need to be paranoid&hellip; especially if (unlike me), you are giving away most of your life to facebook.</p>
-<p>###Easy peasy</p>
+<h3 id="easy-peasy">Easy peasy</h3>
 <p>Just follow the steps described. Everthing works as expected. Add form elements and don&rsquo;t forget to give them a name, they&rsquo;ll be automatically taken into account during form submission.</p>
 ]]></content>
         </item>
@@ -922,52 +1039,52 @@ Except there ain&amp;rsquo;t no database here. Even less php back end. Hence you
             <description>Just a go-to blog post (for myself really) when on the lookout for free stock photos (that don&amp;rsquo;t suck) for your web design projects, print needs et al.
 A lot of good and excellent sites for you to pick exceptionnally-pro-looking pics from&amp;hellip; Here we go.
 The ones I&amp;rsquo;ve used from the start:
- Death to the Stock Photo Unsplash, especially since Arthur Weillreleased a little search engine for Unsplash  &amp;hellip;and the rest of them, in alphabetical order:</description>
+ Death to the Stock Photo Unsplash especially since Arthur Weill released a little search engine for Unsplash.  &amp;hellip;and the rest of them, in alphabetical order:</description>
             <content type="html"><![CDATA[<p>Just a go-to blog post (for myself really) when on the lookout for free stock photos (that don&rsquo;t suck) for your web design projects, print needs et al.</p>
 <p>A lot of good and excellent sites for you to pick exceptionnally-pro-looking pics from&hellip; Here we go.</p>
 <p>The ones I&rsquo;ve used from the start:</p>
 <ul>
-<li><!-- raw HTML omitted -->Death to the Stock Photo<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Unsplash<!-- raw HTML omitted -->, especially since <!-- raw HTML omitted -->Arthur Weill<!-- raw HTML omitted --> released a little <!-- raw HTML omitted -->search engine for Unsplash<!-- raw HTML omitted --></li>
+<li><a href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a></li>
+<li><a href="http://unsplash.com/">Unsplash</a> especially since <a href="https://twitter.com/arthurWeill">Arthur Weill</a> released a little <a href="http://www.arthurweill.fr/Unsplash/en">search engine for Unsplash</a>.</li>
 </ul>
 <p>&hellip;and the rest of them, in alphabetical order:</p>
 <ul>
-<li><!-- raw HTML omitted -->Bara Art<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Barn Images<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Cupcake<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Compfight<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Fancy Crave<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Flickr Creative Commons<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Foodies Feed<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Foodshot<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Freely Photos<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Free Nature Stock<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Furious Camera<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Getrefe<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Good Free Photos<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Gratisography<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Iso Republic<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Jay mantri<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->jéshoots<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Little Visuals<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Magdeleine<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->MMT<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Morguefile<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Nobl Web<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->New Old Stock<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Pexels<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Photopin<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Picjumbo<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Picography<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Raumrot<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Realistic Shots<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Search Creative Commons<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Stocksnap.io<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Stock up<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Startup stock photos<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Superfamous<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Travel Coffee Book<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Trunklog<!-- raw HTML omitted --></li>
+<li><a href="http://www.bara-art.com/">Bara Art</a></li>
+<li><a href="http://barnimages.com/">Barn Images</a></li>
+<li><a href="http://cupcake.nilssonlee.se/">Cupcake</a></li>
+<li><a href="http://compfight.com/">Compfight</a></li>
+<li><a href="http://fancycrave.com/">Fancy Crave</a></li>
+<li><a href="https://www.flickr.com/creativecommons/">Flickr Creative Commons</a></li>
+<li><a href="http://foodiesfeed.com/category/free-food-images/">Foodies Feed</a></li>
+<li><a href="http://foodshot.co/">Foodshot</a></li>
+<li><a href="http://freelyphotos.com/">Freely Photos</a></li>
+<li><a href="http://freenaturestock.com/">Free Nature Stock</a></li>
+<li><a href="http://furiouscamera.com/">Furious Camera</a></li>
+<li><a href="http://getrefe.tumblr.com/">Getrefe</a></li>
+<li><a href="https://www.goodfreephotos.com/">Good Free Photos</a></li>
+<li><a href="http://www.gratisography.com/">Gratisography</a></li>
+<li><a href="http://isorepublic.com/">Iso Republic</a></li>
+<li><a href="http://jaymantri.com/">Jay mantri</a></li>
+<li><a href="http://jeshoots.com/">jéshoots</a></li>
+<li><a href="http://littlevisuals.co/">Little Visuals</a></li>
+<li><a href="http://magdeleine.co/">Magdeleine</a></li>
+<li><a href="http://mmt.li/">MMT</a></li>
+<li><a href="http://www.morguefile.com">Morguefile</a></li>
+<li><a href="http://www.noblweb.com/">Nobl Web</a></li>
+<li><a href="http://nos.twnsnd.co/">New Old Stock</a></li>
+<li><a href="http://www.pexels.com/">Pexels</a></li>
+<li><a href="http://photopin.com/">Photopin</a></li>
+<li><a href="http://picjumbo.com/">Picjumbo</a></li>
+<li><a href="http://picography.co/">Picography</a></li>
+<li><a href="http://www.raumrot.com/">Raumrot</a></li>
+<li><a href="http://realisticshots.com/">Realistic Shots</a></li>
+<li><a href="http://search.creativecommons.org/">Search Creative Commons</a></li>
+<li><a href="https://stocksnap.io/">Stocksnap.io</a></li>
+<li><a href="http://www.sitebuilderreport.com/stock-up">Stock up</a></li>
+<li><a href="http://startupstockphotos.com">Startup stock photos</a></li>
+<li><a href="http://images.superfamous.com/">Superfamous</a></li>
+<li><a href="http://travelcoffeebook.tumblr.com/">Travel Coffee Book</a></li>
+<li><a href="http://trunklog.com/">Trunklog</a></li>
 </ul>
 <p>How about that!</p>
 ]]></content>
@@ -981,34 +1098,32 @@ The ones I&amp;rsquo;ve used from the start:
             <guid>/posts/2015-07-29-jekyll-failed-to-build-gem-native-extension/</guid>
             <description>Though I would post this one since I did experience a few issues attempting to install jekyll, including this &amp;ldquo;Failed to build gem native extension&amp;rdquo; annoying error.
 Right, so you have it all installed. So you think. As advised on the jekyll site, you’ve done your:
-Xcode and its command line tools are in there, but you still get an error while running:
-something like:
-It appears that the installation order is vital, and therefore you should try to uninstall ruby, start from a clean situation, and reinstall it.</description>
+sudo gem update --system Xcode and its command line tools are in there, but you still get an error while running:
+sudo gem install jekyll something like:</description>
             <content type="html"><![CDATA[<p>Though I would post this one since I did experience a few issues attempting to install jekyll, including this &ldquo;Failed to build gem native extension&rdquo; annoying error.</p>
 <p>Right, so you have it all installed. So you think. As advised on the jekyll site, you’ve done your:</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>Xcode and its command line tools are in there, but you still get an error while running:</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>something like:</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>It appears that the installation order is vital, and therefore you should try to uninstall ruby, start from a clean situation, and reinstall it.</p>
+<pre><code>sudo gem update --system
+</code></pre><p>Xcode and its command line tools are in there, but you still get an error while running:</p>
+<pre><code>sudo gem install jekyll
+</code></pre><p>something like:</p>
+<pre><code>Building native extensions.  This could take a while...
+ERROR:  Error installing jekyll:
+ERROR: Failed to build gem native extension.
+</code></pre><p>It appears that the installation order is vital, and therefore you should try to uninstall ruby, start from a clean situation, and reinstall it.</p>
 <p>It did fix it for me, so have a try if you’re stuck and you’re a numpty like me when it comes down to gems, CLI, and the rest.</p>
 <p>Start with:</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>Then check what’s in there with:</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>Note what ruby version is installed, in my case it was ruby-2.0.0-p247.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>Only then go with:</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>Hope this helps.</p>
+<pre><code>rvm get head
+rvm reset
+</code></pre><p>Then check what’s in there with:</p>
+<pre><code>rvm list
+</code></pre><p>Note what ruby version is installed, in my case it was ruby-2.0.0-p247.</p>
+<pre><code>rvm remove ruby-2.0.0-p247
+rvm cleanup
+rvm repair
+</code></pre><p>Only then go with:</p>
+<pre><code>sudo gem update --system
+sudo gem install jekyll
+</code></pre><p>Hope this helps.</p>
 ]]></content>
         </item>
         
@@ -1028,7 +1143,7 @@ I&amp;rsquo;ve been using Wordpress (most times) and Perch (a few times) to crea
 </blockquote>
 <p>Install was a bit of an experience, epecially if you don&rsquo;t really know what you&rsquo;re doing (like me). But since I managed to do it eventually, a fucking monkey would do it with one hand tied behind his back.</p>
 <p><img src="/img/jekyll-install.jpg" alt="jekyll install" title="Jekyll Install"></p>
-<p>####Host it on Github</p>
+<h4 id="host-it-on-github-">Host it on Github</h4>
 <p>I can host all my stuff on Github and point my repo to a custom domain name in two moves, and I can enjoy what has been my dev workflow for quite a while (Like every modern developer out there, I&rsquo;ve been versioning all my projects with git and Atlassian&rsquo;s <a href="https://bitbucket.org/">Bitbucket</a> for years).</p>
 <p>It&rsquo;s early days but so far so good. Jekyll seems to be the perfect fit for any developer wanting to enjoy an easy CMS-like setup, just without all the fuss&hellip;</p>
 ]]></content>
@@ -1104,7 +1219,7 @@ Well, this little snippet will surely reduce your work, by allowing you to tabTr
             <content type="html"><![CDATA[<p>Let’s get Sassy today with this little yet very useful Sublime Text 2 <a href="https://gist.github.com/jnowland/5151162">breakpoint snippet</a> handmade by James Nowland and obviously editable as you wish.</p>
 <p>If, like me, you code a lot of responsive sites, chances are that you work with Sass and end up putting half a million @include breakpoint lines, working your site’s scss the modular way… as you do.</p>
 <p>Well, this little snippet will surely reduce your work, by allowing you to tabTrigger mq (or whatever you wanna call it) into the full @include breakpoint desired code lines.</p>
-<p>Open Sublime, go to Tools, then New Snippet. Copy and paste James’s code in there, and save. Your’re done. You can type mq and tab in your scss and enjoy the ride.</p>
+<p>Open Sublime, go to Tools, then New Snippet. Copy and paste James’s code in there, and save. Your’re done. You can type *mq and tab in your scss and enjoy the ride.</p>
 <h3 id="the-snippet">The Snippet</h3>
 <p><code>&lt;snippet&gt;</code><!-- raw HTML omitted -->
 <code>&lt;content&gt;&lt;![CDATA[</code><!-- raw HTML omitted -->
