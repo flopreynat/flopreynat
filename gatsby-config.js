@@ -3,6 +3,7 @@ module.exports = {
         title: 'flopreynat.com',
         author: 'flo preynat'
     },
+    pathPrefix: "/flopreynat",
     plugins: [
         'gatsby-plugin-sass',
         {
