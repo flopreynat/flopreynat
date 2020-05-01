@@ -23,7 +23,7 @@ body {
 }
 .wrapper {
   max-width: 650px;
-  margin: 40px auto 0 auto;
+  margin: 0 auto;
   padding:10px;
 }
 .textCenter {
@@ -43,9 +43,9 @@ header {
     //   text-align:center;
     // }
   }
-  // @include breakpoint(small) {
-  //   flex-direction: column;
-  // }
+  @include breakpoint(small) {
+    flex-direction: column;
+  }
 }
 h1 {
   font-weight: 800;
@@ -93,6 +93,11 @@ hr {
   border-width:0;
   color:#d3d3d3;
   background-color:#d3d3d3
+}
+.divLogo {
+  @include breakpoint(small) {
+    margin:0 auto;
+  }
 }
 .siteLogo {
   text-decoration: none;

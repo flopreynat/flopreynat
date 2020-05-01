@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <header>
-      <div>
+      <div className="divLogo">
         <h1>
           <Link className="siteLogo" to="/">
             <span class="logoText">> {data.site.siteMetadata.title}</span><span className="logoCursor"></span>
@@ -23,6 +23,9 @@ const Header = () => {
       </div>
       <nav>
         <ul className="siteNav">
+        <li>
+            <Link to="/">Home</Link>
+          </li>
           <li>
             <Link to="/about">About</Link>
           </li>
