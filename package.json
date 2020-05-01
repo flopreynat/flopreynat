@@ -26,6 +26,7 @@
     "gatsby-remark-relative-images": "^0.3.0",
     "gatsby-source-filesystem": "^2.2.5",
     "gatsby-transformer-remark": "^2.7.5",
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.14.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
