@@ -1,0 +1,16 @@
+---
+title: "Why Hugo?"
+date: 2020-03-29T17:52:11+01:00
+category: ssg
+---
+Quick post to mention I switched my blog from Jekyll to Hugo.
+
+[Jekyll](https://jekyllrb.com/) has been THE most popular static site generator since its creation back in 2008, and I naturally opted for it [back in July 2015](https://flopreynat.com/posts/2015-07-22-why-jekyll/), as I was leaving Wordpress.
+
+Back then, getting my hands into Jekyll had not been that easy, but using it past the installation phase had been a joy.
+
+I was however keen to try [Hugo](https://gohugo.io/), having heard a lot of good things about it, especially since it was branded as the world’s fastest framework for building websites.
+
+Anyway, I tried it on a test project, and I have to admit [setting it up](https://gohugo.io/getting-started/installing/) is way more straightforward than Jekyll. Configuring and building the site is not very different from the workflow I used with Jekyll.
+
+I was convinced enough to make the leap and migrate my blog to Hugo. I doubt Hugo is as powerful as Jekyll, but it has all the things my minimalistic blog needs, especially the lighting speed it deserves.
