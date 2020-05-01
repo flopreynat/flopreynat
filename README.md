@@ -12,5 +12,7 @@
     8. (added to starter) npm install react-icons --save
     9. (added to starter) npm install gatsby-plugin-google-fonts --save
     10. npm install gh-pages --save-dev
+    11. npm install --save gatsby-image
+    12. npm install --save gatsby-transformer-sharp gatsby-plugin-sharp
 3. change the develop line in your package.json to "develop": _"env-cmd -f .env gatsby develop"_
 4. uncomment the dotenv environment variable file in the _.gitignore_

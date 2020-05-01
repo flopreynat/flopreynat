@@ -1,3 +1,5 @@
+const path = require(`path`)
+
 module.exports = {
     siteMetadata: {
         title: 'flopreynat.com',
@@ -12,6 +14,14 @@ module.exports = {
                 path: `${__dirname}/src/`
             }
         },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+              name: `images`,
+              path: path.join(__dirname, `src`, `images`),
+            },
+        },
+        'gatsby-transformer-sharp',
         'gatsby-plugin-sharp',
         {
             resolve: 'gatsby-transformer-remark',
