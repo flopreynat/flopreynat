@@ -10,7 +10,7 @@ const AboutPage = () => {
             <Head title="About"/>
             <div className="mainSection">
                 <h3>About Me</h3>
-                <p><img src="./flo_avatar.png" alt="flo preynat" width="120px" className="avatar" /></p>
+                {/* <p><img src="./flo_avatar.png" alt="flo preynat" width="120px" className="avatar" /></p> */}
                 <p>My name is flo.</p>
             </div>
         </Layout>
