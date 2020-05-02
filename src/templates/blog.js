@@ -23,7 +23,7 @@ const Blog = (props) => {
         <Layout>
             <Head title={props.data.markdownRemark.frontmatter.title}/>
             <div className="mainSection">
-              <h3>{props.data.markdownRemark.frontmatter.title}</h3>
+              <h4>{props.data.markdownRemark.frontmatter.title}</h4>
               <div className="postMetadata">
                   <span>{props.data.markdownRemark.frontmatter.date} - {props.data.markdownRemark.timeToRead} minute read - {props.data.markdownRemark.frontmatter.category}</span>
               </div>
