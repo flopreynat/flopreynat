@@ -3,7 +3,8 @@ const path = require(`path`)
 module.exports = {
     siteMetadata: {
         title: 'flopreynat.com',
-        author: 'flo preynat'
+        author: 'flo preynat',
+        siteUrl: 'https://flopreynat.com'
     },
     plugins: [
         'gatsby-plugin-sass',

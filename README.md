@@ -14,5 +14,6 @@
     10. (added to starter) npm install gh-pages --save-dev
     11. (added to starter) npm install --save gatsby-image
     12. (added to starter) npm install --save gatsby-transformer-sharp gatsby-plugin-sharp
+    13. (added to starter) npm install --save gatsby-plugin-feed
 3. change the develop line in your package.json to "develop": _"env-cmd -f .env gatsby develop"_
 4. uncomment the dotenv environment variable file in the _.gitignore_
