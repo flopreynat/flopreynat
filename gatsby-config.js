@@ -73,7 +73,7 @@ module.exports = {
                         date: edge.node.frontmatter.date,
                         url: site.siteMetadata.siteUrl + '/blog/' + edge.node.fields.slug,
                         guid: site.siteMetadata.siteUrl + '/blog/' + edge.node.fields.slug,
-                        custom_elements: [{ "content:encoded": edge.node.html }],
+                        custom_elements: [{ "content:encoded": edge.node.excerpt }],
                       })
                     })
                   },
