@@ -18,7 +18,7 @@ const Footer = () => {
             <div>
                 <p>© 2020 {data.site.siteMetadata.author}</p>
                 <ol className="mySocial">
-                    {/* <li><a href="https://flopreynat.com/posts/index.xml"><FaRss /></a></li> */}
+                    <li><a href="https://flopreynat.com/rss.xml"><FaRss /></a></li>
                     <li><a href="https://twitter.com/flopreynat"><FaTwitter /></a></li>
                     <li><a href="https://github.com/flopreynat"><FaGithub /></a></li>
                     <li><a href="https://codepen.io/flopreynat/"><FaCodepen /></a></li>
