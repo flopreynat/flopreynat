@@ -96,7 +96,7 @@ module.exports = {
                     }
                   `,
                   output: "/rss.xml",
-                  title: "flopreynat RSS Feed",
+                  title: "flopreynat.com",
                 },
               ],
             },
