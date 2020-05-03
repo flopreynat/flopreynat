@@ -84,7 +84,7 @@ a {
   text-decoration: none;
   font-size: 15px;
 }
-em, ul, li {
+em, ul, li, b {
   font-size: 15px;
   color: #595959;
 }
@@ -135,17 +135,6 @@ width: 10px;
   to {
     visibility: hidden;
   }
-}
-a.button {
-  border-radius: 3px;
-  border: 1px solid #d3d3d3;
-  color: $titleColor;
-  font-size: 13px;
-  font-weight: 800;
-  padding: 7px 25px;
-  text-transform: uppercase;
-  text-decoration: none;
-  cursor: pointer;
 }
 ol.mySocial {
   list-style-type: none;
@@ -250,16 +239,25 @@ input,textarea {
 	color: #242424;
   border: 1px solid #B7B7B7;
 }
-input[type=submit] {
+input[type=submit], a.button {
   border-radius: 3px;
-  border: 1px solid #d3d3d3;
-  color: $titleColor;
+  border: 1px solid rgb(51, 51, 51);
+  color: white;
   font-size: 13px;
-  font-weight: 800;
+  font-weight: 600;
   padding: 7px 25px;
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
   width: 150px;
   margin-left: 200px;
+  background-color: rgb(51, 51, 51);
+  &:hover {
+    background-color: $titleColor;
+    border: 1px solid $titleColor;
+  }
+}
+a.button {
+  margin:0 auto;
+  padding: 13px 20px;
 }
