@@ -32,7 +32,8 @@ body {
 .mainSection {
   margin-top: 50px;
   a {
-    border-bottom: dotted 2px $logoColor;
+    border-bottom: dotted 1px $logoColor;
+    background-color: rgb(251, 242, 233);
   }
 }
 header {
