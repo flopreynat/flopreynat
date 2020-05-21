@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[flopreynat.com]]></title><description><![CDATA[Personal site of flo preynat]]></description><link>https://flopreynat.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 03 May 2020 19:54:33 GMT</lastBuildDate><item><title><![CDATA[Switching to Gatsby]]></title><description><![CDATA[It had only been a month since I converted my site from Jekyll to Hugo. But with the quarantine and lockdown 😷 fully enforced, I took the…]]></description><link>https://flopreynat.com/blog/2020-05-02-switching-to-gatsby</link><guid isPermaLink="false">https://flopreynat.com/blog/2020-05-02-switching-to-gatsby</guid><pubDate>Sat, 02 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It had only been a month since I converted my site from &lt;a href=&quot;https://flopreynat.com/blog/2020-03-29-why-hugo&quot;&gt;Jekyll to Hugo&lt;/a&gt;. But with the quarantine and lockdown 😷 fully enforced, I took the time to dig even more the static-site-generator subject, and decided to dedicate some time to learn &lt;a href=&quot;https://www.gatsbyjs.org/&quot;&gt;Gatsby&lt;/a&gt;, an open source framework based on React (which I knew very little about), and apply my newly-acquired skills to the redesign of this very site. Job now done ✅&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[flopreynat.com]]></title><description><![CDATA[Personal site of flo preynat]]></description><link>https://flopreynat.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 21 May 2020 09:33:20 GMT</lastBuildDate><item><title><![CDATA[Using git on your Synology]]></title><description><![CDATA[I'm pushing the majority of my git projects to github for the simple reason that 1. they are public and hence do not need to remain hidden…]]></description><link>https://flopreynat.com/blog/2020-05-21-git-server-synology</link><guid isPermaLink="false">https://flopreynat.com/blog/2020-05-21-git-server-synology</guid><pubDate>Thu, 21 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I&apos;m pushing the majority of my git projects to github for the simple reason that 1. they are public and hence do not need to remain hidden from the rest of the world, and 2. they usually leverage open source technology which has been tweaked in some way and that could help others.&lt;/p&gt;
+&lt;p&gt;However, there are specific personal projects and notes I do version using git and that I do not wish to send to the likes of Github, Bitbucket, et al. &lt;/p&gt;
+&lt;p&gt;As a huge advocate of &lt;a href=&quot;https://flopreynat.com/blog/2020-02-23-data-privacy-2020&quot;&gt;data privacy&lt;/a&gt;, I tend to keep &lt;strong&gt;my private stuff private&lt;/strong&gt;, and that means not using a third party (regardless of whether they offer private repos or not).&lt;/p&gt;
+&lt;p&gt;Long story short, you&apos;ll find below the list of actions I have carried out to setup and use my (very own) Synology Git server.&lt;/p&gt;
+&lt;h3&gt;Todo&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Install git on your synology (&lt;em&gt;help: you&apos;ll find the Git server application in your Package Center)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Enable SSH (&lt;em&gt;help: by navigating to Control Panel &gt; Terminal &amp;#x26; SNMP &gt; Terminal)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Using the terminal (or putty if you&apos;re on a windows machine), ssh into your synology by running:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ssh you-user@your-synology-ip (+ type your synology password)
+eg: ssh johnny@192.85.85.85
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;On your synology , create a folder to host your git project&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Navigate to your local project folder and run:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git init
+git remote add origin ssh://johnny@192.85.85.85:/volume1/myDirectory/myGitProject
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Push your project to your synology by running the usual:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git add --all
+git commit -m &quot;initial commit&quot;
+git push origin master
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;Bob&apos;s your uncle 😎&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Switching to Gatsby]]></title><description><![CDATA[It had only been a month since I converted my site from Jekyll to Hugo. But with the quarantine and lockdown 😷 fully enforced, I took the…]]></description><link>https://flopreynat.com/blog/2020-05-02-switching-to-gatsby</link><guid isPermaLink="false">https://flopreynat.com/blog/2020-05-02-switching-to-gatsby</guid><pubDate>Sat, 02 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It had only been a month since I converted my site from &lt;a href=&quot;https://flopreynat.com/blog/2020-03-29-why-hugo&quot;&gt;Jekyll to Hugo&lt;/a&gt;. But with the quarantine and lockdown 😷 fully enforced, I took the time to dig even more the static-site-generator subject, and decided to dedicate some time to learn &lt;a href=&quot;https://www.gatsbyjs.org/&quot;&gt;Gatsby&lt;/a&gt;, an open source framework based on React (which I knew very little about), and apply my newly-acquired skills to the redesign of this very site. Job now done ✅&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Note: React had always been a weird-looking beast to me, as I was struggling to grasp the concept/interest of injecting html inside javascript, but I am definitely getting it now.&lt;/em&gt;&lt;/p&gt;
 &lt;h5&gt;Getting educated&lt;/h5&gt;
 &lt;p&gt;I&apos;m not going to detail here what it took me to redesign my site with Gatsby. &lt;/p&gt;
@@ -12,15 +41,15 @@
 &lt;li&gt;
 &lt;p&gt;Pages for:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;home&lt;/li&gt;
+&lt;li&gt;home including the latest blog post and event (another post type)&lt;/li&gt;
 &lt;li&gt;about&lt;/li&gt;
 &lt;li&gt;contact&lt;/li&gt;
-&lt;li&gt;blog&lt;/li&gt;
 &lt;li&gt;404&lt;/li&gt;
-&lt;li&gt;and the engine to generate one page/blog post&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;2 dummy posts, including one with an image&lt;/li&gt;
+&lt;li&gt;a blog section with a (paginated) list of blog posts&lt;/li&gt;
+&lt;li&gt;a calendar section with a list of events&lt;/li&gt;
+&lt;li&gt;5 dummy posts (1 event + 4 blog posts including one with an image) and their engine-generated page&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://sass-lang.com/&quot;&gt;Sass&lt;/a&gt; turned on&lt;/li&gt;
 &lt;li&gt;the dotenv environment variable file for GraphQL Playground&lt;/li&gt;
 &lt;li&gt;the &lt;a href=&quot;https://www.gatsbyjs.org/packages/gatsby-plugin-react-helmet/&quot;&gt;React Helmet&lt;/a&gt; component for document head control&lt;/li&gt;
