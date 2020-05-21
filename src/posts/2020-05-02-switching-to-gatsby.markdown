@@ -24,13 +24,13 @@ It was however important for me to build my own Gatsby and Markdown starter (inc
 You'll find [my Gatsby Markdown starter](https://github.com/flopreynat/myGatsbyMarkdownStarter) on Github, and as detailed in the README file, this starter will have the advantage of coming with:
 
 - Pages for:
-    - home
+    - home including the latest blog post and event (another post type)
     - about
     - contact
-    - blog
     - 404
-    - and the engine to generate one page/blog post
-- 2 dummy posts, including one with an image
+- a blog section with a (paginated) list of blog posts
+- a calendar section with a list of events
+- 5 dummy posts (1 event + 4 blog posts including one with an image) and their engine-generated page
 - [Sass](https://sass-lang.com/) turned on
 - the dotenv environment variable file for GraphQL Playground
 - the [React Helmet](https://www.gatsbyjs.org/packages/gatsby-plugin-react-helmet/) component for document head control
