@@ -14,7 +14,7 @@ Let's look at a few tips/tools you can use to do this:
 - Look up your competition and check what they're doing
 - Use dribbble.com to check out inspirations
 - Use a napkin, some paper, or an app like Procreate to doodle your shit
-- Use logo makers such as [Looka](https://looka.com/) to visualise what something would look like on other material (business cards, tshirts, signs...etc)
+- Use logo makers such as [Looka](https://looka.com/) to visualise what something would look like on other material (business cards, tshirts, signs...etc). *See below for an example*
 - Search [dafont](https://www.dafont.com/) for fonts you can use for free, and download
 - Build your vector graphics using open source applications such as [Inkscape](https://inkscape.org/). You can learn how to use it by checking out [Logos by Nick](https://www.youtube.com/c/LogosByNick)
 
