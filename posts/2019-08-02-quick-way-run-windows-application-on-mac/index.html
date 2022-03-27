@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no"/>
+
+    <title>Quick way to run a windows application on a mac | flopreynat.com</title>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#FF3DB4">
+    <meta name="theme-color" content="#ffffff">
+
+    
+    
+    
+    <link rel="stylesheet" href="http://example.org/css/main.min.62defe59fc830aa2d099acf824eb8a59b9a0e46c99df748cdb479a78912358da.css"/>
+
+    
+    
+    
+
+    
+    
+ 
+    </head>
+
+    <body>
+        
+<nav>
+  <header>
+    <div class="site-title">
+        <a href="/">flopreynat.com</a>
+    </div>  
+</header>
+
+  <div class="nav-menu">
+  
+    <a class="color-link nav-link" href="/">Blog</a>
+    <a class="color-link nav-link" href="/about">About</a>
+    <a class="color-link nav-link" href="/contact">Contact</a>
+    <a class="color-link nav-link" href="http://example.org/index.xml" target="_blank" type="application/rss+xml">RSS</a>
+</div>
+<footer class="footer">
+	<div class="social-icons">
+        
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+</div>
+
+
+
+
+    
+    
+
+	<script src="http://example.org/js/main.min.a7205ef73b078c8daed6fe1b0826e8ba229ffabbb69d299d9446cf41f2c7d8aa.js" integrity="sha256-pyBe9zsHjI2u1v4bCCbouiKf+ru2nSmdlEbPQfLH2Ko=" crossorigin="anonymous"></script>
+	
+</footer>
+
+</nav>
+
+        <div id="content" class="content-container">
+        
+
+<h1 class="post-title">Quick way to run a windows application on a mac</h1>
+    
+    <time>August 2, 2019</time>
+    
+    <div>
+        <p>
+        <p>From time to time, as a mac owner, you&rsquo;ll have to run a Windows application for testing (or other) purposes.</p>
+<p>Obviously, there are tons of solutions allowing you to run windows on a mac, but not all are light, free and quick wins.</p>
+<blockquote>
+<p>VIRTUALIZATION TIME</p>
+</blockquote>
+<p>The quickest and easisest way (to me) is to use <a href="https://www.virtualbox.org/">Virtualbox</a> (open source and free), download a free virtual Windows machine from the <a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/">Microsoft developer website</a>, and spin it.</p>
+<p>So, ok, those virtual machines expire after 90 days. In most cases, this will be way enough for you to test your application, and run your stuff.</p>
+<p>One thing you may need while you&rsquo;re playing with your windows machine, is to share things with your mac. Sharing folders between your machine and a VM is not native. Here&rsquo;s how you do it:</p>
+<ol>
+<li>In Virtualbox, select your VM, and go to Settings &gt; Shared Folders, and add the folder (on your mac) you wish to use on your VM</li>
+<li>Then go to Settings &gt; Storage and add an optical drive (+ and cdrom icon) to your IDE controller (choose &lsquo;Leave Empty&rsquo;)</li>
+<li>Start your VM</li>
+<li>In Virtulabox, go to Devices &gt; Insert Guest Additions CD Image, and run the install program</li>
+<li>Once the program has been installed, reboot your VM</li>
+<li>That&rsquo;s it, ope file explorer, your file sharing folder should be appearing in there.</li>
+</ol>
+<p>Hope this helps.</p>
+
+        </p>
+    </div>
+    
+
+    
+
+    <div class="page-footer">
+        
+    </div>
+
+
+        
+        </div>
+        <footer class="footer-mobile">
+	<div class="social-icons">
+        
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+</div>
+
+
+
+
+	<div class="footer-mobile-links">
+        <p><a href="https://github.com/kimcc/hugo-theme-noteworthy" target="_blank" rel="noopener">Noteworthy theme</a></p>
+		<span class="divider-bar">|</span>
+        <p><a href="https://gohugo.io" target="_blank" rel="noopener">Built with Hugo</a></p>
+	</div>
+
+	<script src="http://example.org/js/main.min.a7205ef73b078c8daed6fe1b0826e8ba229ffabbb69d299d9446cf41f2c7d8aa.js" integrity="sha256-pyBe9zsHjI2u1v4bCCbouiKf+ru2nSmdlEbPQfLH2Ko=" crossorigin="anonymous"></script>
+</footer>
+
+    </body>
+</html>

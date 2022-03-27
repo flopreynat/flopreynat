@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no"/>
+
+    <title>Responsive Images Meetup: Coming together is a beginning | flopreynat.com</title>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#FF3DB4">
+    <meta name="theme-color" content="#ffffff">
+
+    
+    
+    
+    <link rel="stylesheet" href="http://example.org/css/main.min.62defe59fc830aa2d099acf824eb8a59b9a0e46c99df748cdb479a78912358da.css"/>
+
+    
+    
+    
+
+    
+    
+ 
+    </head>
+
+    <body>
+        
+<nav>
+  <header>
+    <div class="site-title">
+        <a href="/">flopreynat.com</a>
+    </div>  
+</header>
+
+  <div class="nav-menu">
+  
+    <a class="color-link nav-link" href="/">Blog</a>
+    <a class="color-link nav-link" href="/about">About</a>
+    <a class="color-link nav-link" href="/contact">Contact</a>
+    <a class="color-link nav-link" href="http://example.org/index.xml" target="_blank" type="application/rss+xml">RSS</a>
+</div>
+<footer class="footer">
+	<div class="social-icons">
+        
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+</div>
+
+
+
+
+    
+    
+
+	<script src="http://example.org/js/main.min.a7205ef73b078c8daed6fe1b0826e8ba229ffabbb69d299d9446cf41f2c7d8aa.js" integrity="sha256-pyBe9zsHjI2u1v4bCCbouiKf+ru2nSmdlEbPQfLH2Ko=" crossorigin="anonymous"></script>
+	
+</footer>
+
+</nav>
+
+        <div id="content" class="content-container">
+        
+
+<h1 class="post-title">Responsive Images Meetup: Coming together is a beginning</h1>
+    
+    <time>September 13, 2013</time>
+    
+    <div>
+        <p>
+        <p>Last time I talked about responsive images, I did mention I was due to go to the responsive images meetup in Paris, and as the long-awaited event happened a couple of days ago, I thought it would be nice to write a quick recap for the folks unable to make it.</p>
+<h3 id="side-note">SIDE NOTE</h3>
+<p>Before we get to the the nitty gritty, let me start this blog post with a quick line on the venue. The meetup took place in Mozilla’s Paris headquarters, a superb office located boulevard Montmartre, in Paris’ 9th arrondissement. What a place this is! Two snaps for your eyes.</p>
+<p>Mozilla really know how to welcome guests. Just saying.</p>
+<h3 id="high-hopes">HIGH HOPES</h3>
+<p>Having received a teasing email from <a href="https://twitter.com/yoavweiss">Yoav</a> a couple of days prior to the get-together, and seen a number of known representatives from Apple, Google, Mozilla, Microsoft and Adobe inked on the presence sheet (unfortunately Bruce Lawson from Opera was unable to make it), I was very much looking forward to this event. After all, the web community (especially the developers) had been waiting over two years for some clear stand on the subject of responsive images from the big players, while, in the mean time, and according to the latest stats, 72% of responsive websites were still serving the same amount of data to ANY device.</p>
+<h3 id="use-cases">USE CASES</h3>
+<p>The day started off with a pre-recorded presentation of the problem at hand from <a href="http://responsiveimages.org/">RICG</a>‘s front man <a href="https://twitter.com/wilto">Mat Marquis</a>, and we quickly went to real case uses with an overview of the BBC and Akamai’s ways of handling the issue.</p>
+<p>Very interesting to see what large scale companies had been implementing, especially since the BBC and its 83 millions monthly views (2.6 millions views per day), as <a href="https://twitter.com/integralist">Mark McDonnell</a> explained, had been using none of the so-far-proposed solutions , but ‘a form’ of javascript-dependent responsive image system. Lightweight, fast working on all devices solution, and implemented since 2011.</p>
+<p>I can only invite you to take a look at their project. The javascript is open-sourced and available on <a href="https://github.com/BBC-News/Imager.js/">Github</a>.</p>
+<p>Next, <a href="https://twitter.com/guypod">Guy Podjarny</a> took the stand to explain Akamai’s sophisticated content delivery acceleration techniques including smart delivery (with Edge Device Characterization) using patterns of characteristics drawn from a database of mobile devices, front-end optimization, the still-in-beta image converter allowing art direction, and adaptive image compression taking into account the network conditions to define the quality of the served content.</p>
+<p><img src="./images/guy-podjarny.jpg" alt="Guy Podjarny" title="Guy Podjarny"></p>
+<p>Quite a setup. Defo out of my league, and certainly destined to large scale sites. In a nutshell, not exactly what you would use to build the website of your local pub.</p>
+<h3 id="a-look-back-at-the-proposed-solutions">A LOOK BACK AT THE PROPOSED SOLUTIONS</h3>
+<p>DPR switching, Viewport switching and Art direction on our minds, and a few coffees down our throats, we went ahead and reviewed the proposed solutions.</p>
+<p>Apple’s <a href="https://twitter.com/hober">Theresa O&rsquo;Connor</a> presented the <code>srcset</code> attribute, which defines the various image resources to be used, and the clues to help a user agent determine the most appropriate one to display, already implemented (at least a limited version of it) by webkit.</p>
+<p><code>&lt;img alt=&quot;The Breakfast Combo&quot;</code><!-- raw HTML omitted -->
+<code>src=&quot;banner.jpeg&quot;</code><!-- raw HTML omitted -->
+<code>srcset=&quot;banner-HD.jpeg 2x, banner-phone.jpeg 100w, banner-phone-HD.jpeg 100w 2x&quot;&gt;</code></p>
+<p>The <code>picture</code> element presented by Mozilla’s <a href="https://twitter.com/marcosc">Marcos Caceres</a>, defining a declarative solution for grouping multiple versions of an image based on different criteria (format, resolution, orientation, and more), allowing the user agent to select the optimum image to be presented while providing the best solution (so far) for art direction.</p>
+<p><code>&lt;picture width=&quot;500&quot; height=&quot;500&quot;&gt;</code><!-- raw HTML omitted -->
+<code>&lt;source media=&quot;(min-width: 45em)&quot; src=&quot;large.jpg&quot;&gt;</code><!-- raw HTML omitted -->
+<code>&lt;source media=&quot;(min-width: 18em)&quot; src=&quot;med.jpg&quot;&gt;</code><!-- raw HTML omitted -->
+<code>&lt;source src=&quot;small.jpg&quot;&gt;</code><!-- raw HTML omitted -->
+<code>&lt;img src=&quot;small.jpg&quot; alt=&quot;&quot; lazyload&gt;</code><!-- raw HTML omitted -->
+<code>&lt;p&gt;Accessible text&lt;/p&gt;</code><!-- raw HTML omitted -->
+<code>&lt;/picture&gt;</code><!-- raw HTML omitted --></p>
+<p>‘HTTP Client Hints’ presented by Google’s <a href="https://twitter.com/igrigorik">Ilya Grigorik</a>, which defines a set of HTTP headers allowing browsers to indicate a list of device and agent specific preferences, and drive servers to use these “client hints” to assist in content negotiation.
+Ideal solution as the content served would match the environmental conditions of the client, ideal in the minimal developer effort sense (I knew you would love that one!), and also ideal as far as semantic is concerned (ie. a simple image tag ).</p>
+<p>But&hellip; we would need to use a new header where we would define the devicePixelRatio (DPR) of the terminal (e.g. CH: dpr=2) to pass the relevant info to the server, the current UA header being unable to do that. More on client hints <a href="https://www.igvita.com/2013/08/29/automating-dpr-switching-with-client-hints/">here</a>.</p>
+<p>The ‘SVG’s Switch element’ presented by W3C’s <a href="https://twitter.com/robinberjon">Robin Berjon</a>, <a href="https://www.w3.org/TR/SVG2/struct.html#SwitchElement">a solution</a> already well supported today, already offering a built-in, working fallback. See his full presentation <a href="http://berjon.com/presentations/20130910-ricg-switch/#/">here</a>.</p>
+<p><code>&lt;switch alt=&quot;Accessible text&quot;&gt;</code><!-- raw HTML omitted -->
+<code>&lt;img media=&quot;(min-width: 45em)&quot; src=&quot;large.jpg&quot;&gt;</code><!-- raw HTML omitted -->
+<code>&lt;img media=&quot;(min-width: 18em)&quot; src=&quot;med.jpg&quot;&gt;</code><!-- raw HTML omitted -->
+<code>&lt;img src=&quot;small.jpg&quot;&gt;</code><!-- raw HTML omitted -->
+<code>&lt;/switch&gt;</code><!-- raw HTML omitted --></p>
+<p>‘New Image Format’ presented by Yoav Weiss, a responsive image container containing internal layers which uses resizing and crop operations to deal with both resolution switching and art direction. In a nutshell, the encoder takes the original picture, the required output resolutions and if needed art direction pre-requisites, and outputs a layer per resolution.
+As a picture is worth a thousand words, there you go:</p>
+<p><img src="./images/responsive-image-container.jpg" alt="Responsive Image container" title="Responsive Image container"></p>
+<h3 id="what-now">WHAT NOW?</h3>
+<p>DPR switching definitely seems to have made the top of the vast responsive images todo list. I have to admit I freaking love the concept of client hints presented by Ilya, but Google will certainly need an ally if we are to go this way&hellip; and it doesn’t look like it could be Mozilla, <a href="https://twitter.com/davidbaron">David Baron</a> having shown little enthusiasm (to say the least) to go ahead and add more (unremovable) HTTP headers.</p>
+<p>The ‘srcset attribute’ and the ‘Picture element’ will make last call, and will definitely keep on getting tested. Both could emerge winners, srcset for its simplicity, and picture for its art direction friendliness, a popular aspect in the developers community.</p>
+<p>Expect some simplification in the markup, and a likely removal of possibly w and more likely h from the spec.</p>
+<p>Microsoft could have a card to play in this debate, with IE12 in the box, and a strong and obvious interest from Lead Principal Program Manager <a href="https://www.linkedin.com/in/israel-hilerio-ba9a52b">Israel Hilerio</a>.</p>
+<h3 id="final-words">FINAL WORDS</h3>
+<p>A huge bravo to Marcos and Yoav for getting a crowd of proactive folks and professionals going for eight hours straight, on the sole subject of responsive images. And a massive ‘thank you’ for opening the doors to smaller companies and freelancers.</p>
+<p>Getting together is already a huge success, working together is the next step forward.</p>
+
+        </p>
+    </div>
+    
+
+    
+
+    <div class="page-footer">
+        
+    </div>
+
+
+        
+        </div>
+        <footer class="footer-mobile">
+	<div class="social-icons">
+        
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+</div>
+
+
+
+
+	<div class="footer-mobile-links">
+        <p><a href="https://github.com/kimcc/hugo-theme-noteworthy" target="_blank" rel="noopener">Noteworthy theme</a></p>
+		<span class="divider-bar">|</span>
+        <p><a href="https://gohugo.io" target="_blank" rel="noopener">Built with Hugo</a></p>
+	</div>
+
+	<script src="http://example.org/js/main.min.a7205ef73b078c8daed6fe1b0826e8ba229ffabbb69d299d9446cf41f2c7d8aa.js" integrity="sha256-pyBe9zsHjI2u1v4bCCbouiKf+ru2nSmdlEbPQfLH2Ko=" crossorigin="anonymous"></script>
+</footer>
+
+    </body>
+</html>

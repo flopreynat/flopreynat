@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no"/>
+
+    <title>Using git on your Synology | flopreynat.com</title>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#FF3DB4">
+    <meta name="theme-color" content="#ffffff">
+
+    
+    
+    
+    <link rel="stylesheet" href="http://example.org/css/main.min.62defe59fc830aa2d099acf824eb8a59b9a0e46c99df748cdb479a78912358da.css"/>
+
+    
+    
+    
+
+    
+    
+ 
+    </head>
+
+    <body>
+        
+<nav>
+  <header>
+    <div class="site-title">
+        <a href="/">flopreynat.com</a>
+    </div>  
+</header>
+
+  <div class="nav-menu">
+  
+    <a class="color-link nav-link" href="/">Blog</a>
+    <a class="color-link nav-link" href="/about">About</a>
+    <a class="color-link nav-link" href="/contact">Contact</a>
+    <a class="color-link nav-link" href="http://example.org/index.xml" target="_blank" type="application/rss+xml">RSS</a>
+</div>
+<footer class="footer">
+	<div class="social-icons">
+        
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+</div>
+
+
+
+
+    
+    
+
+	<script src="http://example.org/js/main.min.a7205ef73b078c8daed6fe1b0826e8ba229ffabbb69d299d9446cf41f2c7d8aa.js" integrity="sha256-pyBe9zsHjI2u1v4bCCbouiKf+ru2nSmdlEbPQfLH2Ko=" crossorigin="anonymous"></script>
+	
+</footer>
+
+</nav>
+
+        <div id="content" class="content-container">
+        
+
+<h1 class="post-title">Using git on your Synology</h1>
+    
+    <time>May 21, 2020</time>
+    
+    <div>
+        <p>
+        <p>I&rsquo;m pushing the majority of my git projects to github for the simple reason that 1. they are public and hence do not need to remain hidden from the rest of the world, and 2. they usually leverage open source technology which has been tweaked in some way and that could help others.</p>
+<p>However, there are specific personal projects and notes I do version using git and that I do not wish to send to the likes of Github, Bitbucket, et al.</p>
+<p>As a huge advocate of <a href="https://flopreynat.com/posts/2020-02-23-data-privacy-2020">data privacy</a>, I tend to keep <strong>my private stuff private</strong>, and that means not using a third party (regardless of whether they offer private repos or not).</p>
+<p>Long story short, you&rsquo;ll find below the list of actions I have carried out to setup and use my (very own) Synology Git server.</p>
+<h3 id="todo">Todo</h3>
+<ol>
+<li>Install git on your synology (<em>help: you&rsquo;ll find the Git server application in your Package Center)</em></li>
+</ol>
+<ul>
+<li>Enable SSH (<em>help: by navigating to Control Panel &gt; Terminal &amp; SNMP &gt; Terminal)</em></li>
+<li>Using the terminal (or putty if you&rsquo;re on a windows machine), ssh into your synology by running:</li>
+</ul>
+<pre tabindex="0"><code>ssh you-user@your-synology-ip (+ type your synology password)
+eg: ssh johnny@192.85.85.85
+</code></pre><ul>
+<li>On your synology , create a folder to host your git project</li>
+<li>Navigate to your local project folder and run:</li>
+</ul>
+<pre tabindex="0"><code>git init
+git remote add origin ssh://johnny@192.85.85.85:/volume1/myDirectory/myGitProject
+</code></pre><ul>
+<li>Push your project to your synology by running the usual:</li>
+</ul>
+<pre tabindex="0"><code>git add --all
+git commit -m &#34;initial commit&#34;
+git push origin master
+</code></pre><ul>
+<li>Bob&rsquo;s your uncle 😎</li>
+</ul>
+
+        </p>
+    </div>
+    
+
+    
+
+    <div class="page-footer">
+        
+    </div>
+
+
+        
+        </div>
+        <footer class="footer-mobile">
+	<div class="social-icons">
+        
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+</div>
+
+
+
+
+	<div class="footer-mobile-links">
+        <p><a href="https://github.com/kimcc/hugo-theme-noteworthy" target="_blank" rel="noopener">Noteworthy theme</a></p>
+		<span class="divider-bar">|</span>
+        <p><a href="https://gohugo.io" target="_blank" rel="noopener">Built with Hugo</a></p>
+	</div>
+
+	<script src="http://example.org/js/main.min.a7205ef73b078c8daed6fe1b0826e8ba229ffabbb69d299d9446cf41f2c7d8aa.js" integrity="sha256-pyBe9zsHjI2u1v4bCCbouiKf+ru2nSmdlEbPQfLH2Ko=" crossorigin="anonymous"></script>
+</footer>
+
+    </body>
+</html>

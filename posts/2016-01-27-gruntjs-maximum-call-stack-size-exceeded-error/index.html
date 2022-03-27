@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no"/>
+
+    <title>Grunt throws a Maximum call stack size exceeded error | flopreynat.com</title>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#FF3DB4">
+    <meta name="theme-color" content="#ffffff">
+
+    
+    
+    
+    <link rel="stylesheet" href="http://example.org/css/main.min.62defe59fc830aa2d099acf824eb8a59b9a0e46c99df748cdb479a78912358da.css"/>
+
+    
+    
+    
+
+    
+    
+ 
+    </head>
+
+    <body>
+        
+<nav>
+  <header>
+    <div class="site-title">
+        <a href="/">flopreynat.com</a>
+    </div>  
+</header>
+
+  <div class="nav-menu">
+  
+    <a class="color-link nav-link" href="/">Blog</a>
+    <a class="color-link nav-link" href="/about">About</a>
+    <a class="color-link nav-link" href="/contact">Contact</a>
+    <a class="color-link nav-link" href="http://example.org/index.xml" target="_blank" type="application/rss+xml">RSS</a>
+</div>
+<footer class="footer">
+	<div class="social-icons">
+        
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+</div>
+
+
+
+
+    
+    
+
+	<script src="http://example.org/js/main.min.a7205ef73b078c8daed6fe1b0826e8ba229ffabbb69d299d9446cf41f2c7d8aa.js" integrity="sha256-pyBe9zsHjI2u1v4bCCbouiKf+ru2nSmdlEbPQfLH2Ko=" crossorigin="anonymous"></script>
+	
+</footer>
+
+</nav>
+
+        <div id="content" class="content-container">
+        
+
+<h1 class="post-title">Grunt throws a Maximum call stack size exceeded error</h1>
+    
+    <time>January 27, 2016</time>
+    
+    <div>
+        <p>
+        <p>Grunt throws a &lsquo;maximum call stack size exceeded&rsquo; error after running a simple task, and you haven&rsquo;t got the slightest idea what it means. No sweat.</p>
+<p>But I can&rsquo;t blame as this is just what happened to me today while working on a website redesign. The grunt task is a simple &lsquo;imagemin&rsquo; task I decided to run separately, and I don&rsquo;t recall having had the same issue before.</p>
+<p>Cut a long story short, you launch something along the lines of:
+&ldquo;grunt imagemin&rdquo; in your terminal, and you&rsquo;re thrown the following error:</p>
+<pre tabindex="0"><code>RangeError: Maximum call stack size exceeded
+</code></pre><blockquote>
+<p>Don&rsquo;t name your task aliases like your tasks</p>
+</blockquote>
+<p>I did not find the issue in Grunt&rsquo;s documentation but managed to find it in my search results.</p>
+<p>You can not name your tasks like the task itself, <a href="http://gruntjs.com/frequently-asked-questions#why-am-i-getting-a-maximum-call-stack-size-exceeded-error">as detailed here</a>.</p>
+<p>So I went from:</p>
+<pre tabindex="0"><code>grunt.registerTask(&#34;imagemin&#34;, [&#34;imagemin&#34;]);
+</code></pre><p>to</p>
+<pre tabindex="0"><code>grunt.registerTask(&#34;imageminifier&#34;, [&#34;imagemin&#34;]);
+</code></pre><p>&hellip; and it worked like a charm.</p>
+
+        </p>
+    </div>
+    
+
+    
+
+    <div class="page-footer">
+        
+    </div>
+
+
+        
+        </div>
+        <footer class="footer-mobile">
+	<div class="social-icons">
+        
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+</div>
+
+
+
+
+	<div class="footer-mobile-links">
+        <p><a href="https://github.com/kimcc/hugo-theme-noteworthy" target="_blank" rel="noopener">Noteworthy theme</a></p>
+		<span class="divider-bar">|</span>
+        <p><a href="https://gohugo.io" target="_blank" rel="noopener">Built with Hugo</a></p>
+	</div>
+
+	<script src="http://example.org/js/main.min.a7205ef73b078c8daed6fe1b0826e8ba229ffabbb69d299d9446cf41f2c7d8aa.js" integrity="sha256-pyBe9zsHjI2u1v4bCCbouiKf+ru2nSmdlEbPQfLH2Ko=" crossorigin="anonymous"></script>
+</footer>
+
+    </body>
+</html>
