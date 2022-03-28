@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no"/>
+
+    <title>Switching to Gatsby | flopreynat.com</title>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#FF3DB4">
+    <meta name="theme-color" content="#ffffff">
+
+    
+    
+    
+    <link rel="stylesheet" href="https://flopreynat.com/css/main.min.62defe59fc830aa2d099acf824eb8a59b9a0e46c99df748cdb479a78912358da.css"/>
+
+    
+    
+    
+
+    
+    
+ 
+    </head>
+
+    <body>
+        
+<nav>
+  <header>
+    <div class="site-title">
+        <a href="/">flopreynat.com</a>
+    </div>  
+</header>
+
+  <div class="nav-menu">
+  
+    <a class="color-link nav-link" href="/">Blog</a>
+    <a class="color-link nav-link" href="/about">About</a>
+    <a class="color-link nav-link" href="/contact">Contact</a>
+    <a class="color-link nav-link" href="https://flopreynat.com/index.xml" target="_blank" type="application/rss+xml">RSS</a>
+</div>
+<footer class="footer">
+	<div class="social-icons">
+        
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+</div>
+
+
+
+
+    
+    
+
+	<script src="https://flopreynat.com/js/main.min.a7205ef73b078c8daed6fe1b0826e8ba229ffabbb69d299d9446cf41f2c7d8aa.js" integrity="sha256-pyBe9zsHjI2u1v4bCCbouiKf+ru2nSmdlEbPQfLH2Ko=" crossorigin="anonymous"></script>
+	
+</footer>
+
+</nav>
+
+        <div id="content" class="content-container">
+        
+
+<h1 class="post-title">Switching to Gatsby</h1>
+    
+    <time>May 2, 2020</time>
+    
+    <div>
+        <p>
+        <p>It had only been a month since I converted my site from <a href="https://flopreynat.com/posts/2020-03-29-why-hugo">Jekyll to Hugo</a>. But with the quarantine and lockdown 😷 fully enforced, I took the time to dig even more the static-site-generator subject, and decided to dedicate some time to learn <a href="https://www.gatsbyjs.org/">Gatsby</a>, an open source framework based on React (which I knew very little about), and apply my newly-acquired skills to the redesign of this very site. Job now done ✅</p>
+<p><em>Note: React had always been a weird-looking beast to me, as I was struggling to grasp the concept/interest of injecting html inside javascript, but I am definitely getting it now.</em></p>
+<h5 id="getting-educated">Getting educated</h5>
+<p>I&rsquo;m not going to detail here what it took me to redesign my site with Gatsby.</p>
+<p>Gatsby has great documentation, and with a big fan/user base, there are tons of resources out there where you can get all the info you want.</p>
+<p>However I can only advise you to take <a href="https://www.youtube.com/watch?v=8t0vNu2fCCM">Andrew Mead&rsquo;s Great Gatsby Bootcamp</a>, a close-to-5h top-notch tutorial taking you through the creation of a simple site equipped with a blog using Gatsby and either Markdown files or the now-popular headless CMS <a href="https://www.contentful.com/">Contentful</a>.</p>
+<h5 id="getting-started">Getting started</h5>
+<p>Gatsby has a large &lsquo;starters library&rsquo; available at <a href="https://www.gatsbyjs.org/starters/?v=2">gatsbyjs.org/starters</a> where you can easily bootstrap your Gastby project.</p>
+<p>It was however important for me to build my own Gatsby and Markdown starter (including all features mentioned in the video turorial but excluding the Contentful part), and reinforce what I had been learning.</p>
+<p>You&rsquo;ll find <a href="https://github.com/flopreynat/myGatsbyMarkdownStarter">my Gatsby Markdown starter</a> on Github, and as detailed in the README file, this starter will have the advantage of coming with:</p>
+<ul>
+<li>Pages for:
+<ul>
+<li>home including the latest blog post and event (another post type)</li>
+<li>about</li>
+<li>contact</li>
+<li>404</li>
+</ul>
+</li>
+<li>a blog section with a (paginated) list of blog posts</li>
+<li>a calendar section with a list of events</li>
+<li>5 dummy posts (1 event + 4 blog posts including one with an image) and their engine-generated page</li>
+<li><a href="https://sass-lang.com/">Sass</a> turned on</li>
+<li>the dotenv environment variable file for GraphQL Playground</li>
+<li>the <a href="https://www.gatsbyjs.org/packages/gatsby-plugin-react-helmet/">React Helmet</a> component for document head control</li>
+</ul>
+<p>You&rsquo;ll also find on the repo&rsquo;s README the list of all the packages to be installed.
+Please note that for the conversion of my site, I added the following packages:</p>
+<ul>
+<li><a href="https://react-icons.github.io/react-icons/">react-icons</a> to add social network icons to my footer</li>
+<li><a href="https://www.gatsbyjs.org/docs/how-gatsby-works-with-github-pages/">gh-pages</a> to allow deployment to Github&rsquo;s gh-pages, since my site is hosted there</li>
+<li><a href="https://www.gatsbyjs.org/docs/gatsby-image/">gatsby-image</a> (+ gatsby-transformer-sharp gatsby-plugin-sharp), the recommended approach to handling images.</li>
+</ul>
+<h5 id="final-words">Final Words</h5>
+<blockquote>
+<p>Gatsby is awesome</p>
+</blockquote>
+<p>The redesign was a fun little adventure. Gatsby is awesome and I intend to use it for other ssg-powered sites.</p>
+<p>I did not experience any huge issues. Having given Andrew Mead&rsquo;s tutorial my full attention, things could not have been easier, that&rsquo;s why I recommend you take that course if you&rsquo;re a gatsby newbie.</p>
+<p>The only thing I had forgotten to do was to move the CNAME file to the &lsquo;static&rsquo; folder of my project.
+So, if like me, you use a custom domain, do not forget to do that, or you&rsquo;ll lose the redirection of your github repo to your domain every time you&rsquo;ll run npm run deploy.</p>
+<p>So long folks.</p>
+
+        </p>
+    </div>
+    
+
+    
+
+    <div class="page-footer">
+        
+    </div>
+
+
+        
+        </div>
+        <footer class="footer-mobile">
+	<div class="social-icons">
+        
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+</div>
+
+
+
+
+	<div class="footer-mobile-links">
+        <p><a href="https://github.com/kimcc/hugo-theme-noteworthy" target="_blank" rel="noopener">Noteworthy theme</a></p>
+		<span class="divider-bar">|</span>
+        <p><a href="https://gohugo.io" target="_blank" rel="noopener">Built with Hugo</a></p>
+	</div>
+
+	<script src="https://flopreynat.com/js/main.min.a7205ef73b078c8daed6fe1b0826e8ba229ffabbb69d299d9446cf41f2c7d8aa.js" integrity="sha256-pyBe9zsHjI2u1v4bCCbouiKf+ru2nSmdlEbPQfLH2Ko=" crossorigin="anonymous"></script>
+</footer>
+
+    </body>
+</html>
