@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no"/>
+
+    <title>Wordpress staging environments on the cheap | flopreynat.com</title>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#FF3DB4">
+    <meta name="theme-color" content="#ffffff">
+
+    
+    
+    
+    <link rel="stylesheet" href="https://flopreynat.com/css/main.min.62defe59fc830aa2d099acf824eb8a59b9a0e46c99df748cdb479a78912358da.css"/>
+
+    
+    
+    
+
+    
+    
+ 
+    </head>
+
+    <body>
+        
+<nav>
+  <header>
+    <div class="site-title">
+        <a href="/">flopreynat.com</a>
+    </div>  
+</header>
+
+  <div class="nav-menu">
+  
+    <a class="color-link nav-link" href="/">Blog</a>
+    <a class="color-link nav-link" href="/about">About</a>
+    <a class="color-link nav-link" href="/contact">Contact</a>
+    <a class="color-link nav-link" href="https://flopreynat.com/index.xml" target="_blank" type="application/rss+xml">RSS</a>
+</div>
+<footer class="footer">
+	<div class="social-icons">
+        
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+</div>
+
+
+
+
+    
+    
+
+	<script src="https://flopreynat.com/js/main.min.a7205ef73b078c8daed6fe1b0826e8ba229ffabbb69d299d9446cf41f2c7d8aa.js" integrity="sha256-pyBe9zsHjI2u1v4bCCbouiKf+ru2nSmdlEbPQfLH2Ko=" crossorigin="anonymous"></script>
+	
+</footer>
+
+</nav>
+
+        <div id="content" class="content-container">
+        
+
+<h1 class="post-title">Wordpress staging environments on the cheap</h1>
+    
+    <time>August 30, 2016</time>
+    
+    <div>
+        <p>
+        <p>Staging environments are one of the keys of a (proper and) controlled deployment process, whatever the technology. Wordpress isn&rsquo;t any different.</p>
+<p>You have a problem if you - like me - run a few things on wordpress, don&rsquo;t consider it as a priority subject (hence do not have the time, nor the money to commit on the suject), &hellip;yet still want to make it a decent process.</p>
+<p>Typical &ldquo;have it both ways&rdquo; conundrum.</p>
+<blockquote>
+<p>DEV &gt; STAGING ENVIRONMENT &gt; PRODUCTION</p>
+</blockquote>
+<p>Anyway, here are a few options, my views on them, and eventually a decision.</p>
+<h4 id="professional-wordpress-hosting-paid">Professional Wordpress hosting (Paid)</h4>
+<p>Best option is to get people (or an app) meant to do this for you. Defo the best option if this subject is top priority for you. <a href="https://wpengine.com/support/staging/">&ldquo;WPEngine&rdquo;</a> or <a href="https://mediatemple.net/community/products/wordpress/204645480/staging-sites-for-your-wordpress-hosting-service">&ldquo;Media Temple&rdquo;</a> come to mind to name only a few.</p>
+<h4 id="wp-migrate-db-pro-paid">WP Migrate DB Pro (Paid)</h4>
+<p>A popular plugin, often praised on <a href="http://shoptalkshow.com/">&ldquo;ShopTalk Show&rdquo;</a>, <a href="https://deliciousbrains.com/wp-migrate-db-pro/pricing/">&ldquo;WP Migrate DB Pro&rdquo;</a> is a great option to get your wordpress sites in sync (all content including media) with one click. Cool option to implement a push to production process. Starting at 89 box.</p>
+<p><em>Note: I ain&rsquo;t being sponsored for any of those paid options.</em></p>
+<p>As mentioned above, I can&rsquo;t be investigating any resource in this subject. Yet, I want to be able to set up a few environments and sync content and settings in an easy (and quick process), without having to deal with media url issues (cough wordpress import cough).</p>
+<p>Let me emphasize on the repeatable process here since I really want to be able to do more than the usual local wp-cloud wp sync&rsquo;ing. Testing things as they live on the web has got to be a pre-requisite. Things happen differently when not happening on local machines.</p>
+<p>Anyway, I went with&hellip;</p>
+<h4 id="all-in-one-wp-migration-free">All-in-One WP Migration (Free)</h4>
+<p>As advertised, <a href="https://wordpress.org/plugins/all-in-one-wp-migration/">&ldquo;the plugin&rdquo;</a> allows you to export your database, media files, plugins, and themes. You can apply unlimited find/replace operations on your database and the plugin will also fix any serialization problems that occur during find/replace operations.</p>
+<p>Not bad for a free option, and works like a charm to get those wordpress environments in sync.</p>
+
+        </p>
+    </div>
+    
+
+    
+
+    <div class="page-footer">
+        
+    </div>
+
+
+        
+        </div>
+        <footer class="footer-mobile">
+	<div class="social-icons">
+        
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+</div>
+
+
+
+
+	<div class="footer-mobile-links">
+        <p><a href="https://github.com/kimcc/hugo-theme-noteworthy" target="_blank" rel="noopener">Noteworthy theme</a></p>
+		<span class="divider-bar">|</span>
+        <p><a href="https://gohugo.io" target="_blank" rel="noopener">Built with Hugo</a></p>
+	</div>
+
+	<script src="https://flopreynat.com/js/main.min.a7205ef73b078c8daed6fe1b0826e8ba229ffabbb69d299d9446cf41f2c7d8aa.js" integrity="sha256-pyBe9zsHjI2u1v4bCCbouiKf+ru2nSmdlEbPQfLH2Ko=" crossorigin="anonymous"></script>
+</footer>
+
+    </body>
+</html>
